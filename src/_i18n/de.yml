@@ -1,2 +1,3 @@
-test:
-  hi: "DE: Hello world"
+headers:
+  diagnoses: "Ya information about exams you may undergo ya"
+  specialties: "Ya my specialties ya"

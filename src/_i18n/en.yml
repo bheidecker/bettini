@@ -1,2 +1,3 @@
-test:
-  hi: Hello world
+headers:
+  diagnoses: "Information about exams you may undergo"
+  specialties: "My specialties"

@@ -1,0 +1,11 @@
+---
+layout: default
+title: "Dr. Bettina Heidecker: Specialties"
+---
+
+{% assign list_title = site.translations[site.lang].headers.specialties %}
+
+{% assign lang = site.lang | prepend: '/' | append: '/' %}
+{% assign list_items = site.specialties | where_exp: "item", "item.url contains lang" %}
+
+{% include list.html list_title=list_title list_items=list_items %}

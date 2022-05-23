@@ -1,7 +1,12 @@
 source: src
 destination: dist
 languages: ["en", "de"]
-exclude_from_localizations: ["javascript", "images", "css"]
+collections_dir: collections
+exclude_from_localizations: ["assets", "javascript", "images", "css"]
 
 plugins:
   - jekyll-multiple-languages-plugin
+
+collections:
+  - diagnoses
+  - specialties
