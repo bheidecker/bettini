@@ -1,2 +1,2 @@
-css: yarn build:css --watch
-site: yarn build:html
+css: yarn watch:css
+site: yarn watch:html
