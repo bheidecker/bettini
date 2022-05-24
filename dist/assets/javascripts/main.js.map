@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/assets/javascripts/nav.js", "../../../src/assets/javascripts/app.js"],
+  "sourcesContent": ["export default class Nav {\n  constructor() {\n    const target = document.getElementById('nav-mobile-target');\n\n    document.getElementById('nav-mobile-open-btn').addEventListener('click', () => {\n      target.classList.remove('hidden')\n    })\n\n    document.getElementById('nav-mobile-close-btn').addEventListener('click', () => {\n      target.classList.add('hidden')\n    })\n\n    window.addEventListener(\"keydown\", (event) => {\n      if (event.key == 'Escape') {\n        target.classList.add('hidden')\n      }\n    })\n  }\n}", "import Nav from \"./nav\";\n\nwindow.app = {}\napp.nav = new Nav()"],
+  "mappings": ";;AAAA,kBAAyB;AAAA,IACvB,cAAc;AACZ,YAAM,SAAS,SAAS,eAAe,mBAAmB;AAE1D,eAAS,eAAe,qBAAqB,EAAE,iBAAiB,SAAS,MAAM;AAC7E,eAAO,UAAU,OAAO,QAAQ;AAAA,MAClC,CAAC;AAED,eAAS,eAAe,sBAAsB,EAAE,iBAAiB,SAAS,MAAM;AAC9E,eAAO,UAAU,IAAI,QAAQ;AAAA,MAC/B,CAAC;AAED,aAAO,iBAAiB,WAAW,CAAC,UAAU;AAC5C,YAAI,MAAM,OAAO,UAAU;AACzB,iBAAO,UAAU,IAAI,QAAQ;AAAA,QAC/B;AAAA,MACF,CAAC;AAAA,IACH;AAAA,EACF;;;AChBA,SAAO,MAAM,CAAC;AACd,MAAI,MAAM,IAAI,IAAI;",
+  "names": []
+}

@@ -1,2 +1,3 @@
-"./node_modules/.bin/esbuild ./src/javascript/*.* --bundle --sourcemap --outdir=dist"
-"build:js": "./node_modules/.bin/esbuild ./src/application.jsx --bundle --outfile=./dist/app.js",
+
+    "build:js": "npx babel src/assets/javascripts -d dist/assets/javascripts --source-maps",
+    "watch:js": "npx babel src/assets/javascripts -d dist/assets/javascripts --source-maps --watch"

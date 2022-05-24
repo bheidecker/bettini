@@ -1,0 +1,1 @@
+sm:text-lg
