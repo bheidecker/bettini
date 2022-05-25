@@ -1,13 +1,9 @@
 ---
 layout: default
-title: "Dr. Bettina Heidecker: Research"
+key: research
 ---
 
 <div class="space-y-5 max-w-7xl mx-auto pt-4 pb-8 px-4 sm:px-6 lg:px-8">
-  <h2 class="text-gray-900">
-    {% t titles.research %}
-  </h2>
-
   {% tf research/research.md %}
 </div>
 
@@ -16,10 +12,13 @@ title: "Dr. Bettina Heidecker: Research"
   <img class="drop-shadow-xl h-96" src="/assets/images/acc_poster.jpg">
 </div>
 
-<div class="space-y-4 max-w-7xl mx-auto pt-4 pb-16 px-4 sm:px-6 lg:px-8">
-  <h2 class="text-gray-900">
-    {% t titles.publications %}
-  </h2>
-
+<div class="space-y-4 max-w-7xl mx-auto pt-4 pb-8 px-4 sm:px-6 lg:px-8">
   {% tf research/publications.md %}
 </div>
+
+<div class="space-y-4 max-w-7xl mx-auto pt-4 pb-8 px-4 sm:px-6 lg:px-8">
+  {% tf research/collaborations.md %}
+</div>
+
+<div class="pb-8"></div>
+

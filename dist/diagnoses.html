@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Dr. Bettina Heidecker: Diagnosis</title>
+  <title>Dr. Bettina Heidecker: DE-Information for patients</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="/assets/stylesheets/main.css""/>
+  <link rel="stylesheet" href="/assets/stylesheets/main.css"/>
 
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png" />
@@ -31,22 +31,13 @@
 <body>
   <div>
   <div class="relative py-4 px-4 sm:px-6 lg:px-8">
-    <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-      <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-        <div class="flex items-center justify-between w-full md:w-auto">
-          <a href="/">
-            <img class="h-8 w-auto sm:h-10" src="/assets/favicons/favicon-196x196.png">
-          </a>
-          <div class="-mr-2 flex items-center md:hidden">
-            <button id="nav-mobile-open-btn" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <!-- Heroicon name: outline/menu -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
-          </div>
-        </div>
+
+    <nav class="w-full relative flex flex-grow-0 flex-shrink-0 items-center sm:h-10 justify-start" aria-label="Global">
+
+      <div class="flex-none">
+        <a href="/">
+          <img class="h-8 w-auto sm:h-10" src="/assets/favicons/favicon-196x196.png">
+        </a>
       </div>
 
       <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
@@ -75,6 +66,13 @@
         
           
             
+              <a href="/recognition" class="font-medium text-gray-500 hover:text-gray-900">
+                DE-Recognition
+              </a>
+            
+        
+          
+            
               <a href="/research" class="font-medium text-gray-500 hover:text-gray-900">
                 DE-Research
               </a>
@@ -88,6 +86,51 @@
             
         
       </div>
+
+      <div class="grow"></div>
+
+      <div id="lang-selector" class="pr-6 top-[2px] flex-none relative inline-block text-left">
+        <div>
+          <button id="lang-selector-open-btn" type="button" class="inline-flex justify-center w-full shadow-sm bg-white text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true">
+            
+              <svg class="w-6 h-4 inline-block" xmlns="http://www.w3.org/2000/svg" id="flag-icons-de" viewBox="0 0 640 480">
+  <path fill="#ffce00" d="M0 320h640v160H0z"/>
+  <path fill="#000" d="M0 0h640v160H0z"/>
+  <path fill="#d00" d="M0 160h640v160H0z"/>
+</svg>
+
+            
+          </button>
+        </div>
+
+        <div id="lang-selector-menu" class="hidden z-20 origin-top-right absolute right-0 mt-2 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+          <div class="py-1" role="none">
+            
+              <a href="/en/diagnoses.html" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1">
+                <svg class="w-6 h-4 inline-block" xmlns="http://www.w3.org/2000/svg" id="flag-icons-gb" viewBox="0 0 640 480">
+  <path fill="#012169" d="M0 0h640v480H0z"/>
+  <path fill="#FFF" d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z"/>
+  <path fill="#C8102E" d="m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z"/>
+  <path fill="#FFF" d="M241 0v480h160V0H241zM0 160v160h640V160H0z"/>
+  <path fill="#C8102E" d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z"/>
+</svg>
+ EN
+              </a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-none -mr-2 flex items-center md:hidden justify-self-end">
+        <button id="nav-mobile-open-btn" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <!-- Heroicon name: outline/menu -->
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
     </nav>
   </div>
 
@@ -141,6 +184,13 @@
         
           
           
+            <a href="/recognition" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+              DE-Recognition
+            </a>
+          
+        
+          
+          
             <a href="/research" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
               DE-Research
             </a>
@@ -160,42 +210,46 @@
 
 
 <div class="content">
-  
+  <div>
+  <div class="max-w-7xl mx-auto pt-4">
+    <div class="px-4 sm:px-6 lg:px-8 space-y-5">
+      <h2 id="information-for-patients">Information for patients</h2>
 
+<p>When a patient presents with symptoms of heart failure or is suspected to have some type of cardiomyopathy, 
+there are certain diagnostic tests we may perform to get to the diagnosis.</p>
 
+<p>Below is a brief explanation of a selected group of tests that are commonly used in our cardiology department.</p>
 
+    </div>
 
-<div>
-  <div class="max-w-7xl mx-auto pt-4 divide-y divide-gray-200">
-    <h2 class="text-gray-900 px-4 sm:px-6 lg:px-8">
-      Information about exams you may undergo
-    </h2>
 
     <div class="mt-8 bg-gray-50 px-4 sm:px-6 lg:px-8">
       <dl class="divide-y divide-gray-200">
-
         <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            Electrocardiogram/ECG
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>The ECG is used to check the electrical activity of the heart. 
+          
+
+          
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              Electrocardiogram/ECG
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>The ECG is used to check the electrical activity of the heart. 
 We can detect in the ECG your heart rate, rhythm problems, or abnormalities that suggest your heart may need treatment. 
 The process of obtaining an ECG is simple. 
 A nurse puts electrodes on your chest, arms, and legs, 
 and within a few seconds the ECG device records the necessary measurements.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            24-hour or 48-hour ECG
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>Sometimes it is necessary to wear the ECG for a longer period of time, which may be 24 or 48 hours. 
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              24-hour or 48-hour ECG
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>Sometimes it is necessary to wear the ECG for a longer period of time, which may be 24 or 48 hours. 
 During that time, the ECG will continuously record your rhythm.
 This way, we are able to catch rhythm problems that you might only have rarely, i.e. daily or every other day in the 
 case of the 48-hour ECG.
@@ -203,42 +257,42 @@ This 24- or 48-hour ECG comes with an easily wearable device, so you are able to
 daily activities.
 The goal is to see, if during your regular daily activities, you are developing any problems in your heart rhythm.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            External event recorder
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>An external event recorder is a small device that you can carry in your pocket for about 3 months.
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              External event recorder
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>An external event recorder is a small device that you can carry in your pocket for about 3 months.
 When you think your rhythm problems might be happening, you can activate the device to record your rhythm.
 It is ideal for patients who experience rhythm problems rarely, with symptoms like racing heart and palpitations (when 
 your heart makes extra beats).</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            Implantable event recorder
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>Implantation of an event recorder is a minimally invasive procedure in which a very small device is implanted under the 
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              Implantable event recorder
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>Implantation of an event recorder is a minimally invasive procedure in which a very small device is implanted under the 
 skin of your upper chest.
 Since the implantable event recorder is an invasive procedure, it is used for patients with suspected asymptomatic 
 rhythm problems, i.e. who do not feel when their rhythm is abnormal.
 Since those patients would not know when to activate an external event recorder, an implantable event recorder is used.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            24-hour blood pressure monitoring
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>In order to get a good overview, what your blood pressure looks like during the day, we have a device that you can 
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              24-hour blood pressure monitoring
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>In order to get a good overview, what your blood pressure looks like during the day, we have a device that you can 
 carry for a total of 24 hours. 
 It is not large and can be worn at your hip.
 That device is connected to a blood pressure cuff that will measure your blood pressure every 15 minutes during the day 
@@ -246,15 +300,15 @@ and every 30 minutes during the night.
 This way, we may find out if there are times, when your blood pressure is too high or too low, which may be always at 
 specific times of the day.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            Exercise-stress test
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>Exercise-stress test is a great way to objectively test your physical fitness.
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              Exercise-stress test
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>Exercise-stress test is a great way to objectively test your physical fitness.
 Also, it can provide us with information, if you are at risk for arrhythmias that may develop specifically when you 
 exercise.
 Furthermore, we can detect, if your blood pressure gets too high during exercise – often a cause for limited exercise 
@@ -262,15 +316,15 @@ tolerance.
 ECG changes during exercise stress testing or symptoms of chest pain may be a sign that your vessels in the heart may 
 require further evaluation.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            Echocardiography
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>In echocardiography we perform an ultrasound of your heart that will visualize the size and wall motion of your heart 
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              Echocardiography
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>In echocardiography we perform an ultrasound of your heart that will visualize the size and wall motion of your heart 
 muscle, function of the walls and the valves. 
 Also, we can test if there is leakage or narrowing of the heart valves.
 This information is very valuable for diagnosis and treatment.
@@ -279,15 +333,15 @@ structures in your heart.
 Through collection of those reflected waves, the ultrasound probe creates an image of your heart.
 This examination does not have any known relevant side effects.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            Dobutamin-Stressechocardiography
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>This test is used to find out if vessels in your heart are partially or completely blocked.
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              Dobutamin-Stressechocardiography
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>This test is used to find out if vessels in your heart are partially or completely blocked.
 With dobutamin-stressechocardiography, we are trying to reduce the risk for heart attack in patients in whom we suspect 
 that the heart vessels may be diseased.
 You will receive a medication called Dobutamin that may make your heart beat faster and harder.
@@ -298,52 +352,52 @@ vessels may be narrowed and may require stenting.
 If the test is negative and all walls contract well, then no further action is needed for now. In addition, we can test 
 dysfunction of your valves with this technology.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            Vascular ultrasound of the peripheral vessels and the carotid arteries
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>In certain clinical scenarios, we may have to check if your carotid arteries or other arteries of the body are healthy 
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              Vascular ultrasound of the peripheral vessels and the carotid arteries
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>In certain clinical scenarios, we may have to check if your carotid arteries or other arteries of the body are healthy 
 or if they have narrowings that may require intervention.
 For that we will use again ultrasound.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            Cardiac magnetic resonance imaging (CMR)
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>Magnetic resonance imaging of the heart will allow us to detect structural abnormalities in the heart, inflammation, 
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              Cardiac magnetic resonance imaging (CMR)
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>Magnetic resonance imaging of the heart will allow us to detect structural abnormalities in the heart, inflammation, 
 storage diseases or poor blood supply to the heart.
 Also, CMR may reveal prognostic information.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            Positron Emission Tomography (PET) and PET computed tomography (PET CT)
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>PET is a technology that we use in particular for patients with sarcoidosis.
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              Positron Emission Tomography (PET) and PET computed tomography (PET CT)
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>PET is a technology that we use in particular for patients with sarcoidosis.
 Sarcoidosis is an inflammatory disease of the heart that can be categorized as a subtype of myocarditis.
 It is important to monitor treatment response in sarcoidosis and a goldstandard for that is PET, 
 since it is the ideal method to detect metabolic activity in sarcoid granulomas, which reflects active disease.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            Cardiac catheterization/Coronary angiography/Stent implantation
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>If the suspicion for narrowed or obstructed vessels in the heart is high or if you have been diagnosed with a relevant 
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              Cardiac catheterization/Coronary angiography/Stent implantation
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>If the suspicion for narrowed or obstructed vessels in the heart is high or if you have been diagnosed with a relevant 
 valve disease or other types of structural heart disease, we may recommend you to have a coronary angiography or 
 cardiac catheterization.
 Under local anesthesia (with numbing medication similar to what you get at the dentist’s office), a small catheter 
@@ -357,15 +411,15 @@ After that, balloon and catheter will be removed and the stent will remain.
 After that, the vessel is expected to be 100% open again.
 The procedure usually does not hurt, since pain medication will be used.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            Endomyocardial biopsy/heart biopsy
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>In patients, in whom the cause for their illness of the heart could not be identified yet, we may obtain endomyocardial 
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              Endomyocardial biopsy/heart biopsy
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>In patients, in whom the cause for their illness of the heart could not be identified yet, we may obtain endomyocardial 
 or heart biopsies.
 Typically, we obtain up to 6 samples that are about 1mm big.
 The procedure usually does not hurt, since pain medication will be used.
@@ -373,15 +427,15 @@ You may feel a few extrabeats while the samples are taken.
 This procedure is also done under local anesthesia and similar to cardiac catheterization is a minimally invasive 
 procedure through a small catheter.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
-          <dt class="text-base font-bold text-gray-900 md:col-span-5">
-            LifeVest
-          </dt>
-          <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
-            <p class="text-base text-gray-500">
-              <p>If the pump function of your heart is severely decreased, we have a protective device for you to interrupt arrhythmias 
+            <dt class="text-base font-bold text-gray-900 md:col-span-5">
+              LifeVest
+            </dt>
+            <dd class="mt-2 pb-8 md:mt-0 md:col-span-7">
+              <p class="text-base text-gray-500">
+                <p>If the pump function of your heart is severely decreased, we have a protective device for you to interrupt arrhythmias 
 should they occur.
 With severely decreased function, the risk of arrhythmias is increased.
 If the pump function of your left chamber/the left ventricular ejection fraction is &lt; or = 35%, in most cases we will 
@@ -391,8 +445,8 @@ the highest chance for improvement of your heart with medical therapy.
 Should the pump function not improve, you may require an implantable cardioverter defibrillator.
 Should that be the case, our team will inform you in detail about its risks and benefits, as for all other procedures.</p>
 
-            </p>
-          </dd>
+              </p>
+            </dd>
           
         </div>
       </dl>

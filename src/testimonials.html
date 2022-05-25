@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Dr. Bettina Heidecker: Testimonials"
+key: testimonials
 ---
 
 {% assign lang = site.lang | prepend: '/' | append: '/' %}
-{% assign list_items = site.testimonials | where_exp: "item", "item.url contains lang" %}
+{% assign list_items = site.testimonials | where_exp: "item", "item.url contains lang" | reverse %}
 
-<div class="max-w-7xl">
+<div class="max-w-7xl pt-4">
   <h2 class="md:mb-8 px-4 sm:px-6 lg:px-8">
     {% t titles.testimonials %}
   </h2>

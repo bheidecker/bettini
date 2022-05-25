@@ -1,7 +1,9 @@
 {
   "devDependencies": {
     "esbuild": "^0.14.39",
-    "tailwindcss": "^3.0.24"
+    "flag-icons": "^6.4.2",
+    "tailwindcss": "^3.0.24",
+    "flowbite": "^1.4.7"
   },
   "scripts": {
     "build:html": "bundle exec jekyll build",
@@ -10,6 +12,5 @@
     "watch:css": "npx tailwindcss -i ./src/assets/stylesheets/tailwind.css -o ./dist/assets/stylesheets/main.css --minify --watch",
     "build:js": "./node_modules/.bin/esbuild ./src/assets/javascripts/app.js --bundle --sourcemap --outfile=./dist/assets/javascripts/main.js",
     "watch:js": "./node_modules/.bin/esbuild ./src/assets/javascripts/app.js --bundle --sourcemap --outfile=./dist/assets/javascripts/main.js --watch"
-  },
-  "dependencies": {}
+  }
 }

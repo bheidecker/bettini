@@ -1,3 +1,5 @@
+## Research activities
+
 The research group of Dr. Bettina Heidecker investigates cardiomyopathies and heart failure.
 Cardiomyopathy is a term that describes a diseased heart muscle.
 Different types of cardiomyopathy can have genetic and/or acquired causes and risk factors.

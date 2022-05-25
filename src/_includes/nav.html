@@ -1,21 +1,12 @@
 <div>
   <div class="relative py-4 px-4 sm:px-6 lg:px-8">
-    <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-      <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-        <div class="flex items-center justify-between w-full md:w-auto">
-          <a href="{{ site.baseurl }}/">
-            <img class="h-8 w-auto sm:h-10" src="/assets/favicons/favicon-196x196.png">
-          </a>
-          <div class="-mr-2 flex items-center md:hidden">
-            <button id="nav-mobile-open-btn" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <!-- Heroicon name: outline/menu -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
-          </div>
-        </div>
+
+    <nav class="w-full relative flex flex-grow-0 flex-shrink-0 items-center sm:h-10 justify-start" aria-label="Global">
+
+      <div class="flex-none">
+        <a href="{{ site.baseurl }}/">
+          <img class="h-8 w-auto sm:h-10" src="/assets/favicons/favicon-196x196.png">
+        </a>
       </div>
 
       <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
@@ -33,6 +24,45 @@
             {% endif %}
         {% endfor %}
       </div>
+
+      <div class="grow"></div>
+
+      <div id="lang-selector" class="pr-6 top-[2px] flex-none relative inline-block text-left">
+        <div>
+          <button id="lang-selector-open-btn" type="button" class="inline-flex justify-center w-full shadow-sm bg-white text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true">
+            {% if site.lang == 'de' %}
+              {% include flags/de.html %}
+            {% else %}
+              {% include flags/uk.html %}
+            {% endif%}
+          </button>
+        </div>
+
+        <div id="lang-selector-menu" class="hidden z-20 origin-top-right absolute right-0 mt-2 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+          <div class="py-1" role="none">
+            {% if site.lang == 'de' %}
+              <a href="{{ site.baseurl_root }}/en{{ page.url }}" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1">
+                {% include flags/uk.html %} EN
+              </a>
+            {% else %}
+              <a href="{{ site.baseurl_root }}{{ page.url }}" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1">
+                {% include flags/de.html %} DE
+              </a>
+            {% endif%}
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-none -mr-2 flex items-center md:hidden justify-self-end">
+        <button id="nav-mobile-open-btn" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <!-- Heroicon name: outline/menu -->
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
     </nav>
   </div>
 

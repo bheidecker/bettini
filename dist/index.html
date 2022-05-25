@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Dr. Bettina Heidecker: Home</title>
+  <title>Dr. Bettina Heidecker: DE-Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="/assets/stylesheets/main.css""/>
+  <link rel="stylesheet" href="/assets/stylesheets/main.css"/>
 
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png" />
@@ -32,22 +32,13 @@
   <div class="min-h-screen">
   <div>
   <div class="relative py-4 px-4 sm:px-6 lg:px-8">
-    <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-      <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-        <div class="flex items-center justify-between w-full md:w-auto">
-          <a href="/">
-            <img class="h-8 w-auto sm:h-10" src="/assets/favicons/favicon-196x196.png">
-          </a>
-          <div class="-mr-2 flex items-center md:hidden">
-            <button id="nav-mobile-open-btn" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <!-- Heroicon name: outline/menu -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
-          </div>
-        </div>
+
+    <nav class="w-full relative flex flex-grow-0 flex-shrink-0 items-center sm:h-10 justify-start" aria-label="Global">
+
+      <div class="flex-none">
+        <a href="/">
+          <img class="h-8 w-auto sm:h-10" src="/assets/favicons/favicon-196x196.png">
+        </a>
       </div>
 
       <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
@@ -75,6 +66,13 @@
         
           
             
+              <a href="/recognition" class="font-medium text-gray-500 hover:text-gray-900">
+                DE-Recognition
+              </a>
+            
+        
+          
+            
               <a href="/research" class="font-medium text-gray-500 hover:text-gray-900">
                 DE-Research
               </a>
@@ -88,6 +86,51 @@
             
         
       </div>
+
+      <div class="grow"></div>
+
+      <div id="lang-selector" class="pr-6 top-[2px] flex-none relative inline-block text-left">
+        <div>
+          <button id="lang-selector-open-btn" type="button" class="inline-flex justify-center w-full shadow-sm bg-white text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true">
+            
+              <svg class="w-6 h-4 inline-block" xmlns="http://www.w3.org/2000/svg" id="flag-icons-de" viewBox="0 0 640 480">
+  <path fill="#ffce00" d="M0 320h640v160H0z"/>
+  <path fill="#000" d="M0 0h640v160H0z"/>
+  <path fill="#d00" d="M0 160h640v160H0z"/>
+</svg>
+
+            
+          </button>
+        </div>
+
+        <div id="lang-selector-menu" class="hidden z-20 origin-top-right absolute right-0 mt-2 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+          <div class="py-1" role="none">
+            
+              <a href="/en/" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1">
+                <svg class="w-6 h-4 inline-block" xmlns="http://www.w3.org/2000/svg" id="flag-icons-gb" viewBox="0 0 640 480">
+  <path fill="#012169" d="M0 0h640v480H0z"/>
+  <path fill="#FFF" d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z"/>
+  <path fill="#C8102E" d="m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z"/>
+  <path fill="#FFF" d="M241 0v480h160V0H241zM0 160v160h640V160H0z"/>
+  <path fill="#C8102E" d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z"/>
+</svg>
+ EN
+              </a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-none -mr-2 flex items-center md:hidden justify-self-end">
+        <button id="nav-mobile-open-btn" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <!-- Heroicon name: outline/menu -->
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
     </nav>
   </div>
 
@@ -136,6 +179,13 @@
           
             <a href="/diagnoses" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
               DE-Information for patients
+            </a>
+          
+        
+          
+          
+            <a href="/recognition" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+              DE-Recognition
             </a>
           
         
@@ -276,7 +326,7 @@ Foundation, with which I collaborate closely:
                 <p>Sarcoidosis is a disease that leads to accumulation of inflammatory cells (the body’s defense cells) in the shape of 
 round-shaped granulomas that may occur in any part of the body.
 As cardiologist, we treat patients with cardiac involvement, but it affects most commonly the lungs and lymph nodes. 
-The reason why someone develops sarcoidosis is still unkown, but a reaction to environmental factors (dust, chemicals, 
+The reason why someone develops sarcoidosis is still unknown, but a reaction to environmental factors (dust, chemicals, 
 infectious agents) are suspected to which the immune system responds.
 Very often the patient also report that they had a lot of stress preceding the manifestation of the disease.
 Stress is a common trigger of autoimmune diseases. 
@@ -477,7 +527,7 @@ cardiomyopathy and is particularly high for woman who did not fully recover thei
 
 
   <div class="bg-gray-400">
-  <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+  <div class="max-w-7xl min-h-screen mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <h1 class="text-white">
         Bio
       </h1>
@@ -511,20 +561,29 @@ She is board certified in cardiology, internal medicine and echocardiography in 
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <div class="relative">
       <blockquote class="mt-10">
-        <div class="relative max-w-3xl mx-auto text-2xl leading-9 font-medium text-gray-900">
-          <svg class="absolute -top-5 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-500" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+        <div class="relative max-w-3xl mx-auto text-2xl leading-9 text-gray-900">
+          <svg class="absolute -top-8 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-500" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
             <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
           </svg>
-          <p>Dr. Heidecker was gutten tag!</p>
+          <p>Seit drei Jahren bin ich bei Frau Dr. Heidecker wegen meiner Herzsarkoidose in Behandlung. 
+Die Regeluntersuchung läuft so ab, dass zunächst ein EKG geschrieben wird und anschließend der Herzschrittmacher 
+kontrolliert wird und das Gespräch und die Ultraschalluntersuchung des Herzens durch Frau Dr. Heidecker stattfindet. 
+Zuletzt wird noch eine Blutentnahme vorgenommen. 
+Thema des Gespräches ist natürlich das körperliche Befinden sowie die Medikation und evtl. vorzunehmende Anpassungen.
+Es ist mir ein Bedürfnis, herauszustellen, dass Frau Dr. Heidecker eine sehr warmherzige und menschliche Ärztin ist, 
+die sich laienverständlich ausdrückt und die alle Fragen geduldig beantwortet, die man stellen möchte. 
+Sie nimmt sich Zeit und ist sich auch für ein privates Wort nicht zu schade. Ich schätze ihre zugewandte und 
+kompetente Art extrem und bin sehr dankbar, in ihr eine Spezialistin auf diesem Gebiet gefunden zu haben. 
+Dafür nehme ich auch eine 500-Km-Anreise in Kauf.</p>
 
-          <svg class="absolute -bottom-5 right-0 transform -translate-x-3 -scale-y-100 -scale-x-100 -translate-y-2 h-8 w-8 text-indigo-500" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+          <svg class="absolute -bottom-8 right-0 transform -translate-x-3 -scale-y-100 -scale-x-100 -translate-y-2 h-8 w-8 text-indigo-500" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
             <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
           </svg>
         </div>
         <footer class="mt-8">
           <div class="mt-3 md:mt-0 md:ml-4">
-            <div class="text-base font-medium text-gray-900">
-              -- Amit, Kfar Bialik
+            <div class="italic text-base font-medium text-gray-900">
+              -- Michaela S.
             </div>
           </div>
         </footer>
@@ -539,6 +598,50 @@ She is board certified in cardiology, internal medicine and echocardiography in 
   </div>
 </section>
 
+
+  <div id="default-carousel" class="relative h-[22rem] md:h-screen" data-carousel="static">
+  <div class="overflow-hidden relative h-full rounded-lg">
+
+    
+    
+      <div class="duration-0 absolute inset-0 transition-none translate-x-0 z-20" data-carousel-item="">
+        <span class="z-10 drop-shadow-xl absolute w-full md:w-auto md:max-w-3/4 bottom-0 md:bottom-12 left-1/2 text-white -translate-x-1/2 px-5 py-2 bg-gray-900 opacity-90">
+          Dr. Heidecker speaking at the annual summit of the Myocarditis Foundation, 2019. Dr. Heidecker was the first research grant recipient of the foundation, and today is a member of its Board of Directors.
+
+        </span>
+        <img src="/assets/images/carousel/speaking_at_myocarditis_foundation.jpg" class="block absolute left-1/2 w-full -translate-x-1/2">
+      </div>
+    
+      <div class="duration-0 absolute inset-0 transition-none translate-x-0 z-20" data-carousel-item="">
+        <span class="z-10 drop-shadow-xl absolute w-full md:w-auto md:max-w-3/4 bottom-0 md:bottom-12 left-1/2 text-white -translate-x-1/2 px-5 py-2 bg-gray-900 opacity-90">
+          Dr. Heidecker receiving an honorary professorship title and the Louis Lemberg award from the University of Miami, 2022. Dr. Heidecker was a resident at the University of Miami.
+
+        </span>
+        <img src="/assets/images/carousel/lemberg_award.jpg" class="block absolute left-1/2 w-full -translate-x-1/2">
+      </div>
+    
+  </div>
+
+  <div class="hidden md:block flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+    <button type="button" class="w-3 h-3 rounded-full bg-white dark:bg-gray-800" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+    
+      <button type="button" class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+    
+  </div>
+
+  <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev="">
+    <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-gray-800/30 group-hover:bg-gray-800/60 group-focus:ring-gray-800/70">
+      <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+      <span class="hidden">Previous</span>
+    </span>
+  </button>
+  <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next="">
+    <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-gray-800/30 group-hover:bg-gray-800/60 group-focus:ring-gray-800/70">
+      <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+      <span class="hidden">Next</span>
+    </span>
+  </button>
+</div>
 
   <div class="py-12 px-4 text-center bg-gray-200">
   <h2 class="pb-12">

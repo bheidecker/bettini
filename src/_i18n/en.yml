@@ -4,7 +4,21 @@ navigation:
   testimonials: "Testimonials"
   diagnoses: "Information for patients"
   research: "Research"
+  recognition: "Recognition"
   contact: "Contact"
+
+carousel:
+  - image: paul_dudley_white_award.jpg
+    text: >
+      Dr. Heidecker receiving the Paul Dudley White Award with her fellow in 2018.
+  - image: speaking_at_myocarditis_foundation.jpg
+    text: >
+      Dr. Heidecker speaking at the annual summit of the Myocarditis Foundation in 2019.
+      Dr. Heidecker was the first research grant recipient of the foundation, and today is a member of its Board of Directors.
+  - image: lemberg_award.jpg
+    text: >
+      Dr. Heidecker receiving an honorary professorship title and the Louis Lemberg award from the University of Miami, 2022.
+      Dr. Heidecker was a resident at the University of Miami.
 
 hero:
   title: "Bettina Heidecker, MD"
@@ -22,10 +36,6 @@ titles:
   biography: "Bio"
   specialties: "Clinical specialties"
   updates: "Latest updates"
-  research: "Research activities"
-  publications: "Publications"
-  diagnoses: "Information about exams you may undergo"
-  contact: "Contact information"
   testimonials: "Patient testimonials"
 
 footer:

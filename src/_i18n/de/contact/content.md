@@ -1,3 +1,5 @@
+## Contact information
+
 To make an appointment with Dr. Heidecker at her clinic, please fill the form located on
 the [Charité website]({{ site.data.links.clinic.form }}){:target="_blank"}.
 

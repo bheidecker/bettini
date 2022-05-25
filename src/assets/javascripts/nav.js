@@ -1,19 +1,12 @@
 export default class Nav {
-  constructor() {
+  constructor(modalManager) {
     const target = document.getElementById('nav-mobile-target');
 
-    document.getElementById('nav-mobile-open-btn').addEventListener('click', () => {
+    document.getElementById('nav-mobile-open-btn').addEventListener('click', (event) => {
       target.classList.remove('hidden')
-    })
-
-    document.getElementById('nav-mobile-close-btn').addEventListener('click', () => {
-      target.classList.add('hidden')
-    })
-
-    window.addEventListener("keydown", (event) => {
-      if (event.key == 'Escape') {
-        target.classList.add('hidden')
-      }
+      modalManager.opened(event, () => {
+        target.classList.add('hidden');
+      })
     })
   }
 }
