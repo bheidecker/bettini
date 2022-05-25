@@ -1,20 +1,10 @@
 <div class="bg-gray-400">
   <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <h1 class="text-white">
-        Bio
+        {% t titles.biography %}
       </h1>
-      <div class="mt-5 text-gray-700 sm:text-lg md:text-xl">
-        <p class="mt-5">
-          {% t bio.paragraph1 %}
-        </p>
-        <p class="mt-5">
-          {% t bio.paragraph2 %}
-        </p>
-        <p class="mt-5">
-          {% t bio.paragraph3 %}
-        </p>
-
+      <div class="mt-5 text-gray-700 sm:text-lg md:text-xl space-y-5">
+        {% tf home/bio.md %}
       </div>
-
   </div>
 </div>

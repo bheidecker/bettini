@@ -3,7 +3,7 @@ layout: default
 title: "Dr. Bettina Heidecker: Diagnosis"
 ---
 
-{% assign list_title = site.translations[site.lang].headers.diagnoses %}
+{% assign list_title = site.translations[site.lang].titles.diagnoses %}
 
 {% assign lang = site.lang | prepend: '/' | append: '/' %}
 {% assign list_items = site.diagnoses | where_exp: "item", "item.url contains lang" %}

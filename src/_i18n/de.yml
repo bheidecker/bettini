@@ -1,11 +1,10 @@
 navigation:
-  home: DE-Home
-  updates: DE-Latest updates
-  testimonials: DE-Testimonials
-  specialties: DE-Specialties
-  diagnoses: DE-Diagnoses
-  research: DE-Research
-  contact: DE-Contact
+  home: "DE-Home"
+  updates: "DE-Updates"
+  testimonials: "DE-Testimonials"
+  diagnoses: "DE-Information for patients"
+  research: "DE-Research"
+  contact: "DE-Contact"
 
 hero:
   title: "Bettina Heidecker, MD"
@@ -13,84 +12,21 @@ hero:
   subtitle2: "heart failure"
   subtitle3: "and"
   subtitle4: "rare diseases"
-  tagline1: "Board certified in cardiology, internal medicine, and echocardiography in Europe and the United States."
-  tagline2: "Languages: German, English, French, and Spanish."
 
-specialties:
-  title: "Clinical specialties"
+buttons:
+  schedule: "Schedule a visit"
+  testimonials: "See all testimonials"
+  updates: "See more updates"
 
-updates:
-  title: "DE-Latest update"
-
-bio:
-  paragraph1: >
-    PD Bettina Heidecker, MD, FESC is the Head of the Heart Failure and Cardiomyopathy Clinic at the Charité,
-    Universitätsmedizin Berlin, Campus Benjamin Franklin.
-    She trained as Post-Doctorate fellow at the Johns Hopkins University and completed residency training at the
-    University of Miami and a cardiology fellowship at UCSF.
-    She then established a myocarditis clinic at Zurich University Hospital.
-
-  paragraph2: >
-    Her research areas include inflammatory cardiomyopathies, amyloidosis, biomarkers, and precision medicine.
-    She received research awards including the Paul Dudley White International Scholar Award, AHA;
-    the Jay N. Cohn New Investigator Integrative Physiology/Clinical Award, HFSA;
-    and the Samuel A. Levine Clinical Young Investigator Award, AHA - as well as a grant from the Swiss National
-    Science Foundation.
-
-  paragraph3: >
-    She serves as member of the Board of Directors of the Myocarditis Foundation and
-    collaborates in international research projects that focus on improved diagnosis and treatment of myocarditis.
-    Dr. Heidecker is accredited as a cardiologist and as an internist in Germany, Switzerland, Austria,
-    and the United States.
-    She is board certified in cardiology, internal medicine and echocardiography in the United States and Europe.
-
-research:
-  paragraph1: >
-    The research group of Dr. Bettina Heidecker investigates cardiomyopathies and heart failure.
-    Cardiomyopathy is a term that describes a diseased heart muscle.
-    Different types of cardiomyopathy can have genetic and/or acquired causes and risk factors.
-    Heart failure describes a loss of heart function, which leads to a state in which the heart is too weak to fully
-    function in everyday life.
-
-  paragraph2: >
-    The research of Dr. Heidecker and her team focuses in particular on the subject of inflammation of the heart muscle
-    and myocarditis.
-    Projects are developed in collaboration with international partners. Collaborations with other clinical institutions
-    as well as industry partners provide optimal resources to execute research from bench to bedside.
-    A combined approach of basic and translational science is applied in retrospective and prospective studies to advance
-    therapies for future patients.
-    Recent studies have been published in Lancet EClincal Medicine, the New England Journal of Medicine, Nature,
-    Nature Biotechnology, Nature Reviews Cardiology, the European Heart Journal, and the Journal of the American Medical
-    Association.
-    Dr. Heidecker has mentored students and fellows from Europe and the United States. Her mentees present at
-    international meetings and have been recipients of research awards including the Paul Dudley White International
-    Scholar Award of the American Heart Association, stipends for best master and best doctoral thesis, as well as
-    stipends from private foundations.
-
-  paragraph3: >
-    Dr. Heidecker has mentored students and fellows from Europe and the United States. Her mentees present at
-    international meetings and have been recipients of research awards including the Paul Dudley White International
-    Scholar Award of the American Heart Association, stipends for best master and best doctoral thesis, as well as
-    stipends from private foundations.
-
-  paragraph4: >
-    If you are interested in working in Dr. Heidecker’s team, please contact:
-
-  paragraph5: >
-    You can find more information about Dr. Heidecker's research group at:
-
-  publications:
-    title: Publications
-    paragraph: >
-      You can find Dr. Heidecker's publications at:
-
-contact:
-  paragraph1: >
-    To make an appointment with Dr. Heidecker at her clinic, please fill the form located here:
+titles:
+  biography: "Bio"
+  specialties: "Clinical specialties"
+  updates: "Latest updates"
+  research: "Research activities"
+  publications: "Publications"
+  diagnoses: "Information about exams you may undergo"
+  contact: "Contact information"
+  testimonials: "Patient testimonials"
 
 footer:
   copyright: "All rights reserved."
-
-headers:
-  diagnoses: "Information about exams you may undergo"
-  specialties: "My specialties"

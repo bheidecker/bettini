@@ -5,7 +5,7 @@
   <title>Dr. Bettina Heidecker: Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="/assets/stylesheets/main.css"/>
+  <link rel="stylesheet" href="/assets/stylesheets/main.css""/>
 
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png" />
@@ -29,6 +29,7 @@
   <meta name="msapplication-square310x310logo" content="/assets/favicons/mstile-310x310.png" />
 </head>
 <body>
+  <div class="min-h-screen">
   <div>
   <div class="relative py-4 px-4 sm:px-6 lg:px-8">
     <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
@@ -53,15 +54,8 @@
         
           
             
-              <a href="/specialties" class="font-medium text-gray-500 hover:text-gray-900">
-                DE-Specialties
-              </a>
-            
-        
-          
-            
               <a href="/updates" class="font-medium text-gray-500 hover:text-gray-900">
-                DE-Latest updates
+                DE-Updates
               </a>
             
         
@@ -75,7 +69,7 @@
           
             
               <a href="/diagnoses" class="font-medium text-gray-500 hover:text-gray-900">
-                DE-Diagnoses
+                DE-Information for patients
               </a>
             
         
@@ -126,42 +120,35 @@
         
           
           
-            <a href="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
-              DE-Specialties
+            <a href="/updates" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+              DE-Updates
             </a>
           
         
           
           
-            <a href="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
-              DE-Latest updates
-            </a>
-          
-        
-          
-          
-            <a href="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+            <a href="/testimonials" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
               DE-Testimonials
             </a>
           
         
           
           
-            <a href="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
-              DE-Diagnoses
+            <a href="/diagnoses" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+              DE-Information for patients
             </a>
           
         
           
           
-            <a href="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+            <a href="/research" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
               DE-Research
             </a>
           
         
           
           
-            <a href="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+            <a href="/contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
               DE-Contact
             </a>
           
@@ -171,21 +158,19 @@
   </div>
 </div>
 
-
-  <div class="content">
-    <div class="relative bg-white overflow-hidden">
-  <div class="flex flex-col lg:flex-row-reverse lg:items-stretch">
+  <div class="relative bg-white overflow-hidden">
+  <div class="flex flex-col lg:flex-row-reverse lg:items-stretch lg:mt-4">
     <div class="lg:w-2/5">
-      <img class="h-96 w-full object-none lg:h-full" src="/assets/images/hero.jpg" alt="">
+      <img class="h-96 lg:h-full w-full object-none" src="/assets/images/hero.jpg" alt="">
     </div>
 
     <div class="relative lg:flex-1 max-w-7xl mx-auto">
       <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
         <polygon points="50,0 100,0 50,100 0,100" />
       </svg>
-      <div class="relative z-10 bg-white lg:max-w-2xl lg:w-full pb-8">
 
-        <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+      <div class="relative z-10 bg-white lg:max-w-2xl lg:w-full pb-8">
+        <main class="mt-10 sm:mt-12 lg:mt-0 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="sm:text-center lg:text-left">
             <h1>
               <div class="text-gray-900 mb-6">
@@ -206,14 +191,20 @@
               </span>
               </div>
             </h1>
-            <div class="sm:text-lg md:text-xl mt-3 text-base text-gray-500 sm:mt-5 sm:max-w-xl sm:mx-auto md:mt-5 lg:mx-0">
-              <p class="mb-3">
-                Board certified in cardiology, internal medicine, and echocardiography in Europe and the United States.
-              </p>
+            <div class="space-y-3 sm:text-lg md:text-xl mt-3 text-base text-gray-500 sm:mt-5 sm:max-w-xl sm:mx-auto md:mt-5 lg:mx-0">
+              <p>Board certified in cardiology, internal medicine, and echocardiography in Europe and the United States.</p>
 
-              <p>
-                Languages: German, English, French, and Spanish.
-              </p>
+<p>Languages: German, English, French, and Spanish.</p>
+
+<p>Dr. Heidecker is leading the Heart Failure and Cardiomyopathy Clinic at the Charité, Universitätsmedizin Berlin,
+Campus Benjamin Franklin.</p>
+
+            </div>
+            <div class="mt-4">
+              <a href="https://kardio-cbf.charite.de/metas/kontakt_aufnehmen_mit/adresse/heidecker/" target="_blank" class="btn w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 sm:w-auto">
+  Schedule a visit
+</a>
+
             </div>
           </div>
         </main>
@@ -221,7 +212,10 @@
     </div>
   </div>
 </div>
+</div>
 
+<div class="content">
+  
 
 
 <div class="bg-gray-200">
@@ -247,7 +241,7 @@
               </button>
             </dt>
             <dd class="mt-2 pr-12 hidden">
-              <div class="pl-8 text-base text-gray-500">
+              <div class="pl-8 text-base text-gray-500 space-y-4">
                 <p>Myocarditis is an inflammation of the heart that may be caused by a virus or other triggering factors.
 We typically see an autoimmune reaction that may sometimes require medications that suppress the immune system.
 The large majority of cases with myocarditis recover well.
@@ -257,7 +251,36 @@ exercise induced arrhythmias and worsening of the disease has been reported in a
 first study in humans resuming sports after 3 months and did not observe any medical issues developing after that 
 interval.
 If you would like to read more about myocarditis, you may be also interested in the website of the Myocarditis 
-Foundation, with which I collaborate closely: <a href="https://www.myocarditisfoundation.org/">https://www.myocarditisfoundation.org</a></p>
+Foundation, with which I collaborate closely: 
+<a href="https://www.myocarditisfoundation.org/" target="_blank">https://www.myocarditisfoundation.org</a></p>
+
+              </div>
+            </dd>
+          </div>
+        
+          <div class="specialty-element pt-6">
+            <dt class="text-lg">
+              <button type="button" class="specialties-toggle-btn text-left w-full flex gap-2 items-start text-gray-400">
+                <span class="h-7 flex items-center">
+                  <svg class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
+                <span class="font-medium text-gray-900">
+                  Sarcoidosis
+                </span>
+              </button>
+            </dt>
+            <dd class="mt-2 pr-12 hidden">
+              <div class="pl-8 text-base text-gray-500 space-y-4">
+                <p>Sarcoidosis is a disease that leads to accumulation of inflammatory cells (the body’s defense cells) in the shape of 
+round-shaped granulomas that may occur in any part of the body.
+As cardiologist, we treat patients with cardiac involvement, but it affects most commonly the lungs and lymph nodes. 
+The reason why someone develops sarcoidosis is still unkown, but a reaction to environmental factors (dust, chemicals, 
+infectious agents) are suspected to which the immune system responds.
+Very often the patient also report that they had a lot of stress preceding the manifestation of the disease.
+Stress is a common trigger of autoimmune diseases. 
+Sarcoidosis is treatable, but early diagnosis is crucial to prevent irreversible damage.</p>
 
               </div>
             </dd>
@@ -277,7 +300,7 @@ Foundation, with which I collaborate closely: <a href="https://www.myocarditisfo
               </button>
             </dt>
             <dd class="mt-2 pr-12 hidden">
-              <div class="pl-8 text-base text-gray-500">
+              <div class="pl-8 text-base text-gray-500 space-y-4">
                 <p>Amyloid is a misfolded protein that can deposited in various organs including the heart.
 In our clinic, we most commonly see Thransthyretin Amyloidosis/ATTR or Light Chain Amyloidosis/AL.
 Deposition of the protein causes heart stiffness, leading potentially to heart failure and arrhythmias.
@@ -286,9 +309,161 @@ Endomyocardial biopsy has a very high sensitivity and specificity for amyloidosi
 Therefore, it is the preferred diagnostic tool, when there is reasonable suspicion for cardiac amyloidosis.
 Only if the suspicion is very low, we may do imaging first, since non-invasive imaging may sometimes miss cases.
 Frequently, also the nervous system is involved, so we work closely with our neurology team, to have that checked for 
-you as well.
-Should you be diagnosed with AL amyloidosis, we will get you a timely appointment with our hemato-oncologist, to make 
+you as well. Should you be diagnosed with AL amyloidosis, we will get you a timely appointment with our hemato-oncologist, to make 
 sure effective treatment will be initiated promptly.</p>
+
+              </div>
+            </dd>
+          </div>
+        
+          <div class="specialty-element pt-6">
+            <dt class="text-lg">
+              <button type="button" class="specialties-toggle-btn text-left w-full flex gap-2 items-start text-gray-400">
+                <span class="h-7 flex items-center">
+                  <svg class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
+                <span class="font-medium text-gray-900">
+                  Cardiooncology and check point inhibitor induced myocarditis
+                </span>
+              </button>
+            </dt>
+            <dd class="mt-2 pr-12 hidden">
+              <div class="pl-8 text-base text-gray-500 space-y-4">
+                <p>Cardiooncology covers the care of patients who have heart disease or who are at risk of heart disease before, 
+during or after cancer therapy.
+The goal is to provide the most effective cancer therapy, while reducing the risk of cardiovascular complications to a 
+minimum. 
+The care involves close interdisciplinary collaboration between the cardiologist, the hematologist or oncologist. 
+A specific new field of cardiooncology is checkpoint inhibitor induced myocarditis.
+The goal of check point inhibitor therapy in oncology is to make the patient’s immune defense stronger and more 
+aggressive in advanced cancer illness through a mechanism of “disinbition”, which enables it to fight metastatic 
+disease.
+However, this disinhibition comes with the price of a higher risk for autoimmune reactions, and myocarditis – an 
+inflammation of the heart muscle – can develop. 
+If check point inhibitor induced myocarditis occurs, immediate referral for treatment in a specialized center is 
+crucial for a patient’s outcome.</p>
+
+              </div>
+            </dd>
+          </div>
+        
+          <div class="specialty-element pt-6">
+            <dt class="text-lg">
+              <button type="button" class="specialties-toggle-btn text-left w-full flex gap-2 items-start text-gray-400">
+                <span class="h-7 flex items-center">
+                  <svg class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
+                <span class="font-medium text-gray-900">
+                  Hypertrophic cardiomyopathy (HCM)
+                </span>
+              </button>
+            </dt>
+            <dd class="mt-2 pr-12 hidden">
+              <div class="pl-8 text-base text-gray-500 space-y-4">
+                <p>HCM is a disease, which is defined by abnormally thickened heart muscle cells.
+This is also called hypertrophy.
+As a consequence, the walls of the heart get thickened and stiffer.
+This sometimes makes it harder for the heart to pump and relax and sometimes the patients feel chest pain or in more 
+advanced stages develop edema in the legs or lungs – fluid accumulation in legs or lungs.
+Patients may also develop electrical conduction problems or arrhythmias.Sometimes the diagnosis of HCM is made late, 
+as symptoms may develop late.</p>
+
+              </div>
+            </dd>
+          </div>
+        
+          <div class="specialty-element pt-6">
+            <dt class="text-lg">
+              <button type="button" class="specialties-toggle-btn text-left w-full flex gap-2 items-start text-gray-400">
+                <span class="h-7 flex items-center">
+                  <svg class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
+                <span class="font-medium text-gray-900">
+                  Arrhythmogenic right ventricular cardiomyopathy (ARVC)
+                </span>
+              </button>
+            </dt>
+            <dd class="mt-2 pr-12 hidden">
+              <div class="pl-8 text-base text-gray-500 space-y-4">
+                <p>Arrhythmogenic right ventricular cardiomyopathy (ARVC) is a structural disease of the heart muscle, where normal heart 
+muscle is replaced by fatty fibrous tissue.
+Due to the fatty replacement, electrical signal conduction in the heart is hampered, leading to irregular rhythm that 
+can be life-threatening. Also, the heart can lose its pump function and get weaker over time leading to symptoms of 
+heart failure.
+Usually, the right chamber of the heart is primarily affected, which led to the name of the disease.
+However, also the left chamber can be affected in combination and in very rare cases in isolation. 
+ARVC is a genetic disease with first symptom onset from age 10 to 50 years.</p>
+
+              </div>
+            </dd>
+          </div>
+        
+          <div class="specialty-element pt-6">
+            <dt class="text-lg">
+              <button type="button" class="specialties-toggle-btn text-left w-full flex gap-2 items-start text-gray-400">
+                <span class="h-7 flex items-center">
+                  <svg class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
+                <span class="font-medium text-gray-900">
+                  Takotsubo cardiomyopathy / stress-induced cardiomyopathy / broken heart syndrome
+                </span>
+              </button>
+            </dt>
+            <dd class="mt-2 pr-12 hidden">
+              <div class="pl-8 text-base text-gray-500 space-y-4">
+                <p>Takotsubo cardiomyopathy (TCM) is also called stress-induced cardiomyopathy or broken heart syndrome.
+TCM was first described in Japan in 1990 and named after Takotsubo - a tool that is used in Japan to catch octopus.
+It refers to the shape of the heart patients develop, when they have TCM.
+Typically, one part of the left chamber of the heart enlarges in a balloon shape form (most of the time the apex of 
+the heart) leading to poor pump function in that area, while the rest of the chamber tries to compensate. 
+Patients with TCM frequently present with severe chest pain, as if they are having a heart attack or shortness of 
+breath and general weakness associated with symptoms of heart failure.
+TCM in most cases is a temporary condition with high chance for full recovery. 
+However, it requires several days of monitoring, as severe arrhythmias may occur in the acute phase. 
+It can be triggered by high emotional or physical stress and pro-adrenergic medications that are used in the intensive 
+care unit.
+However, sometimes we find takotsubo cardiomyopathy in patients, who were not exposed to any of those known triggers. 
+Certainly, more research is needed in this area to understand its pathophysiology better.</p>
+
+              </div>
+            </dd>
+          </div>
+        
+          <div class="specialty-element pt-6">
+            <dt class="text-lg">
+              <button type="button" class="specialties-toggle-btn text-left w-full flex gap-2 items-start text-gray-400">
+                <span class="h-7 flex items-center">
+                  <svg class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
+                <span class="font-medium text-gray-900">
+                  Peripartum cardiomyopathy
+                </span>
+              </button>
+            </dt>
+            <dd class="mt-2 pr-12 hidden">
+              <div class="pl-8 text-base text-gray-500 space-y-4">
+                <p>Peripartum cardiomyopathy is a rare disease of the heart muscle that occurs during the final month of pregnancy up to 
+five months after delivery, which may lead to heart failure.
+Importantly, other causes of cardiomyopathy must be ruled out first.
+In most cases, peripartum cardiomyopathy occurs right after delivery.
+The degree of the severity of symptoms varies greatly between women and does not seem to affect the chance for recovery.
+For example, women with severely decreased heart function due to peripartum cardiomyopathy may completely recover their 
+heart function.
+Overall, compared to other cardiomyopathies (diseases of the heart muscle), patients with peripartum cardiomyopathy 
+have a good chance for recovery.
+As with other types of cardiomyopathy, early treatment initiation is key.
+The risk for recurrence of the disease during subsequent pregnancy is generally increased for patients with peripartum 
+cardiomyopathy and is particularly high for woman who did not fully recover their heart function.</p>
 
               </div>
             </dd>
@@ -301,31 +476,35 @@ sure effective treatment will be initiated promptly.</p>
 
 
 
-<div class="bg-gray-400">
+  <div class="bg-gray-400">
   <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <h1 class="text-white">
         Bio
       </h1>
-      <div class="mt-5 text-gray-700 sm:text-lg md:text-xl">
-        <p class="mt-5">
-          PD Bettina Heidecker, MD, FESC is the Head of the Heart Failure and Cardiomyopathy Clinic at the Charité, Universitätsmedizin Berlin, Campus Benjamin Franklin. She trained as Post-Doctorate fellow at the Johns Hopkins University and completed residency training at the University of Miami and a cardiology fellowship at UCSF. She then established a myocarditis clinic at Zurich University Hospital.
+      <div class="mt-5 text-gray-700 sm:text-lg md:text-xl space-y-5">
+        <p>PD Bettina Heidecker, MD, FESC is the Head of the Heart Failure and Cardiomyopathy Clinic at the Charité,
+Universitätsmedizin Berlin, Campus Benjamin Franklin.
+She trained as Post-Doctorate fellow at the Johns Hopkins University and completed residency training at the
+University of Miami and a cardiology fellowship at UCSF.
+She then established a myocarditis clinic at Zurich University Hospital.</p>
 
-        </p>
-        <p class="mt-5">
-          Her research areas include inflammatory cardiomyopathies, amyloidosis, biomarkers, and precision medicine. She received research awards including the Paul Dudley White International Scholar Award, AHA; the Jay N. Cohn New Investigator Integrative Physiology/Clinical Award, HFSA; and the Samuel A. Levine Clinical Young Investigator Award, AHA - as well as a grant from the Swiss National Science Foundation.
+<p>Her research areas include inflammatory cardiomyopathies, amyloidosis, biomarkers, and precision medicine.
+She received research awards including the Paul Dudley White International Scholar Award, AHA;
+the Jay N. Cohn New Investigator Integrative Physiology/Clinical Award, HFSA;
+and the Samuel A. Levine Clinical Young Investigator Award, AHA - as well as a grant from the Swiss National
+Science Foundation.</p>
 
-        </p>
-        <p class="mt-5">
-          She serves as member of the Board of Directors of the Myocarditis Foundation and collaborates in international research projects that focus on improved diagnosis and treatment of myocarditis. Dr. Heidecker is accredited as a cardiologist and as an internist in Germany, Switzerland, Austria, and the United States. She is board certified in cardiology, internal medicine and echocardiography in the United States and Europe.
-
-        </p>
+<p>She serves as member of the Board of Directors of the Myocarditis Foundation and
+collaborates in international research projects that focus on improved diagnosis and treatment of myocarditis.
+Dr. Heidecker is accredited as a cardiologist and as an internist in Germany, Switzerland, Austria,
+and the United States.
+She is board certified in cardiology, internal medicine and echocardiography in the United States and Europe.</p>
 
       </div>
-
   </div>
 </div>
 
-
+  
 
 
 <section class="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
@@ -350,17 +529,20 @@ sure effective treatment will be initiated promptly.</p>
           </div>
         </footer>
       </blockquote>
-      <a href="/testimonials" class="btn mt-16 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 sm:w-auto">
-        See all testimonials
-      </a>
+      <div class="mt-16">
+        <a href="/testimonials" class="btn w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 sm:w-auto">
+  See all testimonials
+</a>
+
+      </div>
     </div>
   </div>
 </section>
 
 
-<div class="py-12 text-center bg-gray-200">
+  <div class="py-12 px-4 text-center bg-gray-200">
   <h2 class="pb-12">
-    DE-Latest update
+    Latest updates
   </h2>
 
   <div>
@@ -369,16 +551,18 @@ sure effective treatment will be initiated promptly.</p>
 </div>
   </div>
 
-  <a href="/updates" class="btn mt-16 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 sm:w-auto">
-    See more updates
-  </a>
+  <div class="mt-16">
+    <a href="/updates" class="btn w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 sm:w-auto">
+  See more updates
+</a>
 
+  </div>
 </div>
 
 
-  </div>
+</div>
 
-  <footer class="bg-white border-t border-gray-200">
+<footer class="bg-white border-t border-gray-200">
   <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
     <div class="flex justify-center space-x-6">
       <a href="https://twitter.com/BettinaHeideck1" target="_blank" class="text-gray-400 hover:text-gray-500">
@@ -406,7 +590,6 @@ sure effective treatment will be initiated promptly.</p>
     </p>
   </div>
 </footer>
-
 
   <script type="text/javascript" src="/assets/javascripts/main.js"></script>
 </body>

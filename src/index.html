@@ -1,10 +1,18 @@
 ---
-layout: default
+layout: base
 title: "Dr. Bettina Heidecker: Home"
 ---
 
-{% include home/hero.html %}
-{% include home/specialties.html %}
-{% include home/bio.html %}
-{% include home/testimonials.html %}
-{% include home/updates.html %}
+<div class="min-h-screen">
+  {% include nav.html %}
+  {% include home/hero.html %}
+</div>
+
+<div class="content">
+  {% include home/specialties.html %}
+  {% include home/bio.html %}
+  {% include home/testimonials.html %}
+  {% include home/updates.html %}
+</div>
+
+{% include footer.html %}
