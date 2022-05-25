@@ -1,10 +1,6 @@
-- name: testimonials
-  link: /testimonials
-- name: specialties
-  link: /specialties
-- name: diagnoses
-  link: /diagnoses
-- name: research
-  link: /research
-- name: contact
-  link: /contact
+- specialties
+- updates
+- testimonials
+- diagnoses
+- research
+- contact

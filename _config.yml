@@ -1,6 +1,6 @@
 source: src
 destination: dist
-languages: ["en", "de"]
+languages: ["de", "en"]
 collections_dir: collections
 exclude: ["assets/javascripts", "assets/stylesheets"]
 keep_files: ["assets/javascripts", "assets/stylesheets"]
@@ -8,9 +8,9 @@ exclude_from_localizations: ["assets", "javascript", "images", "css"]
 
 plugins:
   - jekyll-multiple-languages-plugin
+  - jekyll-twitter-plugin
 
 collections:
   - diagnoses
   - specialties
   - testimonials
-  - publications

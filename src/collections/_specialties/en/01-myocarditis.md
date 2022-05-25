@@ -11,4 +11,5 @@ exercise induced arrhythmias and worsening of the disease has been reported in a
 first study in humans resuming sports after 3 months and did not observe any medical issues developing after that 
 interval.
 If you would like to read more about myocarditis, you may be also interested in the website of the Myocarditis 
-Foundation, with which I collaborate closely: [https://www.myocarditisfoundation.org](https://www.myocarditisfoundation.org/)
+Foundation, with which I collaborate closely: 
+[https://www.myocarditisfoundation.org](https://www.myocarditisfoundation.org/){:target="_blank"}

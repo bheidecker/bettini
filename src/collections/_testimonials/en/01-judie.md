@@ -1,0 +1,9 @@
+---
+name: Judie, Loch Ness
+---
+
+Dr. Heidecker was great! She was attentive, and caring, and held my hand while she was doing her thing
+with a very weird machine that I think was called echo cardiagram acquirer. I will visit again just 
+to have her listen to my stories. 
+
+Oh, and her posters were really cool.

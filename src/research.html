@@ -1,0 +1,57 @@
+---
+layout: default
+title: "Dr. Bettina Heidecker: Research"
+---
+
+<div class="space-y-4 max-w-7xl mx-auto pt-4 pb-8 px-4 sm:px-6 lg:px-8">
+  <h2 class="text-gray-900">
+    {% t navigation.research %}
+  </h2>
+
+  <p>
+    {% t research.paragraph1 %}
+  </p>
+
+  <p>
+    {% t research.paragraph2 %}
+  </p>
+
+  <p>
+    {% t research.paragraph3 %}
+  </p>
+
+  <p>
+    {% t research.paragraph4 %}
+    <br/>
+    <a href="mailto:{{ site.data.links.research.email }}">
+      {{ site.data.links.research.email }}
+    </a>
+  </p>
+
+  <p>
+    {% t research.paragraph5 %}
+    <br/>
+    <a href="{{ site.data.links.research.group_page[site.lang] }}" target="_blank">
+      {{ site.data.links.research.group_page[site.lang] }}
+    </a>
+  </p>
+</div>
+
+<div class="max-w-full overflow-hidden flex flex-col md:flex-row gap-8 justify-center items-center pt-4 pb-8 sm:px-6 lg:px-8">
+  <img class="drop-shadow-xl h-96" src="/assets/images/acc_photo.jpg">
+  <img class="drop-shadow-xl h-96" src="/assets/images/acc_poster.jpg">
+</div>
+
+<div class="space-y-4 max-w-7xl mx-auto pt-4 px-4 sm:px-6 lg:px-8">
+  <h2 class="text-gray-900">
+    {% t research.publications.title %}
+  </h2>
+
+  <p>
+    {% t research.publications.paragraph %}
+    <br/>
+    <a href="{{ site.data.links.research.pubmed }}" target="_blank">
+      {{ site.data.links.research.pubmed }}
+    </a>
+  </p>
+</div>
