@@ -7,3 +7,5 @@ _OLD.md
 _site/
 *-cache/
 .jekyll-metadata
+
+*.log
