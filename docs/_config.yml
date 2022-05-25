@@ -1,0 +1,14 @@
+languages: ["de", "en"]
+collections_dir: collections
+
+exclude_from_localizations:
+  - assets
+
+plugins:
+  - jekyll-multiple-languages-plugin
+  - jekyll-twitter-plugin
+
+collections:
+  - diagnoses
+  - specialties
+  - testimonials
