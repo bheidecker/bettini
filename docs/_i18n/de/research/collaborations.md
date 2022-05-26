@@ -1,25 +1,25 @@
-## Institutes we collaborate with
+## Institute mit welchen wir kollaborieren
 
-In alphabetical order:
+In alphabetischer Reihenfolge
 
-- Berlin Institute of Health at Charité, Germany
-- Centro Nacional de Investigaciones Cardiovasculares Carlos III, Spain
-- Christian-Albrechts-Universität zu Kiel, Germany
-- Columbia University New York, United States
-- Deutsches Zentrum für Herz-Kreislauf-Forschung, Germany
-- Kantonsspital Baden, Switzerland
-- Klinikum Wels-Grieskirchen, Austria
-- Mayo Clinic Jacksonville, United States
-- Max-Delbrück-Centrum für Molekulare Medizin, Germany
-- Royal Brompton & Harefield Hospitals, United Kingdom
-- The Johns Hopkins University, United States
-- The University of British Columbia, Canada
-- Universitario de San Cecilio Sevilla, Spain
-- Universitario de Valme Grenada, Spain
-- Universität Zürich, Switzerland
-- Universitätsklinikum Heidelberg, Germany
-- Universitätsklinikum Jena, Germany
-- Universitätsklinikum Krems, Austria
-- University of California, San Francisco, United States
-- University of Miami, Miller School of Medicine, United States
-- University of Southern California, United States
+- Berlin Institute of Health at Charité, Deutschland
+- Centro Nacional de Investigaciones Cardiovasculares Carlos III, Spanien
+- Christian-Albrechts-Universität zu Kiel, Deutschland
+- Columbia University New York, USA
+- Deutsches Zentrum für Herz-Kreislauf-Forschung, Deutschland
+- Kantonsspital Baden, Schweiz
+- Klinikum Wels-Grieskirchen, Österreich
+- Mayo Clinic Jacksonville, USA
+- Max-Delbrück-Centrum für Molekulare Medizin, Deutschland
+- Royal Brompton & Harefield Hospitals, Grossbritannien
+- The Johns Hopkins University, USA
+- The University of British Columbia, Kanada
+- Universitario de San Cecilio Sevilla, Spanien
+- Universitario de Valme Grenada, Spanien
+- Universität Zürich, Schweiz
+- Universitätsklinikum Heidelberg, Deutschland
+- Universitätsklinikum Jena, Deutschland
+- Universitätsklinikum Krems, Österreich
+- University of California, San Francisco, USA
+- University of Miami, Miller School of Medicine, USA
+- University of Southern California, USA
