@@ -1,6 +1,5 @@
-Board certified in cardiology, internal medicine, and echocardiography in Europe and the United States.
+Fachliche Zertifizierungen wurden für Innere Medizin, Kardiologie und Echokardiografie für Europa und die USA abgelegt.
 
-Languages: German, English, French, and Spanish.
+Sprachen: Deutsch, Englisch, Französisch, Spanisch
 
-Dr. Heidecker is leading the Heart Failure and Cardiomyopathy Clinic at the Charité, Universitätsmedizin Berlin,
-Campus Benjamin Franklin.
+Priv.-Doz. Dr. med. Heidecker leitet die Herzinsuffizienz- und Kardiomyopathiesprechstunde der Charité, Universitätsmedizin Berlin, Campus Benjamin Franklin.
