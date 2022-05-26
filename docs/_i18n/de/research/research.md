@@ -1,28 +1,20 @@
-## Research activities
+## Forschungsaktivitäten
 
-The research group of Dr. Bettina Heidecker investigates cardiomyopathies and heart failure.
-Cardiomyopathy is a term that describes a diseased heart muscle.
-Different types of cardiomyopathy can have genetic and/or acquired causes and risk factors.
-Heart failure describes a loss of heart function, which leads to a state in which the heart is too weak to fully
-function in everyday life.
+Die Forschungsgruppe von Priv.-Doz. Dr. med. Bettina Heidecker untersucht Kardiomyopathien und Herzinsuffizienz.
+Das Wort Kardiomyopathie beschreibt einen erkrankten Herzmuskel. 
+Unterschiedliche Formen von Kardiomyopathien können genetische und/oder erworbene Ursachen und Risikofaktoren haben.
+Herzinsuffizien beschreibt eine Abnahme der Herzfunktion, welche zu einem Zustand führt, in welchem das Herz zu schwach ist um vollständig die Funktion des täglichen Alltages zu bewältigen. 
 
-The research of Dr. Heidecker and her team focuses in particular on the subject of inflammation of the heart muscle
-and myocarditis.
-Projects are developed in collaboration with international partners. Collaborations with other clinical institutions
-as well as industry partners provide optimal resources to execute research from bench to bedside.
-A combined approach of basic and translational science is applied in retrospective and prospective studies to advance
-therapies for future patients.
-Recent studies have been published in Lancet EClincal Medicine, the New England Journal of Medicine, Nature,
-Nature Biotechnology, Nature Reviews Cardiology, the European Heart Journal, and the Journal of the American Medical
-Association.
+Die Forschungsgruppe um Dr. Heidecker beschäftigt sich insbesondere mit dem Thema des entzündeten Herzmuskels. Projekte werden in Kollaboration mit internationalen Partnern entwickelt.  Kollaborationen mit klinischen Institutionen und mit Industriepartnern ermöglichen optimale Resourcen und Infrastruktur, um erfolgreich Forschung "from Bench to Bedside" durchzuführen und damit eine Verbesserung der Diagnostik und Therapien zu beschleunigen.
 
-Dr. Heidecker has mentored students and fellows from Europe and the United States. Her mentees present at
-international meetings and have been recipients of research awards including the Paul Dudley White International
-Scholar Award of the American Heart Association, stipends for best master and best doctoral thesis, as well as
-stipends from private foundations.
+Eine kombinierte Anwendung von Grundlagen- und translationaler Forschung wird in retro- und prospektiven Studien angewandt, um die Therapie von zukünftigen Patienten zu verbessern. 
+Aktuelle Forschungsdaten der Arbeitsgruppe Heidecker und ihrer Kollaborationspartner wurden in Journals wie Lancet EClincal Medicine, the New England Journal of Medicine, Nature, Nature Biotechnology, Nature Reviews Cardiology, the European Heart Journal, umd dem Journal of the American Medical Association publiziert.
 
-If you are interested in working in Dr. Heidecker’s research team, please contact:
+Dr. Heidecker war bisher Mentor von Studenten aus Europa und den USA.  Ihre "Mentees" präsentierten an internationalen Meetings
+und erhielten Forschungspreise wie den Paul Dudley White International Scholar Award der American Heart Association, Stipendien für die beste Master- und Doktorarbeit und Stipendien von privaten Stiftungen. 
+
+Wenn Sie in der Forschungsgruppe von Dr. Heidecker arbeiten möchten, kontaktieren Sie bitte: 
 [{{ site.data.links.research.email }}](mailto:{{ site.data.links.research.email }})
 
-You can find more information about Dr. Heidecker's research group on the
+Unter folgendem Link finden Sie mehr Information zur Forschungsgruppe von Dr. Heidecker
 [Charité website]({{site.data.links.research.group_page[site.lang]}}){:target="_blank"}.
