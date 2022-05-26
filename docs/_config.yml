@@ -2,8 +2,10 @@ baseurl: https://www.bheidecker.com
 
 languages: ["de", "en"]
 collections_dir: collections
+
 exclude_from_localizations:
   - assets
+  - CNAME
 
 plugins:
   - jekyll-multiple-languages-plugin
