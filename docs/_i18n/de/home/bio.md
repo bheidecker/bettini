@@ -1,17 +1,12 @@
-PD Bettina Heidecker, MD, FESC is the Head of the Heart Failure and Cardiomyopathy Clinic at the Charité,
+Priv-Doz. Dr. med. Bettina Heidecker, FESC, FACC leitet die Herzinsuffizienz- und Kardiomyopathiesprechstunde an der Charité,
 Universitätsmedizin Berlin, Campus Benjamin Franklin.
-She trained as Post-Doctorate fellow at the Johns Hopkins University and completed residency training at the
-University of Miami and a cardiology fellowship at UCSF.
-She then established a myocarditis clinic at Zurich University Hospital.
+Sie begann nach dem Medizinstudium mit einer Ausbildung in der Forschung als Post-Doctorate Fellow and der Johns Hopkins Universität Baltimore and schloss die Facharztausbildung für Innere Medizin erfolgreich an der 
+University of Miami ab.  Im Anschluss absolvierte sie ihre Facharztausbildung für Kardiologie an der University of California, San Francisco (UCSF).
+Danach kehrte sie nach Europa zurück und etablierte eine Myokarditis Klinik am Universitätsspital Zürich. 
 
-Her research areas include inflammatory cardiomyopathies, amyloidosis, biomarkers, and precision medicine.
-She received research awards including the Paul Dudley White International Scholar Award, AHA;
-the Jay N. Cohn New Investigator Integrative Physiology/Clinical Award, HFSA;
-and the Samuel A. Levine Clinical Young Investigator Award, AHA - as well as a grant from the Swiss National
-Science Foundation.
+Ihr Forschungsbereich schliesst folgende Schwerpunkte ein:  Inflammatorische Kardiomyopathien, Amyloidose, Biomarker und Präzisionsmedizin. 
+Sie erhielt für ihre Forschung mehrere Auszeichnungen wie den Paul Dudley White International Scholar Award der American Heart Association (AHA), den Jay N. Cohn New Investigator Integrative Physiology/Clinical Award der Heart Failure Society of America, den Samuel A. Levine Clinical Young Investigator Award von der AHA und einen Project Grant des Schweizerischen Nationalfonds.  
 
-She serves as member of the Board of Directors of the Myocarditis Foundation and
-collaborates in international research projects that focus on improved diagnosis and treatment of myocarditis.
-Dr. Heidecker is accredited as a cardiologist and as an internist in Germany, Switzerland, Austria,
-and the United States.
-She is board certified in cardiology, internal medicine and echocardiography in the United States and Europe.
+Sie ist Teil des "Board of Directors" der Myocarditis Foundation und arbeitet in Kollaboration an internationalen Projekten, welche darauf fokussiert sind die Diagnose und Therapie von inflammatorischen Kardiomyopathien wie Myokarditis zu verbessern. 
+Priv.-Doz. Dr. med. Heidecker is als Fachärztin für Kardiologie und Fachärztin für Innere Medizin in Deutschland, Österreich, der Schweiz und in den USA akkreditiert. 
+Fachliche Zertifizierungen für Innere Medizin, Kardiologie und Echokardiografie wurden sowohl für Europa als auch für die USA erfolgreich abgelegt.  
