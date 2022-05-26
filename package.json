@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build:html": "bundle exec jekyll build -s docs -d docs/_site",
-    "watch:html": "bundle exec jekyll serve -s docs -d docs/_site -b / --livereload",
+    "watch:html": "bundle exec jekyll serve -s docs -d docs/_site -b '' --livereload",
     "build:css": "npx tailwindcss -i ./src/stylesheets/tailwind.css -o ./docs/assets/stylesheets/main.css --minify",
     "watch:css": "npx tailwindcss -i ./src/stylesheets/tailwind.css -o ./docs/assets/stylesheets/main.css --minify --watch",
     "build:js": "./node_modules/.bin/esbuild ./src/javascripts/app.js --bundle --sourcemap --outfile=./docs/assets/javascripts/main.js",
