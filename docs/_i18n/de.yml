@@ -5,7 +5,7 @@ navigation:
   diagnoses: "DE-Information for patients"
   research: "DE-Research"
   recognition: "DE-Recognition"
-  contact: "DE-Contact"
+  contact: "Kontakt"
 
 carousel:
   - image: speaking_at_myocarditis_foundation.jpg
