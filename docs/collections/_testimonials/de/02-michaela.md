@@ -10,4 +10,4 @@ Es ist mir ein Bedürfnis, herauszustellen, dass Frau Dr. Heidecker eine sehr wa
 die sich laienverständlich ausdrückt und die alle Fragen geduldig beantwortet, die man stellen möchte. 
 Sie nimmt sich Zeit und ist sich auch für ein privates Wort nicht zu schade. Ich schätze ihre zugewandte und 
 kompetente Art extrem und bin sehr dankbar, in ihr eine Spezialistin auf diesem Gebiet gefunden zu haben. 
-Dafür nehme ich auch eine 500-Km-Anreise in Kauf.
+Dafür nehme ich auch eine 500-Km-Anreise in Kauf. Mit dieser ernsthaften Diagnose fühle ich mich bei Frau Dr. Heidecker in den allerbesten Händen.
