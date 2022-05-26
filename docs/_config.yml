@@ -1,4 +1,4 @@
-baseurl: https://bheidecker.github.io/bettini
+baseurl: https://www.bheidecker.com
 
 languages: ["de", "en"]
 collections_dir: collections
