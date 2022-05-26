@@ -1,6 +1,5 @@
 ## Information for patients
 
-When a patient presents with symptoms of heart failure or is suspected to have some type of cardiomyopathy, 
-there are certain diagnostic tests we may perform to get to the diagnosis.  
+Wenn ein Patient sich mit Symptomen einer Herzinsuffizienz präsentiert oder bei dem Patienten ein Verdacht auf eine Kardiomyopathie besteht, gibt es unterschiedliche Tests, welche wir durchführen können, um zu einer Diagnose zu kommen.   
 
-Below is a brief explanation of a selected group of tests that are commonly used in our cardiology department.
+Unten befindet sich eine kurze Erklärung von ausgewählten Tests, welche häufig in unserer Klinik verwendet werden.
