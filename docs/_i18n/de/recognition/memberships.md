@@ -1,4 +1,4 @@
-## Professional Memberships
+## Professionelle Mitgliedschaften
 - Fellow of the European Society of Cardiology
 - Fellow of the American College of Cardiology (ACC)
 - ACC Heart House Myocarditis Roundtable Planning Committee Member
