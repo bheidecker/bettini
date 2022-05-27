@@ -9,7 +9,7 @@ She received research awards including the Paul Dudley White International Schol
 the Jay N. Cohn New Investigator Integrative Physiology/Clinical Award, HFSA;
 and the Samuel A. Levine Clinical Young Investigator Award, AHA - as well as a grant from the Swiss National
 Science Foundation. Recently, Dr. Heidecker held the 30th Annual Lemberg Lectureship at the University of Miami and received an honorary professorship named after Miriam Lemberg, who was the wife of Louis Lemberg - a pioneer in the field of cardiology. 
-In prior years, world renowned cardiologists such as Peter Libby and Eugene Braunwald (Harvard Medical School) as well as Valentin Fuster (Mount Sinai Hospital New York) have received this award.
+In prior years, world renowned cardiologists such as Peter Libby, Eugene Braunwald (Harvard Medical School), and Valentin Fuster (Mount Sinai Hospital New York) received this award.
 [Link to press release](https://www.dhzb.de/presse/news/detailansicht-meldungen/ansicht/pressedetail/ehrenprofessur-in-florida-fuer-charite-kardiologin){:target="_blank"}.
 
 She serves as member of the Board of Directors of the Myocarditis Foundation and
