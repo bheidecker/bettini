@@ -102,16 +102,16 @@
       onToggle: function onToggle() {
       }
     };
-    var Accordion = /* @__PURE__ */ function() {
-      function Accordion2() {
+    var Accordion2 = /* @__PURE__ */ function() {
+      function Accordion3() {
         var items = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : [];
         var options = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
-        _classCallCheck(this, Accordion2);
+        _classCallCheck(this, Accordion3);
         this._items = items;
         this._options = _objectSpread(_objectSpread({}, Default), options);
         this._init();
       }
-      _createClass(Accordion2, [{
+      _createClass(Accordion3, [{
         key: "_init",
         value: function _init() {
           var _this = this;
@@ -190,9 +190,9 @@
           this._options.onClose(this, item);
         }
       }]);
-      return Accordion2;
+      return Accordion3;
     }();
-    window.Accordion = Accordion;
+    window.Accordion = Accordion2;
     document.addEventListener("DOMContentLoaded", function() {
       document.querySelectorAll("[data-accordion]").forEach(function(accordionEl) {
         var alwaysOpen = accordionEl.getAttribute("data-accordion");
@@ -209,14 +209,14 @@
           };
           items.push(item);
         });
-        new Accordion(items, {
+        new Accordion2(items, {
           alwaysOpen: alwaysOpen === "open" ? true : false,
           activeClasses: activeClasses ? activeClasses : Default.activeClasses,
           inactiveClasses: inactiveClasses ? inactiveClasses : Default.inactiveClasses
         });
       });
     });
-    const accordion = Accordion;
+    const accordion = Accordion2;
     ;
     function collapse_ownKeys(object, enumerableOnly) {
       var keys = Object.keys(object);
@@ -2979,15 +2979,15 @@
     }
   };
 
-  // src/javascripts/specialties.js
-  var Specialties = class {
+  // src/javascripts/accordion.js
+  var Accordion = class {
     constructor() {
-      document.querySelectorAll(".specialties-toggle-btn").forEach((btn) => {
+      document.querySelectorAll(".accordion-toggle-btn").forEach((btn) => {
         btn.addEventListener("click", () => {
           const classList = btn.querySelector("svg").classList;
           classList.toggle("rotate-0");
           classList.toggle("-rotate-180");
-          btn.closest(".specialty-element").querySelector("dd").classList.toggle("hidden");
+          btn.closest(".accordion-element").querySelector("dd").classList.toggle("hidden");
         });
       });
     }
@@ -3045,6 +3045,6 @@
   app.modalManager = new ModalManager();
   app.nav = new Nav(app.modalManager);
   app.langSelector = new LangSelector(app.modalManager);
-  app.specialties = new Specialties();
+  app.specialties = new Accordion();
 })();
 //# sourceMappingURL=main.js.map
