@@ -1,6 +1,6 @@
 Priv.-Doz. Dr. med. Bettina Heidecker, FESC, FACC leitet die Herzinsuffizienz- und Kardiomyopathiesprechstunde an der Charité,
 Universitätsmedizin Berlin, Campus Benjamin Franklin.
-Sie begann nach dem Medizinstudium mit einer Ausbildung als Post-Doctorate Fellow in der kardiovaskulären Forschung an der Johns Hopkins Universität Baltimore. Danach folgte Sie ihrem Mentor Prof. Joshua Hare an die University of Miami, wo sie erfolgreich ihre Facharztausbildung für Innere Medizin abgeschloss.  Im Anschluss absolvierte sie ihre Facharztausbildung für Kardiologie an der University of California, San Francisco (UCSF).
+Sie begann nach dem Medizinstudium mit einer Ausbildung als Post-Doctorate Fellow in der kardiovaskulären Forschung an der Johns Hopkins Universität Baltimore. Danach folgte Sie ihrem Mentor Prof. Joshua Hare an die University of Miami, wo sie erfolgreich ihre Facharztausbildung für Innere Medizin abgeschlossen hatte.  Im Anschluss absolvierte sie ihre Facharztausbildung für Kardiologie an der University of California, San Francisco (UCSF).
 Danach kehrte sie nach Europa zurück und etablierte eine Myokarditis Sprechstunde am Universitätsspital Zürich. 
 
 Ihr Forschungsbereich schliesst folgende Schwerpunkte mit ein:  Inflammatorische Kardiomyopathien, Amyloidose, Biomarker und Präzisionsmedizin. 
@@ -8,5 +8,5 @@ Sie erhielt für ihre Forschung Auszeichnungen wie den Paul Dudley White Interna
 Außerdem erhielt Priv.-Doz. Dr. med. Heidecker kürzlich eine Ehrenprofessur der University of Miami, wo sie die 30. Annual Lemberg Lectureship hielt. In den Jahren zuvor hatten in der Fachwelt weltweit bekannte Kardiologen wie Peter Libby und Eugene Braunwald (Harvard Medical School) oder Valentin Fuster (Mount Sinai Hospital in New York) diese Auszeichnung erhalten.  
 [Link zur Pressemitteilung](https://www.dhzb.de/presse/news/detailansicht-meldungen/ansicht/pressedetail/ehrenprofessur-in-florida-fuer-charite-kardiologin)
 
-Sie ist Teil des "Board of Directors" der Myocarditis Foundation und arbeitet in Kollaboration an internationalen Projekten, welche darauf fokussiert sind, die Diagnose und Therapie von inflammatorischen Kardiomyopathien wie Myokarditis zu verbessern. 
+Sie ist Teil des "Board of Directors" der Myocarditis Foundation und kollaboriert in internationalen Projekten, welche darauf fokussiert sind, die Diagnose und Therapie von inflammatorischen Kardiomyopathien wie Myokarditis zu verbessern. 
 Priv.-Doz. Dr. med. Heidecker ist als Fachärztin für Kardiologie und für Innere Medizin in Deutschland, Österreich, der Schweiz und in den USA akkreditiert. Außerdem ist sie für Echokardiografie in Europa (European Association of Cardiovascular		 Imaging of the European Society of Cardiology und in den USA (Level III, National Board of Echocardiography, United States) zertifiziert.  Eine Ausbildung für genetische Beratung wurde an der Universität Würzburg, Deutschland abgelegt.
