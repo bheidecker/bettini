@@ -1,4 +1,4 @@
-## Research activities 
+## Research Activities 
 
 The research group of Dr. Bettina Heidecker investigates cardiomyopathies and heart failure.
 Cardiomyopathy is a term that describes a diseased heart muscle.
@@ -11,12 +11,11 @@ and myocarditis.
 Projects are developed in collaboration with international partners. Collaborations with other clinical institutions
 as well as industry partners provide optimal resources to execute research from bench to bedside.
 A combined approach of basic and translational science is applied in retrospective and prospective studies to advance
-therapies for future patients.
-Recent studies have been published in Lancet EClincal Medicine, the New England Journal of Medicine, Nature,
-Nature Biotechnology, Nature Reviews Cardiology, the European Heart Journal, and the Journal of the American Medical
+therapies for patients in the future.
+Recent studies of Dr. Heidecker's team have been published in Lancet EClincal Medicine, the New England Journal of Medicine, Nature, Nature Biotechnology, Nature Reviews Cardiology, the European Heart Journal, and the Journal of the American Medical
 Association.
 
-Dr. Heidecker has mentored students and fellows from Europe and the United States. Her mentees present at
+Dr. Heidecker has mentored students and fellows from Europe and the United States. Her mentees have presented at
 international meetings and have been recipients of research awards including the Paul Dudley White International
 Scholar Award of the American Heart Association, stipends for best master and best doctoral thesis, as well as
 stipends from private foundations.
@@ -25,4 +24,4 @@ If you are interested in working in Dr. Heidecker’s research team, please cont
 [{{ site.data.links.research.email }}](mailto:{{ site.data.links.research.email }})
 
 You can find more information about Dr. Heidecker's research group on the
-[Charité website]({{site.data.links.research.group_page[site.lang]}}){:target="_blank"}.
+[Charité Website]({{site.data.links.research.group_page[site.lang]}}){:target="_blank"}.

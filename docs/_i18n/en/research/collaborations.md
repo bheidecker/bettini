@@ -1,8 +1,8 @@
-## Institutes we collaborate with
+## Collaborators
 
 In alphabetical order:
 
-- Berlin Institute of Health at Charité, Germany
+- Berlin Institute of Health at Charité Universitätsmedizin Berlin, Germany
 - Centro Nacional de Investigaciones Cardiovasculares Carlos III, Spain
 - Christian-Albrechts-Universität zu Kiel, Germany
 - Columbia University New York, United States
