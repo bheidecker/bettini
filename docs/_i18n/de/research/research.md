@@ -8,7 +8,7 @@ Herzinsuffizien beschreibt eine Abnahme der Herzfunktion, welche zu einem Zustan
 Die Forschungsgruppe um Dr. Heidecker beschäftigt sich insbesondere mit dem Thema des entzündeten Herzmuskels. Projekte werden in Kollaboration mit internationalen Partnern entwickelt.  Kollaborationen mit klinischen Institutionen und mit Industriepartnern ermöglichen optimale Resourcen und Infrastruktur, um erfolgreich Forschung "from Bench to Bedside" durchzuführen und damit eine Verbesserung der Diagnostik und Therapien zu beschleunigen.
 
 Eine kombinierte Anwendung von Grundlagen- und translationaler Forschung wird in retro- und prospektiven Studien angewandt, um die Therapie von zukünftigen Patienten zu verbessern. 
-Aktuelle Forschungsdaten der Arbeitsgruppe Heidecker und ihrer Kollaborationspartner wurden in Journals wie Lancet EClincal Medicine, the New England Journal of Medicine, Nature, Nature Biotechnology, Nature Reviews Cardiology, the European Heart Journal, umd dem Journal of the American Medical Association publiziert.
+Aktuelle Forschungsdaten der Arbeitsgruppe Heidecker und ihrer Kollaborationspartner wurden in Journals wie Lancet EClincal Medicine, New England Journal of Medicine, Nature, Nature Biotechnology, Nature Reviews Cardiology, the European Heart Journal, umd dem Journal of the American Medical Association publiziert.
 
 Dr. Heidecker war bisher Mentor von Studenten aus Europa und den USA.  Ihre "Mentees" präsentierten an internationalen Meetings
 und erhielten Forschungspreise wie den Paul Dudley White International Scholar Award der American Heart Association, Stipendien für die beste Master- und Doktorarbeit und Stipendien von privaten Stiftungen. 
@@ -17,4 +17,4 @@ Wenn Sie in der Forschungsgruppe von Dr. Heidecker arbeiten möchten, kontaktier
 [{{ site.data.links.research.email }}](mailto:{{ site.data.links.research.email }})
 
 Unter folgendem Link finden Sie mehr Information zur Forschungsgruppe von Dr. Heidecker
-[Charité website]({{site.data.links.research.group_page[site.lang]}}){:target="_blank"}.
+[Charité Website]({{site.data.links.research.group_page[site.lang]}}){:target="_blank"}.

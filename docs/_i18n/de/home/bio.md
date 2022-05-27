@@ -1,12 +1,12 @@
-Priv-Doz. Dr. med. Bettina Heidecker, FESC, FACC leitet die Herzinsuffizienz- und Kardiomyopathiesprechstunde an der Charité,
+Priv.-Doz. Dr. med. Bettina Heidecker, FESC, FACC leitet die Herzinsuffizienz- und Kardiomyopathiesprechstunde an der Charité,
 Universitätsmedizin Berlin, Campus Benjamin Franklin.
-Sie begann nach dem Medizinstudium mit einer Ausbildung in der Forschung als Post-Doctorate Fellow and der Johns Hopkins Universität Baltimore and schloss die Facharztausbildung für Innere Medizin erfolgreich an der 
-University of Miami ab.  Im Anschluss absolvierte sie ihre Facharztausbildung für Kardiologie an der University of California, San Francisco (UCSF).
-Danach kehrte sie nach Europa zurück und etablierte eine Myokarditis Klinik am Universitätsspital Zürich. 
+Sie begann nach dem Medizinstudium mit einer Ausbildung als Post-Doctorate Fellow in der kardiovaskulären Forschung an der Johns Hopkins Universität Baltimore. Danach folgte Sie ihrem Mentor Prof. Joshua Hare an die University of Miami, wo sie erfolgreich ihre Facharztausbildung für Innere Medizin abgeschloss.  Im Anschluss absolvierte sie ihre Facharztausbildung für Kardiologie an der University of California, San Francisco (UCSF).
+Danach kehrte sie nach Europa zurück und etablierte eine Myokarditis Sprechstunde am Universitätsspital Zürich. 
 
-Ihr Forschungsbereich schliesst folgende Schwerpunkte ein:  Inflammatorische Kardiomyopathien, Amyloidose, Biomarker und Präzisionsmedizin. 
-Sie erhielt für ihre Forschung mehrere Auszeichnungen wie den Paul Dudley White International Scholar Award der American Heart Association (AHA), den Jay N. Cohn New Investigator Integrative Physiology/Clinical Award der Heart Failure Society of America, den Samuel A. Levine Clinical Young Investigator Award von der AHA und einen Project Grant des Schweizerischen Nationalfonds.  
+Ihr Forschungsbereich schliesst folgende Schwerpunkte mit ein:  Inflammatorische Kardiomyopathien, Amyloidose, Biomarker und Präzisionsmedizin. 
+Sie erhielt für ihre Forschung Auszeichnungen wie den Paul Dudley White International Scholar Award der American Heart Association (AHA), den Jay N. Cohn New Investigator Integrative Physiology/Clinical Award der Heart Failure Society of America, den Samuel A. Levine Clinical Young Investigator Award von der AHA und einen Project Grant des Schweizerischen Nationalfonds.  
+Außerdem erhielt Priv.-Doz. Dr. med. Heidecker kürzlich eine Ehrenprofessur der University of Miami, wo sie die 30. Annual Lemberg Lectureship hielt. In den Jahren zuvor hatten in der Fachwelt weltweit bekannte Kardiologen wie Peter Libby und Eugene Braunwald (Harvard Medical School) oder Valentin Fuster (Mount Sinai Hospital in New York) diese Auszeichnung erhalten.  
+[Link zur Pressemitteilung](https://www.dhzb.de/presse/news/detailansicht-meldungen/ansicht/pressedetail/ehrenprofessur-in-florida-fuer-charite-kardiologin)
 
-Sie ist Teil des "Board of Directors" der Myocarditis Foundation und arbeitet in Kollaboration an internationalen Projekten, welche darauf fokussiert sind die Diagnose und Therapie von inflammatorischen Kardiomyopathien wie Myokarditis zu verbessern. 
-Priv.-Doz. Dr. med. Heidecker is als Fachärztin für Kardiologie und Fachärztin für Innere Medizin in Deutschland, Österreich, der Schweiz und in den USA akkreditiert. 
-Fachliche Zertifizierungen für Innere Medizin, Kardiologie und Echokardiografie wurden sowohl für Europa als auch für die USA erfolgreich abgelegt.  
+Sie ist Teil des "Board of Directors" der Myocarditis Foundation und arbeitet in Kollaboration an internationalen Projekten, welche darauf fokussiert sind, die Diagnose und Therapie von inflammatorischen Kardiomyopathien wie Myokarditis zu verbessern. 
+Priv.-Doz. Dr. med. Heidecker ist als Fachärztin für Kardiologie und für Innere Medizin in Deutschland, Österreich, der Schweiz und in den USA akkreditiert. Außerdem ist sie für Echokardiografie in Europa (European Association of Cardiovascular		 Imaging of the European Society of Cardiology und in den USA (Level III, National Board of Echocardiography, United States) zertifiziert.  Eine Ausbildung für genetische Beratung wurde an der Universität Würzburg, Deutschland abgelegt.

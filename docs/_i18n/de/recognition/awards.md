@@ -1,8 +1,8 @@
 ## Auszeichnungen
-- 30th Annual Miriam Lemberg Professorship (honorary professorship from the University of Miami)
-- Paul Dudley White International Scholar Award, AHA 
-- Project grant of the Swiss National Science Foundation
-- Northwestern Cardiovascular Young Investigator Award (2x Finalist)
-- Jay N. Cohn New Investigator Integrative Physiology/Clinical Award, HFSA 
-- Samuel A. Levine Clinical Young Investigator Award, AHA 
+- 30th Annual Miriam Lemberg Professorship, Ehrenprofessur der University of Miami, USA
+- Paul Dudley White International Scholar Award, American Heart Association, USA
+- Project grant of the Swiss National Science Foundation, Schweiz
+- Northwestern Cardiovascular Young Investigator Award (2x Finalist), USA
+- Jay N. Cohn New Investigator Integrative Physiology/Clinical Award, Heart Failure Society of America, USA
+- Samuel A. Levine Clinical Young Investigator Award, American Heart Association, USA
 

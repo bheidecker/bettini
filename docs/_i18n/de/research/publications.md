@@ -1,4 +1,4 @@
-## Publications
+## Publikationen
 
-Sie können die Publikationen von Priv-Doz. Dr. med Heidecker auf folgendem Link finden:
+Publikationen von Priv.-Doz. Dr. med Heidecker sind unter folgendem Link zu finden:
 [Pubmed]({{ site.data.links.research.pubmed }}){:target="_blank"}

@@ -1,7 +1,7 @@
 navigation:
   home: "Übersicht"
   updates: "Updates"
-  testimonials: "Patienten Feedback"
+  testimonials: "Patientenfeedback"
   diagnoses: "Information für Patienten"
   research: "Forschung"
   recognition: "Auszeichnungen"
@@ -13,17 +13,16 @@ carousel:
       Dr. Heidecker erhält gemeinsam mit ihrem Fellow Dr. Jan Kottwitz den Paul Dudley White Award, 2018.
   - image: speaking_at_myocarditis_foundation.jpg
     text: >
-      Dr. Heidecker präsentiert über ihr Forschungsprojekt beim jährlichen Meeting der Myocarditis Foundation in New York, 2019.
-      Dr. Heidecker erhielt einen der ersten Grants der Myocarditis Foundation und hat seither die Stiftung unterstützt.  Dr. Heidecker ist mittlerweile Mitglied im "Board of Directors" der Foundation.
+      Dr. Heidecker präsentiert über ihr Forschungsprojekt bei der jährlichen Gala der Myocarditis Foundation in New York, 2019.
+      Dr. Heidecker erhielt einen der ersten Grants der Myocarditis Foundation und wurde 2021 Mitglied des "Board of Directors" der Foundation.
   - image: lemberg_award.jpg
     text: >
-      Dr. Heidecker erhält eine Ehrenprofessur der University of Miami und hält hierfür die 30. Annual Lemberg Lectureship an der Universität in Miami, 2022.
-      Dr. Heidecker hatte an der University of Miami ihre Facharztausbildung für innere Medizin erfolgreich abgeschlossen und im Bereich Herzinssuffizienz und inflammatorische Kardiomyopathien geforscht.
-      In den Jahren zuvor hatten in der Fachwelt weltweit bekannte Kardiologen wie Peter Libby und Eugene Braunwald (Harvard Medical School) oder Valentin Fuster (Mount Sinai Hospital in New York) diese Auszeichnung erhalten.  
-
+      Dr. Heidecker erhält eine Ehrenprofessur der University of Miami im Anschluss an die 30. Annual Lemberg Lectureship, die sie in diesem Rahmen an der Universität in Miami gehalten hat.
+      Dr. Heidecker hatte an der University of Miami ihre Facharztausbildung für innere Medizin erfolgreich abgeschlossen.
+     
 hero:
   title: "Priv.-Doz. Dr. med. Bettina Heidecker"
-  subtitle1: "Spezialisierung in"
+  subtitle1: "Spezialisting für"
   subtitle2: "Herzinsuffizienz"
   subtitle3: "und"
   subtitle4: "seltene Erkrankungen"
@@ -39,9 +38,9 @@ titles:
   updates: "Aktuelle Updates"
   research: "Forschungsaktivitäten"
   publications: "Publikationen"
-  collaborations: "Institute mit welchen wir kollaborieren"
-  diagnoses: "Information mögliche Untersuchungen"
-  contact: "Kontakt information"
+  collaborations: "Kollaborationspartner"
+  diagnoses: "Patienteninformation"
+  contact: "Kontaktinformation"
   testimonials:
     recent: "Aktuelles Patientenfeedback"
     page_title: "Patientenfeedback"
