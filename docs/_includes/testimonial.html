@@ -1,7 +1,10 @@
 <div class="py-8">
-  <p>
-  "{{ include.item.content | strip_html }}"
-  </p>
+  <blockquote class="relative">
+    <div class="absolute w-2 bg-gray-300 h-full left-0 top-0"></div>
+    <div class="relative left-7 italic py-2">
+      "{{ include.item.content | strip_html | lstrip | rstrip }}"
+    </div>
+  </blockquote>
   <p class="mt-4 italic">
     -- {{ include.item.name }}
   </p>

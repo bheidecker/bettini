@@ -36,7 +36,9 @@ titles:
   biography: "Bio"
   specialties: "Clinical Specialties"
   updates: "Latest Updates"
-  testimonials: "Patient Testimonials"
+  testimonials:
+    recent: "Recent Patient Testimonial"
+    page_title: "Patient Testimonials"
 
 footer:
   copyright: "All rights reserved."

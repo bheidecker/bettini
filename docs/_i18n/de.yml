@@ -42,7 +42,9 @@ titles:
   collaborations: "Institute mit welchen wir kollaborieren"
   diagnoses: "Information mögliche Untersuchungen"
   contact: "Kontakt information"
-  testimonials: "Patienten Feedback"
+  testimonials:
+    recent: "Aktuelles Patientenfeedback"
+    page_title: "Patientenfeedback"
 
 footer:
   copyright: "All rights reserved."
