@@ -1,7 +1,7 @@
 import 'flowbite';
 
 import Nav from "./nav";
-import Specialties from "./specialties";
+import Accordion from "./accordion";
 import ModalManager from "./modalManager";
 import LangSelector from "./langSelector";
 
@@ -11,4 +11,4 @@ app.modalManager = new ModalManager();
 app.nav = new Nav(app.modalManager);
 app.langSelector = new LangSelector(app.modalManager);
 
-app.specialties = new Specialties();
+app.specialties = new Accordion();

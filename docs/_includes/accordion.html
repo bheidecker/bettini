@@ -1,0 +1,23 @@
+<dl class="mt-6 space-y-6 divide-y divide-gray-300">
+  {% for item in include.list_items %}
+    <div class="accordion-element pt-6">
+      <dt class="text-lg">
+        <button type="button" class="accordion-toggle-btn text-left w-full flex gap-2 items-start text-gray-400">
+          <span class="h-7 flex items-center">
+            <svg class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </span>
+          <span class="font-medium text-gray-900">
+            {{ item.heading }}
+          </span>
+        </button>
+      </dt>
+      <dd class="mt-2 pr-12 hidden">
+        <div class="pl-8 text-base text-gray-500 space-y-4">
+          {{ item.content }}
+        </div>
+      </dd>
+    </div>
+  {% endfor %}
+</dl>
