@@ -1,9 +1,8 @@
 ---
-heading: Endomyocardial biopsy/heart biopsy
+heading: Endomyocardial Biopsy/Heart Biopsy
 ---
 
-In patients, in whom the cause for their illness of the heart could not be identified yet, we may obtain endomyocardial 
-or heart biopsies.
+In patients, in whom the cause for their illness of the heart could not be identified with standard diagnostic methods, we may recommend to perform an endomyocardial or heart biopsy.
 Typically, we obtain 4 to 6 samples that are about 1mm big.
 The procedure usually does not hurt, since pain medication will be used.
 You may feel a few extrabeats while the samples are taken.
