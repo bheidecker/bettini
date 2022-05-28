@@ -7,4 +7,4 @@ Die Ursachen warum jemand Sarkoidose entwickelt sind noch unbekannt.  Es werden 
 Oft berichten Patienten auch, dass sie sehr hohem Stress ausgesetzt waren, bevor die Krankheit ausbrach.  
 Stress ist ein bekannter Auslöser von Autoimmunerkrankungen und entzündlichen Erkrankungen. 
 Sarkoidose ist behandelbar.  Allerdings ist eine frühe Diagnose relevant, um irreversiblen Schäden vorzubeugen. 
-Unter [diesem Link](https://www.fodasacharite.org){:target="_blank"} finden Sie noch weitere Information und Erfahrungsberichte zu Sarkoidose. 
+Unter [diesem Link](https://www.fodasacharity.org){:target="_blank"} finden Sie noch weitere Information und Erfahrungsberichte zu Sarkoidose. 
