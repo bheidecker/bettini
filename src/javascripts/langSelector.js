@@ -1,9 +1,8 @@
 export default class LangSelector {
   constructor(modalManager) {
-
     const target = document.getElementById('lang-selector-menu');
 
-    document.getElementById('lang-selector-open-btn').addEventListener('click', (event) => {
+    document.getElementById('lang-selector-open-btn')?.addEventListener('click', (event) => {
       if (target.classList.contains('hidden')) {
         target.classList.remove('hidden');
 
@@ -14,6 +13,5 @@ export default class LangSelector {
         modalManager.close();
       }
     })
-
   }
 }

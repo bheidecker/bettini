@@ -1,33 +1,37 @@
-<div id="default-carousel" class="relative h-[22rem] md:h-screen" data-carousel="static">
-  <div class="overflow-hidden relative h-full rounded-lg">
-
-    {% assign items = site.translations[site.lang].carousel %}
-    {% for item in items %}
-      <div class="duration-0 absolute inset-0 transition-none translate-x-0 z-20" data-carousel-item="">
-        <span class="z-10 drop-shadow-xl absolute w-full md:w-auto md:max-w-3/4 bottom-0 md:bottom-12 left-1/2 text-white -translate-x-1/2 px-5 py-2 bg-gray-900 opacity-90">
+<div class="relative md:h-screen" data-carousel="">
+  {% assign items = site.translations[site.lang].carousel %}
+  {% for item in items %}
+    <div class="relative h-full w-full" data-carousel-item="">
+      <img class="object-cover object-top w-full h-96 md:h-full" src="{{ site.baseurl_root }}/assets/images/carousel/{{ item.image }}">
+      <div class="z-10 min-h-[11rem] md:min-h-0 md:inline md:absolute md:max-w-3/4 md:bottom-12 md:left-1/2 md:-translate-x-1/2">
+        <div class="text-white bg-gray-900 opacity-90 px-5 py-2">
           {{ item.text }}
-        </span>
-        <img src="{{ site.baseurl_root }}/assets/images/carousel/{{ item.image }}" class="block absolute left-1/2 w-full -translate-x-1/2">
+        </div>
       </div>
-    {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
 
-  <div class="hidden md:block flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
-    <button type="button" class="w-3 h-3 rounded-full bg-white dark:bg-gray-800" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+  <div class="hidden md:block z-10 absolute bottom-5 left-1/2 -translate-x-1/2 space-x-3">
+    <button type="button" class="w-3 h-3 rounded-full bg-white" data-carousel-slide-to="0"></button>
     {% for i in (2..items.size) %}
-      <button type="button" class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800" aria-current="false" aria-label="Slide {{ i }}" data-carousel-slide-to="{{ i | minus: 1 }}"></button>
+      <button type="button" class="w-3 h-3 rounded-full bg-white/50 hover:bg-white" data-carousel-slide-to="{{ i | minus: 1 }}"></button>
     {% endfor %}
   </div>
 
   <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev="">
     <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-gray-800/30 group-hover:bg-gray-800/60 group-focus:ring-gray-800/70">
-      <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+      <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+      </svg>
       <span class="hidden">Previous</span>
     </span>
   </button>
+
   <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next="">
     <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-gray-800/30 group-hover:bg-gray-800/60 group-focus:ring-gray-800/70">
-      <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+      <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+      </svg>
       <span class="hidden">Next</span>
     </span>
   </button>
