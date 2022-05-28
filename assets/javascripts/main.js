@@ -120,7 +120,7 @@
 
   // src/javascripts/langSelector.js
   var LangSelector = class {
-    constructor(modalManager) {
+    constructor(modalManager, langRedirect) {
       const target = document.getElementById("lang-selector-menu");
       document.getElementById("lang-selector-open-btn")?.addEventListener("click", (event) => {
         if (target.classList.contains("hidden")) {
@@ -132,14 +132,81 @@
           modalManager.close();
         }
       });
+      target?.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          langRedirect.setLanguageInStore(link.dataset.lang);
+        });
+      });
+    }
+  };
+
+  // src/javascripts/langRedirect.js
+  var LangRedirect = class {
+    constructor(languages) {
+      this.allLanguages = languages;
+      [this.default, ...this.nonDefault] = languages;
+      if (!document.body.dataset.hasOwnProperty("skipLangRedirect")) {
+        this.ensureCorrectLanguage();
+      }
+    }
+    ensureCorrectLanguage() {
+      let langFromStore = this.getLanguageFromStore();
+      if (!langFromStore) {
+        const browserLang = this.getLanguageFromBrowser();
+        if (this.allLanguages.includes(browserLang)) {
+          langFromStore = browserLang;
+        } else {
+          langFromStore = "en";
+        }
+        this.setLanguageInStore(langFromStore);
+      }
+      this.redirect(langFromStore);
+    }
+    getLanguageFromUrl() {
+      const path = window.location.pathname;
+      let foundLang;
+      this.nonDefault.forEach((lang) => {
+        if (path.startsWith(`/${lang}/`)) {
+          foundLang = lang;
+        }
+      });
+      return foundLang || this.default;
+    }
+    getLanguageFromStore() {
+      return window.localStorage.getItem("lang");
+    }
+    getLanguageFromBrowser() {
+      return window.navigator.language.slice(0, 2);
+    }
+    setLanguageInStore(lang) {
+      window.localStorage.setItem("lang", lang);
+      console.log(`Set language in local storage to ${lang}`);
+    }
+    redirect(lang) {
+      const urlLang = this.getLanguageFromUrl();
+      if (lang === urlLang) {
+        return;
+      }
+      const path = window.location.pathname;
+      const pathWithoutLang = path.replace(`/${urlLang}/`, "/");
+      if (lang === this.default) {
+        const href2 = `${window.location.origin}${pathWithoutLang}`;
+        console.log(`Redirecting to: ${href2}`);
+        window.location.replace(href2);
+        return;
+      }
+      const href = `${window.location.origin}/${lang}${pathWithoutLang}`;
+      console.log(`Redirecting to: ${href}`);
+      window.location.replace(href);
     }
   };
 
   // src/javascripts/app.js
   window.app = {};
   app.modalManager = new ModalManager();
+  app.langRedirect = new LangRedirect(["de", "en"]);
   app.nav = new Nav(app.modalManager);
-  app.langSelector = new LangSelector(app.modalManager);
+  app.langSelector = new LangSelector(app.modalManager, app.langRedirect);
   app.carousels = [];
   Carousel.setup(app.carousels);
   app.accordion = new Accordion();
