@@ -1,9 +1,8 @@
 ---
-heading: Electrocardiogram/ECG
+heading: Elektrokardiogramm/EKG
 ---
 
-The ECG is used to check the electrical activity of the heart. 
-We can detect in the ECG your heart rate, rhythm problems, or abnormalities that suggest your heart may need treatment. 
-The process of obtaining an ECG is simple. 
-A nurse puts electrodes on your chest, arms, and legs, 
-and within a few seconds the ECG device records the necessary measurements.  
+Mit dem EKG wird die elektrische Aktivität des Herzens gemessen.
+Wir können mittels EKG ihre Hezrfrequenz und Rhythmusprobleme diagnostizieren oder abnorme Veränderungen, die darauf hinweisen, dass ihr Herz eine Therapie benötigt. 
+Ein EKG durchzuführen ist sehr einfach.
+Eine Pflegekraft platziert Elektroden auf Ihre Brustwand, die Arme und Beine und innerhalb von Sekunden kann das EKG Gerät alle relevanten Messungen durchführen. 

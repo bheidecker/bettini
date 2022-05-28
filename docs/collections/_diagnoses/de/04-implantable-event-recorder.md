@@ -1,9 +1,6 @@
 ---
-heading: Implantable event recorder
+heading: Implantierbarer Ereignis-Rekorder/Event-Recorder
 ---
 
-Implantation of an event recorder is a minimally invasive procedure in which a very small device is implanted under the 
-skin of your upper chest.
-Since the implantable event recorder is an invasive procedure, it is used for patients with suspected asymptomatic 
-rhythm problems, i.e. who do not feel when their rhythm is abnormal.
-Since those patients would not know when to activate an external event recorder, an implantable event recorder is used. 
+Eine Implantation eines Ereignis-Rekorders ist ein minimal invasiver Eingriff, bei welchem ein kleines Gerät unter die Haut der oberen Brustwand implantiert wird.  
+Da die Implantation ein minimal invasiver Eingriff ist, wird diese für Patienten verwendet, bei welchen man den Verdacht hat, dass eine Rhythmusstörung vorliegt, die keine Symptome verursacht - eine asymptomatische Rhythmusstörung.  Da Patienten mit asymptomatischen Rhythmusstörungen nicht spüren würden, wann sie den Ereignisrekorder aktivieren müssen, ist ein implantierbares Gerät für sie geeigneter. 

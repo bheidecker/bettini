@@ -1,8 +1,7 @@
 ---
-heading: External event recorder
+heading: Externer Ereignis-Rekorder/Event-Recorder
 ---
 
-An external event recorder is a small device that you can carry in your pocket for about 3 months.
-When you think your rhythm problems might be happening, you can activate the device to record your rhythm.
-It is ideal for patients who experience rhythm problems rarely, with symptoms like racing heart and palpitations (when 
-your heart makes extra beats). 
+Ein externer Event-Rekorder ist ein kleines Gerät, welches Sie für etwa 3 Monate in Ihrer Tasche tragen können.  
+Immer wenn Sie das Gefühl haben, dass Ihre Rhythmusstörungen auftreten, können Sie den Rekorder aktivieren, um den Rhythmus aufzunehmen. 
+Das Gerät ist ideal für Patienten, welche Symptome einer möglichen Rhythmusstörung nur sehr selten entwickeln, wie zum Beispiel Herzrasen und Herzstolpern (Extraschläge oft gefolgt von kurzen Pausen).  
