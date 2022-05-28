@@ -2,7 +2,7 @@
 heading: Myocarditis
 ---
 
-Myocarditis is an inflammation of the heart that may be caused by a virus or other triggering factors.
+The diagnosis myocarditis describes inflammation of the heart that may be caused by a virus or other triggering factors.
 We typically see an autoimmune reaction that may sometimes require medications that suppress the immune system.
 The large majority of cases with myocarditis recover well.
 Some cases are more severe and require more intense monitoring, therapy and more frequent follow up.
