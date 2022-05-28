@@ -2,7 +2,7 @@
 heading: LifeVest
 ---
 
-If the pump function of your heart is severely decreased, we have a protective device for you to interrupt arrhythmias 
+If the pump function of your heart is severely decreased, we have a protective device for you to terminate arrhythmias 
 should they occur.
 With severely decreased function, the risk of arrhythmias is increased.
 If the pump function of your left chamber/the left ventricular ejection fraction is < or = 35%, in most cases we will 

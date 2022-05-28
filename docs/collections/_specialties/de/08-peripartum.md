@@ -1,16 +1,12 @@
 ---
-heading: Peripartum cardiomyopathy
+heading: Peripartum Kardiomyopathie
 ---
 
-Peripartum cardiomyopathy is a rare disease of the heart muscle that occurs during the final month of pregnancy up to 
-five months after delivery, which may lead to heart failure.
-Importantly, other causes of cardiomyopathy must be ruled out first.
-In most cases, peripartum cardiomyopathy occurs right after delivery.
-The degree of the severity of symptoms varies greatly between women and does not seem to affect the chance for recovery.
-For example, women with severely decreased heart function due to peripartum cardiomyopathy may completely recover their 
-heart function.
-Overall, compared to other cardiomyopathies (diseases of the heart muscle), patients with peripartum cardiomyopathy 
-have a good chance for recovery.
-As with other types of cardiomyopathy, early treatment initiation is key.
-The risk for recurrence of the disease during subsequent pregnancy is generally increased for patients with peripartum 
-cardiomyopathy and is particularly high for woman who did not fully recover their heart function.
+Peripartum Kardiomyopathie ist eine seltene Erkrankung des Herzmuskels, welche im letzten Monat der Schwangerschaft bis 5 Monate nach der Entbindung auftreten und zu Herzinsuffizienz führen kann.  
+Hierbei ist zu betonen, dass die Diagnose voraussetzt, dass andere Ursachen einer Kardiomyopathie zuvor ausgeschlossen wurden.  
+In den meisten Fällen tritt Peripartum Kardiomyopathie direkt nach der Entbindung auf. 
+Der Schweregrad der Symptome variiert stark zwischen den Patientinnen, scheint aber die Chancen für eine Erholung der Pumpfunktion nicht wesentlich zu beinflussen.
+So können zum Beispiel Patientinnen mit schwer eingeschränkter Pumpfunktion des Herzens sich wieder vollkommen erholen. 
+Insgesamt hat die Peripartum Kardiomyopathie im Vergleich zu anderen Kardiomyopathien (Erkrankungen des Herzmuskels) eine sehr gute Prognose. 
+Wie auch bei anderen Kardiomyopathien, ist der frühe Start der Therapie für den Erfolg entscheidend. 
+Das Risiko nochmals eine Peripartum Kardiomyopathie bei weiteren Schwangerschaften zu entwickeln ist bei betroffenen Patientinnen erhöht und ist besonders hoch bei Patientinnen, bei welchen sich die linksventrikuläre Pumpfunktion nicht vollständig erholt hat. 

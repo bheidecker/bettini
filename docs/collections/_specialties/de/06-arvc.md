@@ -1,12 +1,10 @@
 ---
-heading: Arrhythmogenic right ventricular cardiomyopathy (ARVC)
+heading: Arrhythmogene rechtsventrikuläre Kardiomyopthie (ARVC)
 ---
 
-Arrhythmogenic right ventricular cardiomyopathy (ARVC) is a structural disease of the heart muscle, where normal heart 
-muscle is replaced by fatty fibrous tissue.
-Due to the fatty replacement, electrical signal conduction in the heart is hampered, leading to irregular rhythm that 
-can be life-threatening. Also, the heart can lose its pump function and get weaker over time leading to symptoms of 
-heart failure.
-Usually, the right chamber of the heart is primarily affected, which led to the name of the disease.
-However, also the left chamber can be affected in combination and in very rare cases in isolation. 
-ARVC is a genetic disease with first symptom onset from age 10 to 50 years. 
+Arrhythmogene rechtsventrikuläre Kardiomyopthie (ARVC) ist eine strukturelle Herzerkrankung, bei welcher normale Herzmuskelzellen durch Fett- und Narbengewebe ersetzt werden. 
+Auf Grund der Einlagerungen von Fettgewebe, wird die elektrische Überleitung von Impulsen im Herzen beeinträchtigt, was zu Rhythmusstörungen führen kann, die auch lebensbedrohlich werden können. 
+Außerdem kann das Herz seine Pumpfunktion verlieren und dadurch im Laufe der Zeit geschwächt werden und zu Symptomen einer Herzinsuffizienz führen.  
+Üblicherweise ist primär die rechte Herzkammer betroffen, was der Erkrankung den Namen gegeben hat.
+Allerdings kann auch die linke Kammer in Kombination mit der rechten betroffen sein und in sehr seltenen Fällen in Isolation.
+ARVC ist eine genetische Erkrankung bei welcher es üblicherweise im Alter von 10 - 50 Jahren zur Erstmanifestation der Symptome kommt.

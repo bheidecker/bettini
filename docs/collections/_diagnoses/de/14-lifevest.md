@@ -2,12 +2,10 @@
 heading: LifeVest
 ---
 
-If the pump function of your heart is severely decreased, we have a protective device for you to interrupt arrhythmias 
-should they occur.
-With severely decreased function, the risk of arrhythmias is increased.
-If the pump function of your left chamber/the left ventricular ejection fraction is < or = 35%, in most cases we will 
-offer this wearable cardioverter defibrillator device for at least 3 months.
-During the first 3 months after diagnosis of severely decreased pump function (not caused by vessel problems), we have 
-the highest chance for improvement of your heart with medical therapy.
-Should the pump function not improve, you may require an implantable cardioverter defibrillator.
-Should that be the case, our team will inform you in detail about its risks and benefits, as for all other procedures.  
+Wenn die Pumpfunktion des Herzens schwer eingeschränkt ist, gibt es ein tragbares Gerät als Schutz gegen schwere Rhythmusstörungen, sollten diese einmal auftreten. 
+Bei schwer eingeschränkter Pumpfunktion steigt das Risiko für Arrhythmien. 
+Wenn die Pumpfunktion der linken Kammer/die linksventrikuläre Ejektionsfraktion (LVEF) < oder = 35% beträgt, empfehlen wir in den meisten Fällen diesen tragbaren Defibrillator/LifeVest für 3 Monate. 
+Während der ersten 3 Monate nach Diagnose einer schwer eingeschränkten Pumpfunktion (wenn diese nicht durch Gefäsßprobleme verursacht wird), ist die Chance für Besserung der Pumpfunktion durch medikamentöse Therapie am höchsten. Deswegen wird die LifeVest als überbrückende Maßnahme verwendet. 
+Sollte sich die Pumpfunktion nicht bessern, empfehlen wir eine Evaluation, ob Sie für einen implantierbaren Defibrillator (ICD) geeignet sind.
+Sollte das der Fall sein, wird unser Team Sie im Detail über Risiken und Nutzen des Eingriffs aufklären, so wie für alle anderen Eingriffe. 
+ 

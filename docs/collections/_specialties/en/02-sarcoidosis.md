@@ -9,3 +9,4 @@ infectious agents) are suspected to which the immune system responds.
 Very often the patient also report that they had a lot of stress preceding the manifestation of the disease.
 Stress is a common trigger of autoimmune diseases. 
 Sarcoidosis is treatable, but early diagnosis is crucial to prevent irreversible damage. 
+Under [this link](https://www.fodasacharite.org){:target="_blank"} you can find additional information and shared experience reports about cardiac sarcoidosis. 

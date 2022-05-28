@@ -7,9 +7,9 @@ We typically see an autoimmune reaction that may sometimes require medications t
 The large majority of cases with myocarditis recover well.
 Some cases are more severe and require more intense monitoring, therapy and more frequent follow up.
 After myocarditis, it is strongly recommended not to do any heavy exercise for at least 3 months, as the risk of 
-exercise induced arrhythmias and worsening of the disease has been reported in animal experiments.  We have done the 
+exercise induced arrhythmias and worsening of the disease has been reported in the literature.  We have done the 
 first study in humans resuming sports after 3 months and did not observe any medical issues developing after that 
 interval.
 If you would like to read more about myocarditis, you may be also interested in the website of the Myocarditis 
-Foundation, with which I collaborate closely: 
+Foundation for which I serve as a member in the Board of Directors: 
 [https://www.myocarditisfoundation.org](https://www.myocarditisfoundation.org/){:target="_blank"}

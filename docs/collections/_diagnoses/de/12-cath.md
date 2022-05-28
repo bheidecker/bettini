@@ -1,17 +1,12 @@
 ---
-heading: Cardiac catheterization/Coronary angiography/Stent implantation
+heading: Herzkatheter/Koronarangiografie/Stent-Implantation
 ---
 
 Wenn ein hoher Verdacht auf verengte oder blockierte Herzkranzgefässe besteht oder wenn Sie mit einer relevanten Klappenerkrankung oder einer anderen strukturellen Herzerkrankung diagnostiziert wurden, werden wir Ihnen möglicherweise eine Koronarangiografie oder Herzkatheteruntersuchung empfehlen.  
-
-
-Under local anesthesia (with numbing medication similar to what you get at the dentist’s office), a small catheter 
-(diameter of a spaghetti) will be inserted either in the area of your wrist or your groin.
-Then contrast fluid will be injected in your heart vessels under continuous X-ray/fluoroscopy to see if there are any 
-narrowings or occlusion.
-If there are any, we will try to open them during the same procedure with a stent.
-A stent is a metal mesh sitting on a deflated balloon on the inserted catheter, which will expand into your vessel and 
-remain there, once the balloon is inflated.
-After that, balloon and catheter will be removed and the stent will remain.
-After that, the vessel is expected to be 100% open again.
-The procedure usually does not hurt, since pain medication will be used.
+Unter Lokalanästhesie (mit beteubender Medizin welche Sie auch beim Zahnarzt erhalten) wird ein kleiner Katheter (etwa 2mm dick) entweder im Bereich des Handgelenks oder in der Leiste in die Arterie eingeführt. 
+Dann wird der Katheter bis zum Herzen vorgeschoben und Kontrastmittel in die Herzkranzgefässe injiziert unter kontinuierlicher Durchleuchtung/Röntgen, womit man sehen kann, ob es Verengungen oder Verschlüsse der Herzkranzgefässe gibt.  
+Wenn es eine Verengung oder einen Verschluss gibt, werden wir versuchen diese während des gleichen Eingriffs mittels Stent zu öffnen.  
+Ein Stent is ein Metallnetz welches auf einem leeren Ballon sitzt, welches im Gefäss expandiert wird und dort verbleibt, sobald der Ballon aufgeblasen wird. 
+Im Anschluss werden Ballon und Katheter entfernt und der Stent verbleibt. 
+Danach sollte das Gefäß an der Stelle des Stents wieder 100% offen sein.
+Der Eingriff verursacht üblicherweise keine Schmerzen, da Schmerzmedikamente verabreicht werden. 

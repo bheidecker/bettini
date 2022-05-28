@@ -1,14 +1,14 @@
 ---
-heading: Amyloidosis
+heading: Amyloidose
 ---
 
-Amyloid is a misfolded protein that can deposited in various organs including the heart.
-In our clinic, we most commonly see Thransthyretin Amyloidosis/ATTR or Light Chain Amyloidosis/AL.
-Deposition of the protein causes heart stiffness, leading potentially to heart failure and arrhythmias.
-Appropriate medical therapy that may be frequently adjusted is very important for the clinical course of a patient.
-Endomyocardial biopsy has a very high sensitivity and specificity for amyloidosis (almost 100%).
-Therefore, it is the preferred diagnostic tool, when there is reasonable suspicion for cardiac amyloidosis.
-Only if the suspicion is very low, we may do imaging first, since non-invasive imaging may sometimes miss cases.
-Frequently, also the nervous system is involved, so we work closely with our neurology team, to have that checked for 
-you as well. Should you be diagnosed with AL amyloidosis, we will get you a timely appointment with our hemato-oncologist, to make 
-sure effective treatment will be initiated promptly. 
+Amyloid ist ein fehlgefaltetes Protein/Eiweiß, welches in verschiedenen Organen, einschließlich dem Herzen, abgelagert werden kann. 
+In unserer Sprechstunde sehen wir primär Thransthyretin Amyloidose/ATTR oder Leichtketten Amyloidose/AL.
+Ablagerungen von Protein verursachen Abnahme der Elastizität des Herzens und damit Steifigkeit der Herzkammern, welche potenziell zu Herzinsuffizienz und Rhythmusstörungen führen. 
+Eine optimierte Therapie, welche häufig im Verlauf angepasst werden muss, ist entscheidend für den klinischen Verlauf eines Patienten.  
+Die Endomyokardbiopsie hat eine sehr hohe diagnostische Genauigkeit (Sensitivität und Spezifität) für Amyloidose (fast 100%).
+Somit ist sie die bevorzugte diagnostische Methode, wenn ein relevanter Verdacht auf kardiale Amyloidose besteht. Bei Patienten mit hohem interventionellen Risiko greifen wir auf alternative diagnostische Methoden zurück. 
+Nur wenn der Verdacht auf Amyloidose gering ist, führen wir zuerst eine Bildgebung durch.  
+Häufig ist auch das Nervensystem von der Amyloidose betroffen, weswegen wir eng mit dem Team der Neurologie zusammenarbeiten, welches Sie ebenso untersuchen wird, wenn Sie damit einverstanden sind. 
+Sollten Sie mit AL Amyloidose diagnostiziert werden, organisieren wir für Sie einen zeitnahen Termin mit unseren Hämatoonkologen, um sicher zu stellen, das eine effiziente Therapie zeitnah eingeleitet wird. 
+Ein interdisziplinäres Team an unserer Klinik sorgt für die optimale Versorgung.  Unter [diesem Link](https://amyloidosis-center.charite.de){:target="_blank"} finden Sie mehr Information über unser interdisziplinäres Amyloidosezentrum. 

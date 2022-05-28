@@ -1,15 +1,12 @@
 ---
-heading: Myocarditis
+heading: Myokarditis
 ---
 
-Myocarditis is an inflammation of the heart that may be caused by a virus or other triggering factors.
-We typically see an autoimmune reaction that may sometimes require medications that suppress the immune system.
-The large majority of cases with myocarditis recover well.
-Some cases are more severe and require more intense monitoring, therapy and more frequent follow up.
-After myocarditis, it is strongly recommended not to do any heavy exercise for at least 3 months, as the risk of 
-exercise induced arrhythmias and worsening of the disease has been reported in animal experiments.  We have done the 
-first study in humans resuming sports after 3 months and did not observe any medical issues developing after that 
-interval.
-If you would like to read more about myocarditis, you may be also interested in the website of the Myocarditis 
-Foundation, with which I collaborate closely: 
+Myokarditis ist eine inflammatorische/entzündliche Erkrankung des Herzens, welche durch Viren und andere Trigger verursacht werden kann. 
+Es liegt in vielen Fällen eine Autoimmunreaktion vor, welche Medikamente erfordert, die das Immunsystem in seiner Funktion unterdrücken.
+Die große Mehrheit der Myokarditisfälle erholt sich sehr gut. 
+Manche Fälle sind schwerwiegender und erfordern intensiveres Monitoring, Therapie und häufigere Nachkontrollen. 
+Nach einer Myokarditis wird eine körperliche Schonung für 3 Monate dringend empfohlen, da in dieser Zeit bei köperlicher Anstrengung ein erhöhtes Risiko für Rhythmusstörungen und für eine Verschlechterung der Erkrankung beschrieben wurde. 
+Wir haben die erste prospektive klinische Studie zu diesem Thema durchgeführt, in welcher Patienten 3 Monate nach Myokarditis wieder sportliche aktiv sein durften.  Es gab nach der 3-monatigen Sportpause keine Komplikationen. 
+Wenn Sie mehr über Myokarditis lesen möchten, empfehlen wir auch die Website der Myocarditis Foundation, in welcher ich als Mitglied des "Board of Directors" tätig bin:
 [https://www.myocarditisfoundation.org](https://www.myocarditisfoundation.org/){:target="_blank"}
