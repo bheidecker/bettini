@@ -1,11 +1,8 @@
 ---
-heading: Exercise-stress test
+heading: Ergometrie/Belastungstest mit stationärem Fahrrad
 ---
 
-Exercise-stress test is a great way to objectively test your physical fitness.
-Also, it can provide us with information, if you are at risk for arrhythmias that may develop specifically when you 
-exercise.
-Furthermore, we can detect, if your blood pressure gets too high during exercise – often a cause for limited exercise 
-tolerance.
-ECG changes during exercise stress testing or symptoms of chest pain may be a sign that your vessels in the heart may 
-require further evaluation.
+Eine Ergometrie oder Belastungstest ist eine sehr gute Methode, um Ihre physische Fitness objektiv zu testen.
+Es kann uns außerdem Information liefern, ob Sie ein Risiko für Rhythmusstörungen haben, welche spezifisch während sportlicher Aktivität auftreten.
+Außerdem können wir damit detektieren, ob ihr Blutdruck bei körperlicher Aktivität zu stark ansteigt - oft ein Grund für eingeschränkte Belastbarkeit. 
+EKG Veränderungen oder Symptome wie Brustschmerzen während eines Belastungstests können ein Zeichen dafür sein, dass Ihre Gefässe im Herzen weiterer Abklärung bedürfen.

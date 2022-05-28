@@ -1,7 +1,6 @@
 ---
-heading: Vascular ultrasound of the peripheral vessels and the carotid arteries
+heading: Vaskulärer/Doppler Ultraschall der peripheren Gefäße und der Halsschlagadern/Karotiden
 ---
 
-In certain clinical scenarios, we may have to check if your carotid arteries or other arteries of the body are healthy 
-or if they have narrowings that may require intervention.
-For that we will use again ultrasound.
+In manchen Situtationen empfehlen wir eine Untersuchung Ihrer Halsschlagadern/Karotiden oder anderer Gefässe, um zu testen, ob diese gesund sind oder möglicherweise verengt.  Wenn eine Verengung vorliegt, wird möglicherweise eine Eingriff notwendig. Dabei können sowohl Venen als auch Arterien untersucht werden. 
+

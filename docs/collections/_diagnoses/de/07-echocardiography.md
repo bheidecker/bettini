@@ -1,12 +1,11 @@
 ---
-heading: Echocardiography
+heading: Echokardiografie
 ---
 
-In echocardiography we perform an ultrasound of your heart that will visualize the size and wall motion of your heart 
-muscle, function of the walls and the valves. 
-Also, we can test if there is leakage or narrowing of the heart valves.
-This information is very valuable for diagnosis and treatment.
-During the echocardiography, an ultrasound probe sends out ultrasound waves to your heart, which will be reflected by 
-structures in your heart.
-Through collection of those reflected waves, the ultrasound probe creates an image of your heart.
-This examination does not have any known relevant side effects.  
+Bei der Echokardiografie führen wir einen Ultraschall des Herzens durch, welcher die Grösse und Wandbewegung Ihres Herzens, und die Funktion und der Kammern und Klappen darstellt. 
+Außerdem können wir testen, ob die Klappen ein Leck oder eine Verengung haben.
+Diese Information ist sehr wertvoll für die Diagnose und Behandlung von Kardiomyopathien. 
+Während der Echokardiografie sendet der Schallkopf Ultraschallwellen in die Richtung Ihres Herzens aus, welche vom Herzen reflektiert werden. 
+Durch Sammeln dieser reflektierten Schallwellen bildet der Ultraschallkopf ein Bild Ihres Herzens ab. 
+Für diese Untersuchung sind keine relevanten Nebenwirkungen bekannt. 
+ 

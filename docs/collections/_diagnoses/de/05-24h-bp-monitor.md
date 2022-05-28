@@ -1,11 +1,8 @@
 ---
-heading: 24-hour blood pressure monitoring
+heading: 24-Stunden Blutdruckmessung
 ---
 
-In order to get a good overview, what your blood pressure looks like during the day, we have a device that you can 
-carry for a total of 24 hours. 
-It is not large and can be worn at your hip.
-That device is connected to a blood pressure cuff that will measure your blood pressure every 15 minutes during the day 
-and every 30 minutes during the night.
-This way, we may find out if there are times, when your blood pressure is too high or too low, which may be always at 
-specific times of the day.
+Um uns einen guten Überblick zu schaffen, wo Ihr Blutdruck tagsüber liegt, haben wir ein Gerät welches Sie 24 Stunden lang tragen können. 
+Es ist ein kleines Gerät, welches einfach an Ihrer Hüfte getragen werden kann.
+Das Gerät ist mit einer Blutdruckmanschette verbunden, welches Ihren Blutdruck alle 15 Minuten während des Tages, und alle 30 Minuten während der Nacht misst. 
+Auf diese Weise können wir herausfinden, ob es Zeiten gibt, zu welchen ihr Blutdruck zu niedrig oder zu hoch ist, was möglicherweise immer zu bestimmten Tageszeiten vorkommt. 
