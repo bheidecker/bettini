@@ -7,4 +7,4 @@ Since in my case the cardiac sarcoidosis was not recognized by other doctors and
 I am glad that Dr. Heidecker pushed ahead with the diagnosis and initiated the right treatment. 
 With this rare disease, I appreciate her international network and the comparatively high number of sarcoid patients 
 she is treating to be very important and valuable. Even during my long treatment period, Dr. Heidecker was always 
-approachable and informed. She always tried to find interdisciplinary solutions, when indicated.
+approachable and informed. She always tried to find interdisciplinary solutions if needed.

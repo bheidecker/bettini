@@ -2,9 +2,9 @@
 heading: Cardiac catheterization/Coronary angiography/Stent implantation
 ---
 
-If the suspicion for narrowed or obstructed vessels in the heart is high or if you have been diagnosed with a relevant 
-valve disease or other types of structural heart disease, we may recommend you to have a coronary angiography or 
-cardiac catheterization.
+Wenn ein hoher Verdacht auf verengte oder blockierte Herzkranzgefässe besteht oder wenn Sie mit einer relevanten Klappenerkrankung oder einer anderen strukturellen Herzerkrankung diagnostiziert wurden, werden wir Ihnen möglicherweise eine Koronarangiografie oder Herzkatheteruntersuchung empfehlen.  
+
+
 Under local anesthesia (with numbing medication similar to what you get at the dentist’s office), a small catheter 
 (diameter of a spaghetti) will be inserted either in the area of your wrist or your groin.
 Then contrast fluid will be injected in your heart vessels under continuous X-ray/fluoroscopy to see if there are any 
