@@ -28,17 +28,20 @@
 
   // src/javascripts/carousel.js
   var Carousel = class {
-    static setup(array) {
+    static setup(array, breakpoint) {
       document.querySelectorAll("[data-carousel]").forEach((carousel) => {
-        array.push(new Carousel(carousel));
+        array.push(new Carousel(carousel, breakpoint));
       });
     }
-    constructor(carousel) {
+    constructor(carousel, breakpoint) {
       this.carousel = carousel;
+      this.breakpoint = breakpoint;
       this.slideCount = this.getSlides().length;
       this.showSlide(0);
       this.setupSlideNavButtons();
       this.setupSideButtons();
+      this.setMinHeight();
+      window.addEventListener("resize", () => this.setMinHeight());
     }
     getSlides() {
       return this.carousel.querySelectorAll("[data-carousel-item]");
@@ -51,6 +54,22 @@
     }
     getPrevButton() {
       return this.carousel.querySelector("[data-carousel-prev]");
+    }
+    setMinHeight() {
+      const slides = this.getSlides();
+      if (this.breakpoint.get() !== "sm") {
+        slides.forEach((item) => item.querySelector("[data-carousel-text-container]").style.removeProperty("min-height"));
+        return;
+      }
+      let maxHeight = 0;
+      slides.forEach((item, index) => {
+        item.classList.remove("hidden");
+        maxHeight = Math.max(maxHeight, item.querySelector("[data-carousel-text-container] div").offsetHeight);
+        if (index !== this.selectedSlide) {
+          item.classList.add("hidden");
+        }
+      });
+      slides.forEach((item) => item.querySelector("[data-carousel-text-container]").style.minHeight = `${maxHeight}px`);
     }
     setupSlideNavButtons() {
       const slideNavButtons = this.getSlideNavButtons();
@@ -180,7 +199,6 @@
     }
     setLanguageInStore(lang) {
       window.localStorage.setItem("lang", lang);
-      console.log(`Set language in local storage to ${lang}`);
     }
     redirect(lang) {
       const urlLang = this.getLanguageFromUrl();
@@ -191,24 +209,36 @@
       const pathWithoutLang = path.replace(`/${urlLang}/`, "/");
       if (lang === this.default) {
         const href2 = `${window.location.origin}${pathWithoutLang}`;
-        console.log(`Redirecting to: ${href2}`);
         window.location.replace(href2);
         return;
       }
       const href = `${window.location.origin}/${lang}${pathWithoutLang}`;
-      console.log(`Redirecting to: ${href}`);
       window.location.replace(href);
+    }
+  };
+
+  // src/javascripts/breakpoint.js
+  var Breakpoint = class {
+    get() {
+      let breakpoint;
+      document.getElementById("breakpoint").querySelectorAll("[data-breakpoint]").forEach((x) => {
+        if (x.offsetParent !== null) {
+          breakpoint = x.dataset.breakpoint;
+        }
+      });
+      return breakpoint;
     }
   };
 
   // src/javascripts/app.js
   window.app = {};
+  app.breakpoint = new Breakpoint();
   app.modalManager = new ModalManager();
   app.langRedirect = new LangRedirect(["de", "en"]);
   app.nav = new Nav(app.modalManager);
   app.langSelector = new LangSelector(app.modalManager, app.langRedirect);
   app.carousels = [];
-  Carousel.setup(app.carousels);
+  Carousel.setup(app.carousels, app.breakpoint);
   app.accordion = new Accordion();
 })();
 //# sourceMappingURL=main.js.map
