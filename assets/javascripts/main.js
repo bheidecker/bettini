@@ -75,7 +75,7 @@
       const slideNavButtons = this.getSlideNavButtons();
       slideNavButtons.forEach((slideNavButton) => {
         slideNavButton.addEventListener("click", () => {
-          this.showSlide(slideNavButton.dataset.carouselSlideTo);
+          this.showSlide(parseInt(slideNavButton.dataset.carouselSlideTo));
         });
       });
     }
