@@ -1,17 +1,20 @@
 export default class Carousel {
-  static setup(array) {
+  static setup(array, breakpoint) {
     document.querySelectorAll('[data-carousel]').forEach(carousel => {
-      array.push(new Carousel(carousel));
+      array.push(new Carousel(carousel, breakpoint));
     })
   }
 
-  constructor(carousel) {
+  constructor(carousel, breakpoint) {
     this.carousel = carousel;
+    this.breakpoint = breakpoint;
 
     this.slideCount = this.getSlides().length;
     this.showSlide(0);
     this.setupSlideNavButtons();
     this.setupSideButtons();
+    this.setMinHeight();
+    window.addEventListener('resize', () => this.setMinHeight());
   }
 
   getSlides() {
@@ -28,6 +31,25 @@ export default class Carousel {
 
   getPrevButton() {
     return this.carousel.querySelector('[data-carousel-prev]');
+  }
+
+  setMinHeight() {
+    const slides = this.getSlides();
+    if (this.breakpoint.get() !== 'sm') {
+      slides.forEach(item => item.querySelector('[data-carousel-text-container]').style.removeProperty('min-height'));
+      return;
+    }
+
+    // Small screen size
+    let maxHeight = 0;
+    slides.forEach((item, index) => {
+      item.classList.remove('hidden')
+      maxHeight = Math.max(maxHeight, item.querySelector('[data-carousel-text-container] div').offsetHeight)
+      if (index !== this.selectedSlide) {
+        item.classList.add('hidden')
+      }
+    });
+    slides.forEach(item => item.querySelector('[data-carousel-text-container]').style.minHeight = `${maxHeight}px`)
   }
 
   setupSlideNavButtons() {

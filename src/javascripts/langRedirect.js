@@ -46,7 +46,6 @@ export default class LangRedirect {
 
   setLanguageInStore(lang) {
     window.localStorage.setItem('lang', lang);
-    console.log(`Set language in local storage to ${lang}`);
   }
 
   redirect(lang) {
@@ -63,14 +62,12 @@ export default class LangRedirect {
     // Redirecting to the default language: remove any non-default language prefix
     if (lang === this.default) {
       const href = `${window.location.origin}${pathWithoutLang}`
-      console.log(`Redirecting to: ${href}`)
       window.location.replace(href);
       return
     }
 
     // Redirecting to non default language: change language prefix
     const href = `${window.location.origin}/${lang}${pathWithoutLang}`
-    console.log(`Redirecting to: ${href}`)
     window.location.replace(href);
   }
 }
