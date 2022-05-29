@@ -6,7 +6,7 @@
            src="{{ site.baseurl_root }}/assets/images/carousel/{{ item.image }}"
            alt="{{ item.text | newline_to_br | split: "<br />" | first | strip }}" />
       <div class="z-10 md:min-h-0 md:inline md:absolute md:max-w-3/4 md:bottom-12 md:left-1/2 md:-translate-x-1/2" data-carousel-text-container="">
-        <div class="text-white bg-gray-900 opacity-90 px-5 py-2">
+        <div class="text-white bg-gray-900 opacity-90 px-5 py-2 text-justify">
           {{ item.text }}
         </div>
       </div>
