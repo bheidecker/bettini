@@ -19,9 +19,13 @@ To reduce size of images, use Mac's Preview application:
 
 Then, reference the image in the `carousel` key in the `_i18n/<lang>.yml` files, mimicking the format of existing entries.
 
+The alt-text of carousel images is taken from the first line under the image's `text` key in `_i18n/<lang>.yml`. 
+Do not break the line too early.
+
 ## Changing images outside the homepage carousel
 
 These images are hardcoded in HTML files. These can only be changed through code.
+The alt-text of those images can be updated in the `images_alt_text` key in `_i18n/<lang>.yml`.
 
 ## Changing headlines 
 
