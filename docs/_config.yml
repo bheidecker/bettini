@@ -3,6 +3,14 @@ baseurl: https://www.bheidecker.com
 languages: ["de", "en"]
 collections_dir: collections
 
+exclude:
+  - assets/javascripts
+  - assets/stylesheets
+
+keep_files:
+  - assets/javascripts
+  - assets/stylesheets
+
 exclude_from_localizations:
   - assets
   - CNAME

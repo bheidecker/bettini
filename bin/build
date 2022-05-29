@@ -2,3 +2,4 @@
 
 yarn build:css
 yarn build:js
+yarn build:html
