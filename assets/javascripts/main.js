@@ -1,5 +1,5 @@
 (() => {
-  // src/javascripts/nav.js
+  // docs/assets/javascripts/nav.js
   var Nav = class {
     constructor(modalManager) {
       const target = document.getElementById("nav-mobile-target");
@@ -12,7 +12,7 @@
     }
   };
 
-  // src/javascripts/accordion.js
+  // docs/assets/javascripts/accordion.js
   var Accordion = class {
     constructor() {
       document.querySelectorAll(".accordion-element dt").forEach((row) => {
@@ -26,7 +26,7 @@
     }
   };
 
-  // src/javascripts/carousel.js
+  // docs/assets/javascripts/carousel.js
   var Carousel = class {
     static setup(array, breakpoint) {
       document.querySelectorAll("[data-carousel]").forEach((carousel) => {
@@ -107,7 +107,7 @@
     }
   };
 
-  // src/javascripts/modalManager.js
+  // docs/assets/javascripts/modalManager.js
   var ModalManager = class {
     constructor() {
       this.currentModal = null;
@@ -137,7 +137,7 @@
     }
   };
 
-  // src/javascripts/langSelector.js
+  // docs/assets/javascripts/langSelector.js
   var LangSelector = class {
     constructor(modalManager, langRedirect) {
       const target = document.getElementById("lang-selector-menu");
@@ -159,7 +159,7 @@
     }
   };
 
-  // src/javascripts/langRedirect.js
+  // docs/assets/javascripts/langRedirect.js
   var LangRedirect = class {
     constructor(languages) {
       this.allLanguages = languages;
@@ -217,7 +217,7 @@
     }
   };
 
-  // src/javascripts/breakpoint.js
+  // docs/assets/javascripts/breakpoint.js
   var Breakpoint = class {
     get() {
       let breakpoint;
@@ -230,7 +230,7 @@
     }
   };
 
-  // src/javascripts/app.js
+  // docs/assets/javascripts/app.js
   window.app = {};
   app.breakpoint = new Breakpoint();
   app.modalManager = new ModalManager();
