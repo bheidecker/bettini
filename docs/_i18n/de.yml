@@ -54,14 +54,10 @@ titles:
   biography: "Biographie"
   specialties: "Klinische Spezialisierung"
   updates: "Aktuelle Updates"
-  research: "Forschungsaktivitäten"
-  publications: "Publikationen"
-  collaborations: "Kollaborationspartner"
-  diagnoses: "Patienteninformation"
-  contact: "Kontaktinformation"
   testimonials:
     recent: "Aktuelles Patientenfeedback"
     page_title: "Patientenfeedback"
+  contact: "Kontaktinformation"
 
 footer:
   copyright: "All rights reserved."

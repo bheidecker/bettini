@@ -1,5 +1,3 @@
-## Contact Information
-
 Dr. Heidecker is the head of the Heart Failure and Cardiomyopathy Clinic at the Charité, Universitätsmedizin Berlin, Campus Benjamin Franklin.
 
 Dr. Heidecker accepts all insurance plans. A referral (in German: Überweisungsschein) by a primary care provider is required with general insurance.  

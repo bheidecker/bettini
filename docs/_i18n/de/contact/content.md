@@ -1,5 +1,3 @@
-## Kontaktinformation
-
 Um einen Termin in der Sprechstunde von Priv.-Doz. Dr. med. Heidecker zu vereinbaren, füllen Sie bitte folgendes Formular aus
 [Charité Website]({{ site.data.links.clinic.form }}){:target="_blank"}.
 
