@@ -40,9 +40,6 @@ jobs:
         run: |
           SOURCE_COMMIT="$(git log -1 --pretty="%an: %B" "$GITHUB_SHA")"
           pushd docs/_site &>/dev/null
-          echo ---
-          echo $(git branch)
-          echo ---
           : > .nojekyll
           git add --all
           git -c user.name="${GITHUB_ACTOR}" -c user.email="${GITHUB_ACTOR}@users.noreply.github.com" \

@@ -8,6 +8,7 @@ exclude:
   - assets/stylesheets
 
 keep_files:
+  - .git
   - assets/javascripts
   - assets/stylesheets
 
