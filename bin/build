@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
+yarn build:html
 yarn build:css
 yarn build:js
-yarn build:html
