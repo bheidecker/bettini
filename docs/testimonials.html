@@ -17,9 +17,10 @@ key: testimonials
 
   <div>
     {% for item in list_items %}
-      {% capture color %}{% cycle "bg-blue-100", "bg-white" %}{% endcapture %}
-      <div class="px-4 sm:px-6 lg:px-8 {{ color }}">
-        {% include testimonial.html item=item %}
+      {% capture color %}{% cycle "blue-100", "white" %}{% endcapture %}
+      {% if color == "white" %}{% assign inverse = "blue-300" %}{% else %}{% assign inverse = "white" %}{% endif %}
+      <div class="">
+        {% include testimonial.html item=item color=color inverse=inverse %}
       </div>
     {% endfor %}
   </div>
