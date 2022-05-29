@@ -1,4 +1,5 @@
 baseurl: https://www.bheidecker.com
+domain: bheidecker.com
 
 languages: ["de", "en"]
 collections_dir: collections

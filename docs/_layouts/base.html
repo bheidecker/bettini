@@ -5,13 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>{% t social_media.title %}</title>
-  <meta property="og:title" content="{% t social_media.title %}" />
-
   <meta name="description" content="{% t social_media.description %}" />
-  <meta property="og:description" content="{% t social_media.description %}" />
 
+  <meta property="og:url" content="{{ site.baseurl_root }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% t social_media.title %}" />
+  <meta property="og:description" content="{% t social_media.description %}" />
   <meta property="og:image" content="{{ site.baseurl_root }}/assets/images/hero.jpg" />
   <meta property="og:locale" content="{{ site.lang }}" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="{{ site.domain }}">
+  <meta property="twitter:url" content="{{ site.baseurl_root }}">
+  <meta name="twitter:title" content="{% t social_media.title %}">
+  <meta name="twitter:description" content="{% t social_media.description %}">
+  <meta name="twitter:image" content="{{ site.baseurl_root }}/assets/images/hero.jpg">
 
   <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/stylesheets/main.css"/>
 
