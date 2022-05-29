@@ -1,3 +1,4 @@
+# NOTE: It's probably better to keep the social_media part in English
 social_media:
   title: Dr. Bettina Heidecker
   description: >
@@ -25,10 +26,15 @@ carousel:
     text: |
       Dr. Heidecker erhält eine Ehrenprofessur der University of Miami im Anschluss an die 30. Annual Lemberg Lectureship, die sie in diesem Rahmen an der Universität in Miami gehalten hat.
       Dr. Heidecker hatte an der University of Miami ihre Facharztausbildung für innere Medizin erfolgreich abgeschlossen.
+  - image: seoul_podium.jpg
+    text: |
+      Dr. Heidecker presenting about Artificial Intelligence and Myocarditis at the cardiovascular meeting CHORUS in Seoul, 2019.
+      The following year Dr. Heidecker was the keynote speaker at the conference.
 
 images_alt_text:
   hero: "Dr. Bettina Heidecker"
   patient_testimonials: "Dr. Bettina Heidecker in patient visit setting"
+  seoul_panel: "Dr. Heidecker on a cardiovascular panel in Seoul"
   acc_photo: "Dr. Heidecker with her research team at ACC"
   acc_poster: "Dr. Heidecker's team presenting posters at ACC"
 

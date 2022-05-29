@@ -3,11 +3,21 @@ layout: default
 key: recognition
 ---
 
-<div class="space-y-5 max-w-7xl mx-auto pt-4 pb-8 px-4 sm:px-6 lg:px-8">
-  {% tf recognition/awards.md %}
-</div>
+<div class="lg:flex lg:flex-row-reverse">
+  <div class="lg:pt-10 lg:mr-5">
+    <img class="mx-auto h-[20rem] object-scale-down drop-shadow-xl"
+         src="{{ site.baseurl_root }}/assets/images/seoul_panel.jpg"
+         alt="{% t images_alt_text.seoul_panel %}" />
+  </div>
 
-<div class="space-y-5 max-w-7xl mx-auto pt-4 pb-8 px-4 sm:px-6 lg:px-8">
-  {% tf recognition/memberships.md %}
-</div>
+  <div class="lg:w-3/4">
+    <div class="space-y-5 max-w-7xl mx-auto pt-4 pb-8 px-4 sm:px-6 lg:px-8">
+      {% tf recognition/awards.md %}
+    </div>
 
+    <div class="space-y-5 max-w-7xl mx-auto pt-4 pb-8 px-4 sm:px-6 lg:px-8">
+      {% tf recognition/memberships.md %}
+    </div>
+  </div>
+
+</div>
