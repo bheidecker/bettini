@@ -7,6 +7,9 @@ on:
     branches:
       - main
 
+env:
+  REMOTE_BRANCH: gh-pages
+
 jobs:
   deploy_site:
     runs-on: 'ubuntu-latest'
@@ -26,6 +29,7 @@ jobs:
       - run: yarn install --frozen-lockfile
       - name: Clone target branch
         run: |
+          echo "REMOTE_BRANCH=$REMOTE_BRANCH"
           REMOTE_BRANCH="${REMOTE_BRANCH:-gh-pages}"
           REMOTE_REPO="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
           echo "Publishing to ${GITHUB_REPOSITORY} on branch ${REMOTE_BRANCH}"
