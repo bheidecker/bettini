@@ -23,6 +23,14 @@
 
   <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/stylesheets/main.css"/>
 
+  {% for lang in site.languages %}
+    {% if lang == site.default_lang %}
+      <link rel="alternate" hreflang="{{ lang }}" href="{{ site.baseurl_root }}/{{ page.key }}" />
+    {% else %}
+      <link rel="alternate" hreflang="{{ lang }}" href="{{ site.baseurl_root }}/{{ lang }}/{{ page.key }}" />
+    {% endif %}
+  {% endfor %}
+
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.baseurl_root }}/assets/favicons/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl_root }}/assets/favicons/apple-touch-icon-114x114.png" />
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl_root }}/assets/favicons/apple-touch-icon-72x72.png" />
