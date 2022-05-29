@@ -5,6 +5,10 @@
   <title>Dr. Bettina Heidecker: {{ site.translations[site.lang].navigation[page.key] }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta property="og:title" content="{% t social_media.title %}" />
+  <meta property="og:image" content="{{ site.baseurl_root }}/assets/images/hero.jpg" />
+  <meta property="og:description" content="{% t social_media.description %}" />
+
   <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/stylesheets/main.css"/>
 
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.baseurl_root }}/assets/favicons/apple-touch-icon-57x57.png" />
