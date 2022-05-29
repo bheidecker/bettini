@@ -29,8 +29,6 @@ jobs:
       - run: yarn install --frozen-lockfile
       - name: Clone target branch
         run: |
-          echo "REMOTE_BRANCH=$REMOTE_BRANCH"
-          REMOTE_BRANCH="${REMOTE_BRANCH:-gh-pages}"
           REMOTE_REPO="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
           echo "Publishing to ${GITHUB_REPOSITORY} on branch ${REMOTE_BRANCH}"
           rm -rf docs/_site/
@@ -42,8 +40,9 @@ jobs:
         run: |
           SOURCE_COMMIT="$(git log -1 --pretty="%an: %B" "$GITHUB_SHA")"
           pushd docs/_site &>/dev/null
-          echo "Checking out ${REMOTE_BRANCH}"
-          git checkout ${REMOTE_BRANCH}
+          echo ---
+          echo $(git branch)
+          echo ---
           : > .nojekyll
           git add --all
           git -c user.name="${GITHUB_ACTOR}" -c user.email="${GITHUB_ACTOR}@users.noreply.github.com" \
