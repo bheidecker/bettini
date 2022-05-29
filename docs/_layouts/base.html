@@ -1,13 +1,17 @@
 <!doctype html>
-<html>
+<html lang="{{ site.lang }}">
 <head>
   <meta charset="UTF-8">
-  <title>Dr. Bettina Heidecker: {{ site.translations[site.lang].navigation[page.key] }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>{% t social_media.title %}</title>
   <meta property="og:title" content="{% t social_media.title %}" />
-  <meta property="og:image" content="{{ site.baseurl_root }}/assets/images/hero.jpg" />
+
+  <meta name="description" content="{% t social_media.description %}" />
   <meta property="og:description" content="{% t social_media.description %}" />
+
+  <meta property="og:image" content="{{ site.baseurl_root }}/assets/images/hero.jpg" />
+  <meta property="og:locale" content="{{ site.lang }}" />
 
   <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/stylesheets/main.css"/>
 
