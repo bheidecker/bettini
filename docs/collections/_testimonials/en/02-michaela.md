@@ -9,4 +9,4 @@ I feel the need to point out that Dr. Heidecker is a very warm and human doctor,
 who expresses herself in layman terms and who patiently answers all the questions you want to ask.
 She takes her time and is open to hear about the personal circumstances. I appreciate her approachable and
 extremely competent manner and I am very grateful to have found a specialist in this field in her.
-For this I accept a 500 km journey. With this serious diagnosis, I feel in the very best hands with Dr. Heidecker.
+For this I am happy to take a 500 km journey. With this serious diagnosis, I feel in the very best hands with Dr. Heidecker.
