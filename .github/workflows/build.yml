@@ -38,6 +38,7 @@ jobs:
         run: |
           SOURCE_COMMIT="$(git log -1 --pretty="%an: %B" "$GITHUB_SHA")"
           pushd docs/_site &>/dev/null
+          echo "Checking out ${REMOTE_BRANCH}"
           git checkout ${REMOTE_BRANCH}
           : > .nojekyll
           git add --all
