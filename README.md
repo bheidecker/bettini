@@ -1,12 +1,13 @@
 # Maintenance guidelines
 
-## Changing nav links
+## Adding pages and changing nav links
 
 Use the `_data/nav.yml` file to set the order of the nav links. 
 By updating that file, you are also declaring the keys of the nav items.
-These keys are used in two ways:
-- They correspond to an HTML file in the root folder. For example, declaring the key `research` in `_data/nav.yml` will create a nav link to `/research.html` page.  
-- They are translated in `_i18n/<lang>.yml` files under the `navigation` key to provide the language-specific text.
+These keys must:
+- correspond to an HTML file in the root folder. For example, declaring the key `research` in `_data/nav.yml` will create a nav link to `/research.html` page.
+- correspond to the value of the `key` key in the page's "front matter" (the section at the top between two `---`).
+- translated in `_i18n/<lang>.yml` files under the `navigation` key to provide the language-specific text.
 
 ## Adding images to the homepage carousel
 
