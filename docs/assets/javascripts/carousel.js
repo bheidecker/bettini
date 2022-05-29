@@ -57,7 +57,7 @@ export default class Carousel {
 
     slideNavButtons.forEach(slideNavButton => {
       slideNavButton.addEventListener('click', () => {
-        this.showSlide(slideNavButton.dataset.carouselSlideTo);
+        this.showSlide(parseInt(slideNavButton.dataset.carouselSlideTo));
       })
     })
   }
