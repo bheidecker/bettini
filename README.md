@@ -92,3 +92,7 @@ The build pipeline in development is executed with `bin/dev`, which starts the s
 The production build is performed by the workflow defined in `.github/workflows/build.yml`.
 It executes `bin/build` to build the site, and publishes the results to the `gh-pages` branch - 
 the branch Github Pages uses to serve the site.
+
+# Other
+
+[Link](https://commons.wikimedia.org/wiki/File:ECG_for_portal.svg) to the creative commons page of the logo.
