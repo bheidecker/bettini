@@ -7,12 +7,12 @@ key: testimonials
 {% assign list_items = site.testimonials | where_exp: "item", "item.url contains lang" | reverse %}
 
 <div class="max-w-7xl pt-4">
-  <h2 class="md:mb-8 px-4 sm:px-6 lg:px-8">
+  <h2 class="mb-4 px-4 sm:px-6 lg:px-8">
     {% t titles.testimonials.page_title %}
   </h2>
 
   <div class="md:bg-gray-900 drop-shadow-xl">
-    <img class="mx-auto h-[20rem] object-scale-down"
+    <img class="mx-auto h-[20rem] md:object-scale-down object-cover object-right"
          src="{{ site.baseurl_root }}/assets/images/patient_testimonials.jpg"
          alt="{% t images_alt_text.patient_testimonials %}" />
   </div>
