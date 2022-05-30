@@ -6,7 +6,7 @@ key: testimonials
 {% assign lang = site.lang | prepend: '/' | append: '/' %}
 {% assign list_items = site.testimonials | where_exp: "item", "item.url contains lang" | reverse %}
 
-<div class="max-w-7xl pt-4">
+<div class="pt-4">
   <h2 class="mb-4 px-4 sm:px-6 lg:px-8">
     {% t titles.testimonials.page_title %}
   </h2>

@@ -2,7 +2,7 @@
 {% assign last = site.testimonials | where_exp: "item", "item.url contains lang" | last %}
 
 <section class="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
-  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  <div class="relative px-4 sm:px-6 lg:px-8 text-center">
     <div class="relative">
       <h2 class="text-gray-900">
         {% t titles.testimonials.recent %}

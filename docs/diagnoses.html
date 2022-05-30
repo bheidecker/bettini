@@ -7,7 +7,7 @@ key: diagnoses
 {% assign list_items = site.diagnoses | where_exp: "item", "item.url contains lang" %}
 
 <div>
-  <div class="max-w-7xl mx-auto pt-4">
+  <div class="pt-4">
     <div class="px-4 sm:px-6 lg:px-8 space-y-5">
       {% tf diagnoses/intro.md %}
     </div>
