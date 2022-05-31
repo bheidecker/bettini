@@ -1,9 +1,9 @@
 Priv.-Doz. Dr. Bettina Heidecker leitet die Herzinsuffizienz- und Kardiomyopathie Sprechstunde der Charité, Universitätsmedizin Berlin, Campus Benjamin Franklin. 
 
-Dr. Heidecker akzeptiert alle Versicherungen.  Ein Überweisungsschein vom Hausarzt wird bei allgemeiner Versicherung benötigt. Bei Fragen zur Abrechnung, insbesondere für Selbstzahler: Kontaktieren Sie bitte: 030 319008-15 (PVS berlin-brandenburg-hamburg GmbH & Co. KG, www.pvs-bbh.de).
-
 Um einen Termin in der Sprechstunde von Priv.-Doz. Dr. med. Heidecker zu vereinbaren, füllen Sie bitte folgendes Formular aus
 [Charité Website]({{ site.data.links.clinic.form }}){:target="_blank"}.
+
+Dr. Heidecker akzeptiert alle Versicherungen.  Ein Überweisungsschein vom Hausarzt wird bei allgemeiner Versicherung benötigt. Bei Fragen zur Abrechnung, insbesondere für Selbstzahler: Kontaktieren Sie bitte: 030 319008-15 (PVS berlin-brandenburg-hamburg GmbH & Co. KG, www.pvs-bbh.de).
 
 Für Zuweisungen: Bitte senden Sie ein E-Mail an [{{ site.data.links.referring_physicians.email }}](mailto:{{ site.data.links.referring_physicians.email }}) mit einer kurzen Beschreibung und Kontaktdaten des Patienten. 
 
