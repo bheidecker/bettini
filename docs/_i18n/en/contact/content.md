@@ -1,3 +1,5 @@
+## Contact information
+
 Dr. Heidecker is the head of the Heart Failure and Cardiomyopathy Clinic at the Charité, Universitätsmedizin Berlin, Campus Benjamin Franklin.
 
 To make an appointment with Dr. Heidecker at her clinic, please fill the form located on 
