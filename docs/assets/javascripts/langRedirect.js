@@ -8,6 +8,10 @@ export default class LangRedirect {
     }
   }
 
+  willRedirect() {
+    return !!this.aboutToRedirect;
+  }
+
   ensureCorrectLanguage() {
     let langFromStore = this.getLanguageFromStore();
     if (!langFromStore) {
@@ -56,6 +60,7 @@ export default class LangRedirect {
       return
     }
 
+    this.aboutToRedirect = true;
     const path = window.location.pathname;
     const pathWithoutLang = path.replace(`/${urlLang}/`, '/');    // when default lang, path is unaffected
 

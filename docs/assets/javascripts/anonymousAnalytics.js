@@ -1,7 +1,11 @@
 import axios from 'axios';
 
 export default class AnonymousAnalytics {
-  constructor() {
+  constructor(langRedirect) {
+    if (langRedirect.willRedirect()) {
+      return
+    }
+
     this.visit();
 
     document.
