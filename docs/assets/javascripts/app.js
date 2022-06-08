@@ -19,4 +19,4 @@ app.carousels = [];
 Carousel.setup(app.carousels, app.breakpoint);
 
 app.accordion = new Accordion();
-app.anonymousAnalytics = new AnonymousAnalytics(app.langRedirect);
+app.anonymousAnalytics = new AnonymousAnalytics(app.langRedirect, app.breakpoint);

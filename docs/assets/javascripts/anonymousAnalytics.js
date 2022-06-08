@@ -1,11 +1,12 @@
 import axios from 'axios';
 
 export default class AnonymousAnalytics {
-  constructor(langRedirect) {
+  constructor(langRedirect, breakpoint) {
     if (langRedirect.willRedirect()) {
       return
     }
 
+    this.breakpoint = breakpoint;
     this.visit();
 
     document.
@@ -42,6 +43,7 @@ export default class AnonymousAnalytics {
       session: this.sessionId(),
       lang: lang,
       page: window.location.pathname.replace(new RegExp(`^\/${lang}`), ''),
+      breakpoint: this.breakpoint.get(),
       href: window.location.href,
       pathname: window.location.pathname,
       search: window.location.search,
