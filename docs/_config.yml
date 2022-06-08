@@ -1,5 +1,6 @@
 baseurl: https://www.bheidecker.com
 domain: bheidecker.com
+endpoint: https://europe-west3-bheidecker.cloudfunctions.net/pager
 
 languages: ["de", "en"]
 collections_dir: collections

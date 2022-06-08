@@ -5,6 +5,7 @@ import ModalManager from "./modalManager";
 import LangSelector from "./langSelector";
 import LangRedirect from "./langRedirect";
 import Breakpoint from "./breakpoint";
+import AnonymousAnalytics from "./anonymousAnalytics";
 
 window.app = {};
 app.breakpoint = new Breakpoint();
@@ -18,3 +19,4 @@ app.carousels = [];
 Carousel.setup(app.carousels, app.breakpoint);
 
 app.accordion = new Accordion();
+app.anonymousAnalytics = new AnonymousAnalytics();

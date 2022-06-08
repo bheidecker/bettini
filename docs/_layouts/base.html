@@ -52,11 +52,14 @@
   <meta name="msapplication-wide310x150logo" content="{{ site.baseurl_root }}/assets/favicons/mstile-310x150.png" />
   <meta name="msapplication-square310x310logo" content="{{ site.baseurl_root }}/assets/favicons/mstile-310x310.png" />
 </head>
-<body {{ page.body_attr }} class="bg-gray-900">
+<body {{ page.body_attr }} class="bg-gray-900" data-original-lang="{{ site.lang }}">
   <div class="max-w-screen-2xl mx-auto bg-white min-h-screen">
     {% include breakpoint.html %}
     {{ content }}
   </div>
+  <script type="text/javascript">
+    window.endpoint = '{{ site.endpoint }}';
+  </script>
   <script type="text/javascript" src="{{ site.baseurl_root }}/assets/javascripts/main.js"></script>
 </body>
 </html>

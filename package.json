@@ -9,7 +9,10 @@
     "watch:html": "bundle exec jekyll serve -s docs -d docs/_site -b ''",
     "build:css": "npx tailwindcss -i docs/assets/stylesheets/tailwind.css -o docs/_site/assets/stylesheets/main.css --minify",
     "watch:css": "npx tailwindcss -i docs/assets/stylesheets/tailwind.css -o docs/_site/assets/stylesheets/main.css --minify --watch",
-    "build:js": "./node_modules/.bin/esbuild docs/assets/javascripts/app.js --bundle --sourcemap --outfile=docs/_site/assets/javascripts/main.js",
+    "build:js": "./node_modules/.bin/esbuild docs/assets/javascripts/app.js --bundle --minify --outfile=docs/_site/assets/javascripts/main.js",
     "watch:js": "./node_modules/.bin/esbuild docs/assets/javascripts/app.js --bundle --sourcemap --outfile=docs/_site/assets/javascripts/main.js --watch"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
