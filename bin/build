@@ -3,3 +3,7 @@
 yarn build:html
 yarn build:css
 yarn build:js
+
+# exclude_from_localizations doesn't exclude files with front matter. We fix this here.
+rm docs/_site/en/sitemap.xml
+rm docs/_site/en/404.html

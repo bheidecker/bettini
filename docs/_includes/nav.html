@@ -43,11 +43,11 @@
         <div id="lang-selector-menu" class="hidden z-20 origin-top-right absolute right-0 mt-2 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
           <div class="py-1" role="none">
             {% if site.lang == 'de' %}
-              <a href="{{ site.baseurl_root }}/en{{ page.url }}" data-lang="en" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1">
+              <a href="{{ site.baseurl_root }}/en{{ page.url | remove: "index.html" | remove: ".html" }}" data-lang="en" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1">
                 {% include flags/uk.html %} EN
               </a>
             {% else %}
-              <a href="{{ site.baseurl_root }}{{ page.url }}" data-lang="de" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1">
+              <a href="{{ site.baseurl_root }}{{ page.url | remove: "index.html" | remove: ".html" }}" data-lang="de" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1">
                 {% include flags/de.html %} DE
               </a>
             {% endif %}
