@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default class AnonymousAnalytics {
   constructor(langRedirect, breakpoint) {
-    if (langRedirect.willRedirect() || isbot(navigator.userAgent)) {
+    if (langRedirect.willRedirect()) {
       return
     }
 
@@ -39,6 +39,10 @@ export default class AnonymousAnalytics {
 
   call(params) {
     const lang = document.body.dataset.originalLang;
+
+    if (isbot(navigator.userAgent)) {
+      params = { bot: navigator.userAgent, ...params }
+    }
 
     const strParams = this.paramsToString({
       session: this.sessionId(),
