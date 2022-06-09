@@ -1,0 +1,30 @@
+---
+layout: null
+---
+
+<html>
+<body>
+<div id="site">
+  {{ site  | inspect }}
+</div>
+<div id="pages">
+  [
+    {% for page in site.pages %}
+      {% if forloop.index != 1 %}
+        ,
+      {% endif %}
+      {{ page | inspect }}
+    {% endfor %}
+  ]
+</div>
+<script>
+  function parse(id) {
+    const doc = new DOMParser().parseFromString(document.getElementById(id).innerText, "text/html");
+    window[id] = doc.documentElement.textContent.replaceAll('=>', ': ').replaceAll('nil', 'null');
+    window[id] = JSON.parse(window[id]);
+  }
+  parse('site');
+  parse('pages');
+</script>
+</body>
+</html>
