@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    
+
+    
+<url>
+    <loc>/contact</loc>
+        
+    <lastmod>2022-06-09T07:37:20+00:00</lastmod>
+        
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+        
+            
+    <xhtml:link rel="alternate" hreflang="de" href="/contact" />
+            
+        
+            
+    <xhtml:link rel="alternate" hreflang="en" href="/en/contact" />
+            
+        
+</url>
+    
+
+    
+<url>
+    <loc>/diagnoses</loc>
+        
+    <lastmod>2022-06-09T07:37:20+00:00</lastmod>
+        
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+        
+            
+    <xhtml:link rel="alternate" hreflang="de" href="/diagnoses" />
+            
+        
+            
+    <xhtml:link rel="alternate" hreflang="en" href="/en/diagnoses" />
+            
+        
+</url>
+    
+
+    
+<url>
+    <loc>/</loc>
+        
+    <lastmod>2022-06-09T07:37:20+00:00</lastmod>
+        
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+        
+            
+    <xhtml:link rel="alternate" hreflang="de" href="/" />
+            
+        
+            
+    <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+            
+        
+</url>
+    
+
+    
+<url>
+    <loc>/recognition</loc>
+        
+    <lastmod>2022-06-09T07:37:20+00:00</lastmod>
+        
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+        
+            
+    <xhtml:link rel="alternate" hreflang="de" href="/recognition" />
+            
+        
+            
+    <xhtml:link rel="alternate" hreflang="en" href="/en/recognition" />
+            
+        
+</url>
+    
+
+    
+<url>
+    <loc>/research</loc>
+        
+    <lastmod>2022-06-09T07:37:20+00:00</lastmod>
+        
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+        
+            
+    <xhtml:link rel="alternate" hreflang="de" href="/research" />
+            
+        
+            
+    <xhtml:link rel="alternate" hreflang="en" href="/en/research" />
+            
+        
+</url>
+    
+
+    
+
+    
+<url>
+    <loc>/testimonials</loc>
+        
+    <lastmod>2022-06-09T07:37:20+00:00</lastmod>
+        
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+        
+            
+    <xhtml:link rel="alternate" hreflang="de" href="/testimonials" />
+            
+        
+            
+    <xhtml:link rel="alternate" hreflang="en" href="/en/testimonials" />
+            
+        
+</url>
+    
+
+    
+<url>
+    <loc>/updates</loc>
+        
+    <lastmod>2022-06-09T07:37:20+00:00</lastmod>
+        
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+        
+            
+    <xhtml:link rel="alternate" hreflang="de" href="/updates" />
+            
+        
+            
+    <xhtml:link rel="alternate" hreflang="en" href="/en/updates" />
+            
+        
+</url>
+    
+
+</urlset>
