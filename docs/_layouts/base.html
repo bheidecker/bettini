@@ -25,9 +25,9 @@
 
   {% for lang in site.languages %}
     {% if lang == site.default_lang %}
-      <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ page.url | remove: "index.html" | remove: ".html" }}" />
+      <link rel="alternate" hreflang="{{ lang }}" href="{{ site.baseurl_root }}{{ page.url | remove: "index.html" | remove: ".html" }}" />
     {% else %}
-      <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}/{{ lang }}{{ page.url | remove: "index.html" | remove: ".html" }}" />
+      <link rel="alternate" hreflang="{{ lang }}" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url | remove: "index.html" | remove: ".html" }}" />
     {% endif %}
   {% endfor %}
 
