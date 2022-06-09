@@ -13,6 +13,7 @@
     "watch:js": "./node_modules/.bin/esbuild docs/assets/javascripts/app.js --bundle --sourcemap --outfile=docs/_site/assets/javascripts/main.js --watch"
   },
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "isbot": "^3.5.0"
   }
 }

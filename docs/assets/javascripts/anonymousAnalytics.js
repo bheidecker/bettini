@@ -1,8 +1,9 @@
+import isbot from 'isbot';
 import axios from 'axios';
 
 export default class AnonymousAnalytics {
   constructor(langRedirect, breakpoint) {
-    if (langRedirect.willRedirect()) {
+    if (langRedirect.willRedirect() || isbot(navigator.userAgent)) {
       return
     }
 
