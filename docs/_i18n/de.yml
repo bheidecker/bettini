@@ -15,21 +15,21 @@ navigation:
   contact: "Kontakt"
 
 carousel:
-  - image: paul_dudley_white_award.jpg
-    text: |
-      Dr. Heidecker erhält gemeinsam mit ihrem Assistenzarzt Dr. Jan Kottwitz den Paul Dudley White Award, 2018.
-  - image: speaking_at_myocarditis_foundation.jpg
-    text: |
-      Dr. Heidecker präsentiert über ihr Forschungsprojekt beim jährlichen Meeting der Myocarditis Foundation in New York, 2019.
-      Dr. Heidecker erhielt einen der ersten Grants der Myocarditis Foundation und wurde 2021 Mitglied des "Board of Directors" der Foundation.
   - image: lemberg_award.jpg
     text: |
       Dr. Heidecker erhält eine Ehrenprofessur der University of Miami im Anschluss an die 30. Annual Lemberg Lectureship, die sie in diesem Rahmen an der Universität in Miami gehalten hat.
       Dr. Heidecker hatte an der University of Miami ihre Facharztausbildung für innere Medizin erfolgreich abgeschlossen.
+  - image: speaking_at_myocarditis_foundation.jpg
+    text: |
+      Dr. Heidecker präsentiert über ihr Forschungsprojekt beim jährlichen Meeting der Myocarditis Foundation in New York, 2019.
+      Dr. Heidecker erhielt einen der ersten Grants der Myocarditis Foundation und wurde 2021 Mitglied des "Board of Directors" der Foundation.
   - image: seoul_podium.jpg
     text: |
       Dr. Heidecker presenting about Artificial Intelligence and Myocarditis at the cardiovascular meeting CHORUS in Seoul, 2019.
       The following year Dr. Heidecker was the keynote speaker at the conference.
+  - image: paul_dudley_white_award.jpg
+    text: |
+      Dr. Heidecker erhält gemeinsam mit ihrem Assistenzarzt Dr. Jan Kottwitz den Paul Dudley White Award, 2018.
 
 images_alt_text:
   hero: "Dr. Bettina Heidecker"
