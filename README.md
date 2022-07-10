@@ -47,7 +47,7 @@ It's important to use the right YAML keys in the front matter, as described belo
 There are currently 3 supported lists:
 - Clinical specialties that appear on the homepage, under `collections/_specialties`. Expected front-matter key: `heading`.
 - Patient information about tests and diagnoses, under `collections/_diagnoses`. Expected front-matter key: `heading`.
-- Testimonials, under `collections/_testimonials`. Expected front-matter key: `name`.
+- Testimonials, under `collections/_testimonials`. Expected front-matter key: `name`. Optional front-matter key: `weight` (default is 1; affects the daily rotation on the homepage).
 
 ## Adding links in `.md` files
 
