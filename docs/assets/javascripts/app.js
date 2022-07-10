@@ -6,8 +6,11 @@ import LangSelector from "./langSelector";
 import LangRedirect from "./langRedirect";
 import Breakpoint from "./breakpoint";
 import AnonymousAnalytics from "./anonymousAnalytics";
+import PickTestimonial from "./pickTestimonial";
 
 window.app = {};
+
+app.pickedTestimonial = new PickTestimonial(window.testimonials);
 app.breakpoint = new Breakpoint();
 app.modalManager = new ModalManager();
 app.langRedirect = new LangRedirect(['de', 'en']);

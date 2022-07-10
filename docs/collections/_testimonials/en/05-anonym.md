@@ -1,5 +1,6 @@
 ---
 name: Anonymous
+weight: 9
 ---
 Dr. Heidecker took me into her care towards the end of my Olympic athlete career.
 Together we were able to ensure a healthy transition from competitive sports to a life without it.
