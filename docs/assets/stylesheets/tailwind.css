@@ -17,3 +17,7 @@ h2 {
 ul {
     @apply list-disc px-4;
 }
+
+.twitter-timeline {
+    @apply mx-auto;
+}
