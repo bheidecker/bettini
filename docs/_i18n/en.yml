@@ -33,9 +33,9 @@ images_alt_text:
   hero: "Dr. Bettina Heidecker"
   patient_testimonials: "Dr. Bettina Heidecker in patient visit setting"
   seoul_panel: "Dr. Heidecker on a cardiovascular panel in Seoul"
-  acc_photo: "Dr. Heidecker with her research team at ACC"
+  research_echo: "Visiting students at Dr. Heidecker's lab"
   acc_poster: "Dr. Heidecker's team presenting posters at ACC"
-  usz: "Dr. Bettina Heidecker"
+  hallway: "Dr. Bettina Heidecker"
 
 hero:
   title: "Bettina Heidecker, MD"
@@ -56,6 +56,7 @@ titles:
   testimonials:
     recent: "Recent Patient Testimonial"
     page_title: "Patient Testimonials"
+  contact: "Contact information"
 
 footer:
   copyright: "All rights reserved."

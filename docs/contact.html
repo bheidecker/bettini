@@ -3,8 +3,18 @@ layout: default
 key: contact
 ---
 
-<div class="space-y-5 pt-4 pb-8 px-4 sm:px-6 lg:px-8 text-justify">
-  {% tf contact/content.md %}
-</div>
+<div class="pt-4">
+  <h2 class="mb-4 px-4 sm:px-6 lg:px-8">
+    {% t titles.contact %}
+  </h2>
 
-<div class="pb-8"></div>
+  <div class="md:bg-gray-900 drop-shadow-xl">
+    <img class="mx-auto h-[20rem] md:object-scale-down object-cover"
+         src="{{ site.baseurl_root }}/assets/images/bettina_hallway.jpg"
+         alt="{% t images_alt_text.hallway %}" />
+  </div>
+
+  <div class="space-y-5 pt-4 pb-8 px-4 sm:px-6 lg:px-8 text-justify">
+    {% tf contact/content.md %}
+  </div>
+</div>
