@@ -3,10 +3,11 @@ research:
   group_page:
     en: https://kardio-cbf.charite.de/en/forschung/translationale_forschung/ag_heidecker/
     de: https://kardio-cbf.charite.de/forschung/translationale_forschung/ag_heidecker/
-  pubmed: https://pubmed.ncbi.nlm.nih.gov/?term=Heidecker+Bettina
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/?term=Heidecker+B
 
 clinic:
-  form: https://kardio-cbf.charite.de/metas/kontakt_aufnehmen_mit/adresse/heidecker/
+  en: https://kardio-cbf.charite.de/en/metas/contactform/adresse/pd_dr_med_bettina_heidecker/
+  de: https://kardio-cbf.charite.de/metas/kontakt_aufnehmen_mit/adresse/pd_dr_med_bettina_heidecker/
 
 referring_physicians: 
   email: kardio-cbf-hsa@charite.de

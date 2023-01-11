@@ -35,7 +35,8 @@
           {% tf home/hero_tag.md %}
         </div>
         <div class="mt-4">
-          {% include button/external.html href=site.data.links.clinic.form key="buttons.schedule" %}
+          {% assign contact_link = site.data.links.clinic[site.lang] %}
+          {% include button/external.html href=contact_link key="buttons.schedule" %}
         </div>
       </div>
     </main>
