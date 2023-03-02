@@ -1,6 +1,6 @@
 ---
 name: Anonym
-weight: 6
+weight: 3
 ---
 
 Frau Dr. Heidecker nahm mich zum Ende meiner Karriere als olympischer Athlet in ihre Behandlung. 
