@@ -8,5 +8,5 @@ Die große Mehrheit der Myokarditisfälle erholt sich sehr gut.
 Manche Fälle sind schwerwiegender und erfordern intensiveres Monitoring, Therapie und häufigere Nachkontrollen. 
 Nach einer Myokarditis wird eine körperliche Schonung für 3 Monate dringend empfohlen, da in dieser Zeit bei köperlicher Anstrengung ein erhöhtes Risiko für Rhythmusstörungen und für eine Verschlechterung der Erkrankung beschrieben wurde. 
 Wir haben die erste prospektive klinische Studie zu diesem Thema durchgeführt, in welcher Patienten 3 Monate nach Myokarditis wieder sportlich aktiv sein durften.  Es gab nach der 3-monatigen Sportpause keine Komplikationen. 
-Wenn Sie mehr über Myokarditis lesen möchten, empfehlen wir auch die Website der Myocarditis Foundation, in welcher Dr. Heidecker als Mitglied des "Board of Directors" tätig ist:
+Wenn Sie mehr über Myokarditis lesen möchten, empfehlen wir auch die Website der Myocarditis Foundation, in welcher Dr. Heidecker als Mitglied des "Board of Directors" tätig ist. Mehr Information zu Myokarditis finden Sie auf der Website der Myocarditis Foundation:
 [https://www.myocarditisfoundation.org](https://www.myocarditisfoundation.org/){:target="_blank"}
