@@ -11,5 +11,5 @@ exercise induced arrhythmias and worsening of the disease has been reported in t
 first study in humans resuming sports after 3 months and did not observe any medical issues developing after that 
 interval.
 If you would like to read more about myocarditis, you may be also interested in the website of the Myocarditis 
-Foundation for which Dr. Heidecker serves as a member of the Board of Directors. More information on myocarditis you can find on the website of the Myocarditis Foundation: 
+Foundation for which Dr. Heidecker serves as a member of the Board of Directors. More information on myocarditis can be found on the website of the Myocarditis Foundation: 
 [https://www.myocarditisfoundation.org](https://www.myocarditisfoundation.org/){:target="_blank"}
