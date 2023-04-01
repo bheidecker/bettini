@@ -13,6 +13,7 @@ export default class Carousel {
     this.showSlide(0);
     this.setupSlideNavButtons();
     this.setupSideButtons();
+    this.setupVideoPlayback();
     this.setMinHeight();
     window.addEventListener('resize', () => this.setMinHeight());
   }
@@ -72,6 +73,70 @@ export default class Carousel {
       const prevSlide = (this.selectedSlide - 1 + this.slideCount) % this.slideCount;
       this.showSlide(prevSlide);
     })
+  }
+
+  hideUIWhilePlayingVideo(videoContainer) {
+    this.carousel.querySelector('[data-carousel-text-container]').classList.remove('md:inline');
+    this.carousel.querySelector('[data-carousel-text-container]').classList.add('hidden');
+    this.carousel.querySelector('.carousel-nav-direct').classList.remove('md:block');
+    this.carousel.querySelectorAll('.carousel-nav-button').forEach(x => x.classList.add('hidden'));
+    videoContainer.querySelector('.play-video-btn').classList.add('hidden');
+  }
+
+  showUIWhilePlayingVideo(videoContainer) {
+    this.carousel.querySelector('[data-carousel-text-container]').classList.add('md:inline');
+    this.carousel.querySelector('[data-carousel-text-container]').classList.remove('hidden');
+    this.carousel.querySelector('.carousel-nav-direct').classList.add('md:block');
+    this.carousel.querySelectorAll('.carousel-nav-button').forEach(x => x.classList.remove('hidden'));
+    videoContainer.querySelector('.play-video-btn').classList.remove('hidden');
+  }
+
+  setupVideoPlayback() {
+    this.carousel.querySelectorAll('.video-thumbnail-container').forEach(container => {
+      let pauseTime = null;
+      const videoId = container.dataset.videoId;
+      const startTime = container.dataset.start;
+
+      container.querySelector('.play-video-btn').addEventListener('click', () => {
+        if (this.breakpoint.get() === 'sm') {
+          window.open(`https://www.youtube.com/watch?v=${videoId}&t=${startTime}`, '_blank');
+        } else {
+          this.hideUIWhilePlayingVideo(container);
+
+          const iframe = document.createElement('iframe');
+          iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?start=${pauseTime || startTime}&autoplay=1;modestbranding=1&rel=0&enablejsapi=1`);
+          iframe.setAttribute('frameborder', '0');
+          iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+          iframe.setAttribute('allowfullscreen', '');
+          iframe.classList.add('w-full', 'h-full', 'absolute', 'top-0', 'left-0');
+          iframe.addEventListener('load', () => {
+            const player = new YT.Player(iframe, {
+              events: {
+                'onStateChange': (event) => {
+                  if(event.data === YT.PlayerState.PAUSED) {
+                    pauseTime = Math.floor(player.getCurrentTime());
+                    setTimeout(() => {
+                      // If we're still paused after 100ms, end the presentation
+                      if (event.target.getPlayerState() === YT.PlayerState.PAUSED) {
+                        this.showUIWhilePlayingVideo(container);
+                        iframe.remove();
+                      }
+                    }, 250)
+                  }
+
+                  if(event.data === YT.PlayerState.ENDED) {
+                    pauseTime = null;
+                    this.showUIWhilePlayingVideo(container);
+                    iframe.remove();
+                  }
+                }
+              }
+            });
+          });
+          container.appendChild(iframe);
+        }
+      });
+    });
   }
 
   showSlide(index) {
