@@ -21,7 +21,7 @@
   <meta name="twitter:description" content="{% t social_media.description %}">
   <meta name="twitter:image" content="{{ site.baseurl_root }}/assets/images/hero.jpg">
 
-  <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/stylesheets/main.css"/>
+  <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/stylesheets/main.css?v={{ site.time | date: '%s' }}"/>
 
   {% for lang in site.languages %}
     {% if lang == site.default_lang %}
@@ -60,6 +60,6 @@
   <script type="text/javascript">
     window.endpoint = '{{ site.endpoint }}';
   </script>
-  <script type="text/javascript" src="{{ site.baseurl_root }}/assets/javascripts/main.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl_root }}/assets/javascripts/main.js?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>
