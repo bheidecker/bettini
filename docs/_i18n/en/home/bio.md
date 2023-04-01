@@ -1,4 +1,4 @@
-PD Dr. Bettina Heidecker, MD, FESC, FACC is the Head of the Heart Failure and Cardiomyopathy Clinic at the Charité,
+PD Dr. Bettina Heidecker, MD, FESC, FACC is the Head of Heart Failure and Cardiomyopathy at the Charité,
 Universitätsmedizin Berlin, Campus Benjamin Franklin.
 She trained as Post-Doctorate Fellow at the Johns Hopkins University.  In 2007, she followed her mentor Dr. Joshua Hare to the University of Miami, where she completed her research projects and residency training in internal medicine.  After that, she successfully completed a cardiology fellowship at the University of California, San Francisco (UCSF).
 Following her training as a clinician-scientist, she returned to Europe and established a myocarditis clinic at Zurich University Hospital. In 2018, she accepted her position at the Charité.

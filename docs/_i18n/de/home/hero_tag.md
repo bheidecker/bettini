@@ -2,4 +2,4 @@ Zertifiziert für Kardiologie, Innere Medizin und Echokardiografie in Europa und
 
 Sprachen: Deutsch, Englisch, Französisch, Spanisch
 
-Priv.-Doz. Dr. med. Heidecker leitet den Bereich Herzinsuffizienz und Kardiomyopathien der Charité, Universitätsmedizin Berlin, Campus Benjamin Franklin.
+Priv.-Doz. Dr. med. Bettina Heidecker leitet den Bereich Herzinsuffizienz und Kardiomyopathie am Deutschen Herzzentrum der Charité (DHZC), Universitätsmedizin Berlin, Campus Benjamin Franklin.

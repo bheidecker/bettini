@@ -1,4 +1,4 @@
-Priv.-Doz. Dr. med. Bettina Heidecker, FESC, FACC leitet die Herzinsuffizienz- und Kardiomyopathiesprechstunde an der Charité,
+Priv.-Doz. Dr. med. Bettina Heidecker, FESC, FACC leitet den Bereich Herzinsuffizienz und Kardiomyopathie am Deutschen Herzzentrum der Charité (DHZC), Universitätsmedizin Berlin, Campus Benjamin Franklin.
 Universitätsmedizin Berlin, Campus Benjamin Franklin.
 Sie begann nach dem Medizinstudium mit einer Ausbildung als Post-Doctorate Fellow in der kardiovaskulären Forschung an der Johns Hopkins Universität Baltimore. Danach folgte Sie ihrem Mentor Prof. Joshua Hare an die University of Miami, wo sie erfolgreich ihre Facharztausbildung für Innere Medizin abgeschlossen hatte.  Im Anschluss absolvierte sie ihre Facharztausbildung für Kardiologie an der University of California, San Francisco (UCSF).
 Danach kehrte sie nach Europa zurück und etablierte eine Myokarditis Sprechstunde am Universitätsspital Zürich. 

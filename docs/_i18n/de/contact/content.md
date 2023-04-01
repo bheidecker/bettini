@@ -1,4 +1,4 @@
-Priv.-Doz. Dr. Bettina Heidecker leitet die Herzinsuffizienz- und Kardiomyopathie Sprechstunde der Charité, Universitätsmedizin Berlin, Campus Benjamin Franklin. 
+Priv.-Doz. Dr. med. Bettina Heidecker leitet den Bereich Herzinsuffizienz und Kardiomyopathie am Deutschen Herzzentrum der Charité (DHZC), Universitätsmedizin Berlin, Campus Benjamin Franklin. 
 
 Um einen Termin in der Sprechstunde von Priv.-Doz. Dr. med. Heidecker zu vereinbaren, füllen Sie bitte folgendes Formular aus
 [Charité Website]({{ site.data.links.clinic.de }}){:target="_blank"}.
