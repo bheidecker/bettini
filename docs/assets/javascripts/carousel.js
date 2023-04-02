@@ -97,10 +97,9 @@ export default class Carousel {
       const videoId = container.dataset.videoId;
       const startTime = container.dataset.start;
 
-      container.querySelector('.play-video-btn').addEventListener('click', () => {
-        if (this.breakpoint.get() === 'sm') {
-          window.open(`https://www.youtube.com/watch?v=${videoId}&t=${startTime}`, '_blank');
-        } else {
+      container.querySelector('.play-video-btn').addEventListener('click', event => {
+        if (this.breakpoint.get() !== 'sm') {
+          event.preventDefault();
           this.hideUIWhilePlayingVideo(container);
 
           const iframe = document.createElement('iframe');
