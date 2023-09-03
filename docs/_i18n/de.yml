@@ -21,6 +21,10 @@ carousel:
     start: 33
     text: |
       Video: UCSF Cardiology Grand Rounds - Dr. Heidecker spricht über Myokarditis und die COVID-19 Pandemie
+  - type: applepodcast
+    src: https://embed.podcasts.apple.com/gb/podcast/diagnosis-risk-stratification-and-management/id445358212?i=1000597380107 
+    text: |
+      Dr. Heidecker spricht im BMJ Heart Podcast über Myokarditis (Januar 2023)
   - type: image
     image: lemberg_award.jpg
     text: |

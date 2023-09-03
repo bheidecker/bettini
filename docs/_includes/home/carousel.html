@@ -13,6 +13,22 @@
         </span>
       </a>
     </div>
+    {% elsif item.type == "applepodcast" %}
+    <div 
+      class="object-cover object-top w-full h-96 md:h-full bg-center bg-no-repeat bg-cover" 
+      style="background-image: url('{{ site.baseurl_root }}/assets/images/sound_wave.jpg');"
+    >
+      <span class="w-full h-full px-16 flex justify-center items-center">
+        <iframe 
+          allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" 
+          frameborder="0" 
+          height="175" 
+          style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" 
+          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+          src="{{ item.src }}">
+        </iframe>
+      </span>
+    </div>      
     {% else %}
     <img class="object-cover object-top w-full h-96 md:h-full"
          src="{{ site.baseurl_root }}/assets/images/carousel/{{ item.image }}"

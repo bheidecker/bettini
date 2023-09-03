@@ -20,6 +20,10 @@ carousel:
     start: 33
     text: | 
       Watch Dr. Heidecker's 2023 UCSF Cardiology Grand Rounds on Myocarditis and the COVID-19 Pandemic
+  - type: applepodcast
+    src: https://embed.podcasts.apple.com/gb/podcast/diagnosis-risk-stratification-and-management/id445358212?i=1000597380107 
+    text: |
+      Listen to Dr. Heidecker speak on Myocarditis on BMJ's Heart Podcast, Jan 2023
   - type: image
     image: lemberg_award.jpg
     text: |
