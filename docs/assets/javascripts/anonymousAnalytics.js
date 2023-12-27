@@ -56,7 +56,7 @@ export default class AnonymousAnalytics {
       ...params
     });
 
-    axios.get(`${window.endpoint}${strParams}`);
+    axios.get(`${window.pagerEndpoint}${strParams}`);
   }
 
   paramsToString(params) {

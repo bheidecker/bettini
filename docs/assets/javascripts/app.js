@@ -7,6 +7,7 @@ import LangRedirect from "./langRedirect";
 import Breakpoint from "./breakpoint";
 import AnonymousAnalytics from "./anonymousAnalytics";
 import PickTestimonial from "./pickTestimonial";
+import TwitterUpdate from "./twitterUpdates"
 
 window.app = {};
 
@@ -23,3 +24,5 @@ Carousel.setup(app.carousels, app.breakpoint);
 
 app.accordion = new Accordion();
 app.anonymousAnalytics = new AnonymousAnalytics(app.langRedirect, app.breakpoint);
+
+app.twitter = new TwitterUpdate();

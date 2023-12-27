@@ -58,7 +58,8 @@
     {{ content }}
   </div>
   <script type="text/javascript">
-    window.endpoint = '{{ site.endpoint }}';
+    window.pagerEndpoint = '{{ site.pager_endpoint }}';
+    window.twitterEndpoint = '{{ site.twitter_endpoint }}';
   </script>
   <script type="text/javascript" src="{{ site.baseurl_root }}/assets/javascripts/main.js?v={{ site.time | date: '%s' }}"></script>
 </body>

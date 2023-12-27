@@ -1,6 +1,7 @@
 baseurl: https://www.bheidecker.com
 domain: bheidecker.com
-endpoint: https://europe-west3-bheidecker.cloudfunctions.net/pager
+pager_endpoint: https://europe-west3-bheidecker.cloudfunctions.net/pager
+twitter_endpoint: https://europe-west3-bheidecker.cloudfunctions.net/getTwitter
 
 languages: ["de", "en"]
 collections_dir: collections
