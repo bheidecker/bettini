@@ -24,7 +24,7 @@
 ">
   <meta name="twitter:image" content="https://www.bheidecker.com/assets/images/hero.jpg">
 
-  <link rel="stylesheet" href="https://www.bheidecker.com/assets/stylesheets/main.css?v=1703710006"/>
+  <link rel="stylesheet" href="https://www.bheidecker.com/assets/stylesheets/main.css?v=1703717895"/>
 
   
     
@@ -277,17 +277,17 @@
       <!-- Header -->
 
       <a
-        class="btn block flex hover:bg-sky-100 hover:underline hover:decoration-1 p-3 rounded-t-xl"
+        class="btn block flex hover:bg-sky-100 hover:underline hover:decoration-1 p-3 rounded-t-xl justify-center"
         target="_blank"
         href="https://twitter.com/BettinaHeideck1"
       >
         <div class="text-xl text-black font-bold">
           Tweets from @BettinaHeideck1
         </div>
-        <div class="grow"></div>
+        <div class="hidden md:block grow"></div>
         <button
           onclick="((e) => { e.preventDefault(); window.open('https://twitter.com/intent/follow?screen_name=BettinaHeideck1', '_blank')})(event)"
-          class="inline-flex items-center justify-center px-4 py-1 border border-transparent text-sm font-bold rounded-full text-white bg-black hover:bg-gray-800 hover:no-underline"
+          class="hidden md:inline-flex items-center justify-center px-4 py-1 border border-transparent text-sm font-bold rounded-full text-white bg-black hover:bg-gray-800 hover:no-underline"
         >
           Follow on Twitter
         </button>
@@ -315,9 +315,13 @@
 
 <template id="tmpl-twitter-card">
   <div
-    class="last:rounded-b-xl border-gray-300 selector-twitter-card flex flex-col btn p-4 gap-3 hover:bg-gray-100 cursor-pointer"
+    class="last:rounded-b-xl border-gray-300 selector-twitter-card flex flex-col btn md:p-4 gap-3 hover:bg-gray-100 cursor-pointer"
   >
-    <div class="selector-twitter-retweet-header flex text-slate-500 gap-4">
+    <!-- Retweet header -->
+
+    <div
+      class="selector-twitter-retweet-header flex text-slate-500 gap-4 mt-3 md:mt-0"
+    >
       <div class="w-[40px] self-center">
         <div class="flex justify-end -mr-1">
           <svg viewBox="0 0 24 24" class="fill-current w-[16px] h-[16px]">
@@ -338,9 +342,9 @@
       </button>
     </div>
 
-    <div class="flex gap-4">
+    <div class="md:flex md:gap-4">
       <!-- Avatar  -->
-      <div class="flex-none">
+      <div class="hidden md:block flex-none">
         <img
           class="selector-twitter-avatar-img w-[40px] object-cover rounded-full"
         />
@@ -351,30 +355,44 @@
       <div class="grow flex flex-col gap-2">
         <!-- Card Header -->
 
-        <div class="flex justify-items-center">
-          <div class="font-medium">
-            <span class="placeholder-twitter-user-name"></span>
+        <div
+          class="flex mt-2 md:mt-0 justify-items-left md:justify-items-center"
+        >
+          <div class="md:hidden ml-4 flex-none">
+            <img
+              class="selector-twitter-avatar-img w-[40px] object-cover rounded-full"
+            />
           </div>
-          <div class="selector-twitter-verified">
-            <svg
-              viewBox="0 0 22 22"
-              class="inline text-sky-500 fill-current w-[20px] -mt-1"
-              data-testid="icon-verified"
-            >
-              <g>
-                <path
-                  d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"
-                ></path>
-              </g>
-            </svg>
+
+          <div class="flex flex-col md:flex-row text-left pl-2 md:pl-0">
+            <div class="font-medium">
+              <span class="placeholder-twitter-user-name"></span>
+            </div>
+
+            <div class="selector-twitter-verified">
+              <svg
+                viewBox="0 0 22 22"
+                class="inline text-sky-500 fill-current w-[20px] -mt-1"
+                data-testid="icon-verified"
+              >
+                <g>
+                  <path
+                    d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+
+            <div class="text-gray-600">
+              <span class="placeholder-twitter-user-handle"></span>
+              ·
+              <span class="placeholder-twitter-post-date"></span>
+            </div>
           </div>
-          <div class="text-gray-600 pl-2">
-            <span class="placeholder-twitter-user-handle"></span>
-            ·
-            <span class="placeholder-twitter-post-date"></span>
-          </div>
+
           <div class="grow"></div>
-          <div>
+
+          <div class="pr-4 md:pr-0">
             <svg
               viewBox="0 0 24 24"
               class="inline text-sky-500 fill-current w-[24px]"
@@ -390,18 +408,20 @@
 
         <!-- Card text -->
 
-        <div class="text-left">
+        <div class="text-left px-4 md:p-0">
           <span class="placeholder-twitter-post-text"></span>
         </div>
 
         <!-- Card image -->
 
         <div
-          class="selector-twitter-media h-[280px] bg-cover bg-center rounded-2xl mt-2 drop-shadow-md"
+          class="selector-twitter-media h-[280px] bg-cover bg-center md:rounded-2xl mt-2 drop-shadow-md"
         ></div>
 
+        <!-- Subtweet -->
+
         <button
-          class="selector-twitter-subtweet-card rounded-2xl text-left flex flex-col border border-gray-300 p-3 gap-2 mt-2 hover:bg-slate-200"
+          class="selector-twitter-subtweet-card rounded-2xl text-left flex flex-col border border-gray-300 p-3 gap-2 mx-4 md:m-0 hover:bg-slate-200"
         >
           <div class="flex flex-row gap-1">
             <img
@@ -417,21 +437,23 @@
             </div>
           </div>
 
-          <div class="flex flex-row gap-3">
-            <div class="rounded-2xl border border-gray-300">
+          <div
+            class="flex flex-row gap-3 max-h-24 md:max-h-fit overflow-hidden"
+          >
+            <div class="rounded-2xl">
               <div
-                class="selector-twittter-subtweet-media h-[120px] w-[120px] bg-cover bg-left rounded-2xl border-gray-300 drop-shadow-md"
+                class="selector-twittter-subtweet-media h-[60px] w-[60px] md:h-[120px] md:w-[120px] bg-cover bg-left rounded-2xl drop-shadow-md"
               ></div>
             </div>
-            <div class="text-sm">
+            <p class="text-sm text-ellipsis">
               <span class="placeholder-twitter-subtweet-post-text"></span>
-            </div>
+            </p>
           </div>
         </button>
 
         <!-- Comment and Like -->
 
-        <div class="flex gap-5">
+        <div class="flex gap-5 mb-2 ml-4">
           <!-- Comment -->
 
           <button
@@ -520,6 +542,6 @@
     window.pagerEndpoint = 'https://europe-west3-bheidecker.cloudfunctions.net/pager';
     window.twitterEndpoint = 'https://europe-west3-bheidecker.cloudfunctions.net/getTwitter';
   </script>
-  <script type="text/javascript" src="https://www.bheidecker.com/assets/javascripts/main.js?v=1703710006"></script>
+  <script type="text/javascript" src="https://www.bheidecker.com/assets/javascripts/main.js?v=1703717895"></script>
 </body>
 </html>
