@@ -51,7 +51,7 @@ export default class TwitterUpdate {
         subtweetCardNode.parentNode.removeChild(subtweetCardNode);
       }
 
-      card.querySelector('.selector-twitter-avatar-img').setAttribute('src', tweet.retweeted_tweet?.author?.avatar || tweet.author.avatar);
+      card.querySelectorAll('.selector-twitter-avatar-img').forEach(x => x.setAttribute('src', tweet.retweeted_tweet?.author?.avatar || tweet.author.avatar));
       card.querySelector('.placeholder-twitter-user-name').outerHTML = tweet.retweeted_tweet?.author?.name || tweet.author.name;
       card.querySelector('.placeholder-twitter-user-handle').outerHTML = '@' + (tweet.retweeted_tweet?.author?.screen_name || tweet.author.screen_name);
       card.querySelector('.placeholder-twitter-post-date').outerHTML = this._shortDate(tweet.retweeted_tweet?.created_at || tweet.created_at);
