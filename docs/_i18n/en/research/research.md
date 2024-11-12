@@ -1,4 +1,4 @@
-## Research Activities 
+## Research Activities
 
 The research group of Dr. Bettina Heidecker investigates cardiomyopathies and heart failure.
 Cardiomyopathy is a term that describes a diseased heart muscle.
@@ -24,6 +24,4 @@ If you are interested in working in Dr. Heidecker’s research team, please cont
 [{{ site.data.links.research.email }}](mailto:{{ site.data.links.research.email }})
 
 You can find more information about Dr. Heidecker's research group on the
-[Charité Website]({{site.data.links.research.group_page[site.lang]}}){:target="_blank"}.
-
-
+[Charité Website]({{site.data.links.research.group_page[site.lang]}}){:target="\_blank"} (in German).
