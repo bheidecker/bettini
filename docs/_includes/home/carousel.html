@@ -4,7 +4,7 @@
   {% for item in items %}
   <div class="relative h-full w-full" data-carousel-item="">
     {% if item.type == "video" %}
-    <div class="video-thumbnail-container object-cover object-top w-full h-96 md:h-full bg-center bg-no-repeat bg-cover" style="background-image: url('{{ site.baseurl_root }}/assets/images/carousel/{{ item.thumbnail }}');" data-video-id="{{ item.video_id }}" data-start="{{ item.start | default: 0 }}">
+    <div class="{{ item.image_class_override | default: 'bg-cover bg-top' }} video-thumbnail-container w-full h-96 md:h-full bg-no-repeat" style="background-image: url('{{ site.baseurl_root }}/assets/images/carousel/{{ item.thumbnail }}');" data-video-id="{{ item.video_id }}" data-start="{{ item.start | default: 0 }}">
       <a class="play-video-btn absolute inset-0 w-full h-full flex justify-center items-center cursor-default" href="https://www.youtube.com/watch?v={{ item.video_id }}&t={{ item.start | default: 0 }}" target="_blank">
         <span class="cursor-pointer ring-5 ring-white inline-flex justify-center items-center w-24 h-24 rounded-full bg-gray-800/30 hover:bg-gray-800/60 ring-4 ring-white/50 hover:ring-white/90">
           <svg class="w-12 h-12 text-white fill-current transform translate-x-1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -30,7 +30,7 @@
       </span>
     </div>      
     {% else %}
-    <img class="object-cover object-top w-full h-96 md:h-full"
+    <img class="{{ item.image_class_override | default: 'object-cover object-top' }} w-full h-96 md:h-full"
          src="{{ site.baseurl_root }}/assets/images/carousel/{{ item.image }}"
          alt="{{ item.text | newline_to_br | split: "<br />" | first | strip }}" />
     {% endif %}

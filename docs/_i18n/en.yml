@@ -18,10 +18,18 @@ carousel:
     thumbnail: grand_rounds.jpg
     video_id: WZ8Il-17IZM
     start: 33
-    text: | 
+    text: |
       Watch Dr. Heidecker's 2023 UCSF Cardiology Grand Rounds on Myocarditis and the COVID-19 Pandemic
+  - type: video
+    thumbnail: warriors_movie_poster.jpg
+    video_id: M2R23Quu82c
+    image_class_override: bg-contain bg-center bg-black
+    text: |
+      Warriors is a documentary about life with sarcoidosis. 
+      Dr. Heidecker and some of her patients take part in the film. 
+      In 2023 the film was honored with the "Most Impactful Documentary" award by the Hollywood Florida Film Festival.
   - type: applepodcast
-    src: https://embed.podcasts.apple.com/gb/podcast/diagnosis-risk-stratification-and-management/id445358212?i=1000597380107 
+    src: https://embed.podcasts.apple.com/gb/podcast/diagnosis-risk-stratification-and-management/id445358212?i=1000597380107
     text: |
       Listen to Dr. Heidecker speak on Myocarditis on BMJ's Heart Podcast, Jan 2023
   - type: image
@@ -41,7 +49,7 @@ carousel:
   - type: image
     image: paul_dudley_white_award.jpg
     text: |
-      Dr. Heidecker together with her fellow Dr. Jan Kottwitz receiving the Paul Dudley White International Scholar Award from the American Heart Association in 2018.      
+      Dr. Heidecker together with her fellow Dr. Jan Kottwitz receiving the Paul Dudley White International Scholar Award from the American Heart Association in 2018.
 
 images_alt_text:
   hero: "Dr. Bettina Heidecker"

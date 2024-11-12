@@ -21,8 +21,16 @@ carousel:
     start: 33
     text: |
       Video: UCSF Cardiology Grand Rounds - Dr. Heidecker spricht über Myokarditis und die COVID-19 Pandemie
+  - type: video
+    thumbnail: warriors_movie_poster.jpg
+    video_id: M2R23Quu82c
+    image_class_override: bg-contain bg-center bg-black
+    text: |
+      Warriors ist eine Dokumentation über das Leben mit Sarkoidose. 
+      Dr. Heidecker und einige ihrer Patienten wirken in dem Film mit. 
+      Im Jahr 2023 erhielt der Film den Preis „Most Impactful Documentary“ beim Hollywood Florida Film Festival.
   - type: applepodcast
-    src: https://embed.podcasts.apple.com/gb/podcast/diagnosis-risk-stratification-and-management/id445358212?i=1000597380107 
+    src: https://embed.podcasts.apple.com/gb/podcast/diagnosis-risk-stratification-and-management/id445358212?i=1000597380107
     text: |
       Dr. Heidecker spricht im BMJ Heart Podcast über Myokarditis (Januar 2023)
   - type: image
