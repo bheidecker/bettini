@@ -6,4 +6,4 @@ Dr. Heidecker accepts all insurance plans. For patients with general insurance, 
 
 For referring physicians: Please email [{{ site.data.links.referring_physicians.email }}](mailto:{{ site.data.links.referring_physicians.email }}) with a brief description of the case and the patient’s contact information.
 
-For those interested in joining Dr. Heidecker’s research team, please reach out via email: [{{ site.data.links.research.email }}](mailto:{{ site.data.links.research.email }}).
+For those interested in joining Dr. Heidecker’s research team, please reach out via email: [{{ site.data.links.research.email }}](mailto:{{ site.data.links.research.email }})
