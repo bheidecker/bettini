@@ -1,4 +1,4 @@
-Dr. Heidecker is the Head of Heart Failure and Cardiomyopathy at Charité, Universitätsmedizin Berlin, Campus Benjamin Franklin.
+Dr. Heidecker is the Head of Heart Failure and Cardiomyopathy at the Deutsches Herzzentrum der Charité (DHZC), Universitätsmedizin Berlin, Campus Benjamin Franklin.
 
 To schedule an appointment with Dr. Heidecker at her clinic, please complete the form available on the [Charité website]({{ site.data.links.clinic.en }}){:target=”\_blank”} (the form is in German, but it can be filled out in English).
 
