@@ -9,6 +9,8 @@ export default class Carousel {
     this.carousel = carousel;
     this.breakpoint = breakpoint;
 
+    window.amit = carousel;
+
     this.slideCount = this.getSlides().length;
     this.showSlide(0);
     this.setupSlideNavButtons();
@@ -76,16 +78,16 @@ export default class Carousel {
   }
 
   hideUIWhilePlayingVideo(videoContainer) {
-    this.carousel.querySelector('[data-carousel-text-container]').classList.remove('md:inline');
-    this.carousel.querySelector('[data-carousel-text-container]').classList.add('hidden');
+    this.carousel.querySelectorAll('[data-carousel-text-container]').forEach(x => x.classList.remove('md:inline'));
+    this.carousel.querySelectorAll('[data-carousel-text-container]').forEach(x => x.classList.add('hidden'));
     this.carousel.querySelector('.carousel-nav-direct').classList.remove('md:block');
     this.carousel.querySelectorAll('.carousel-nav-button').forEach(x => x.classList.add('hidden'));
     videoContainer.querySelector('.play-video-btn').classList.add('hidden');
   }
 
   showUIWhilePlayingVideo(videoContainer) {
-    this.carousel.querySelector('[data-carousel-text-container]').classList.add('md:inline');
-    this.carousel.querySelector('[data-carousel-text-container]').classList.remove('hidden');
+    this.carousel.querySelectorAll('[data-carousel-text-container]').forEach(x => x.classList.add('md:inline'));
+    this.carousel.querySelectorAll('[data-carousel-text-container]').forEach(x => x.classList.remove('hidden'));
     this.carousel.querySelector('.carousel-nav-direct').classList.add('md:block');
     this.carousel.querySelectorAll('.carousel-nav-button').forEach(x => x.classList.remove('hidden'));
     videoContainer.querySelector('.play-video-btn').classList.remove('hidden');
