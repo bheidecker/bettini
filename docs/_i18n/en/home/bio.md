@@ -1,18 +1,7 @@
-PD Dr. Bettina Heidecker, MD, FESC, FACC is the Head of Heart Failure and Cardiomyopathy at the Charité,
-Universitätsmedizin Berlin, Campus Benjamin Franklin.
-She trained as Post-Doctorate Fellow at the Johns Hopkins University. In 2007, she followed her mentor Dr. Joshua Hare to the University of Miami, where she completed her research projects and residency training in internal medicine. After that, she successfully completed a cardiology fellowship at the University of California, San Francisco (UCSF).
-Following her training as a clinician-scientist, she returned to Europe and established a myocarditis clinic at Zurich University Hospital. In 2018, she accepted her position at the Charité.
+PD Dr. Bettina Heidecker, MD, FESC, FACC, serves as the Head of Heart Failure and Cardiomyopathy at Charité, Universitätsmedizin Berlin, Campus Benjamin Franklin. She completed her postdoctoral fellowship at Johns Hopkins University and, in 2007, joined her mentor, Dr. Joshua Hare, at the University of Miami. There, she conducted research projects and completed her internal medicine residency training. She then completed a cardiology fellowship at the University of California, San Francisco (UCSF).
 
-Her research areas include inflammatory cardiomyopathies, amyloidosis, biomarkers, and precision medicine.
-She received research awards including the Paul Dudley White International Scholar Award, American Heart Association (AHA);
-the Jay N. Cohn New Investigator Integrative Physiology/Clinical Award, Heart Failure Society of America (HFSA);
-the Samuel A. Levine Clinical Young Investigator Award, AHA and a grant from the Swiss National
-Science Foundation. Recently, Dr. Heidecker held the 30th Annual Lemberg Lectureship at the University of Miami and received an honorary professorship named after Miriam Lemberg.
-In prior years, world renowned cardiologists such as Peter Libby, Eugene Braunwald (Harvard Medical School), and Valentin Fuster (Mount Sinai Hospital New York) received this award.
+As a clinician-scientist, Dr. Heidecker returned to Europe to establish a myocarditis clinic at Zurich University Hospital. In 2018, she assumed her current role at Charité.
 
-She serves as member of the Board of Directors of the Myocarditis Foundation and
-collaborates in international research projects that focus on improved diagnosis and treatment of myocarditis and other inflammatory cardiomyopathies.
-Dr. Heidecker is accredited as a cardiologist and as an internist in Germany, Switzerland, Austria,
-and the United States.
-She is board certified in cardiology, internal medicine and echocardiography in the United States and Europe.
-Dr. Heidecker completed training in genetic analysis and counseling at the University of Würzburg, Germany.
+Her research focuses on inflammatory cardiomyopathies, amyloidosis, biomarkers, and precision medicine. She has received numerous awards, including the Paul Dudley White International Scholar Award (American Heart Association, AHA), the Jay N. Cohn New Investigator Integrative Physiology/Clinical Award (Heart Failure Society of America, HFSA), and the Samuel A. Levine Clinical Young Investigator Award (AHA). She was also awarded a grant from the Swiss National Science Foundation. Recently, she delivered the 30th Annual Lemberg Lectureship at the University of Miami and received an honorary professorship named after Miriam Lemberg. In previous years, this prestigious award has been given to renowned cardiologists such as Peter Libby, Eugene Braunwald (Harvard Medical School), and Valentin Fuster (Mount Sinai Hospital, New York).
+
+Dr. Heidecker is a member of the Board of Directors for the Myocarditis Foundation and collaborates on international research projects aimed at advancing the diagnosis and treatment of myocarditis and other inflammatory cardiomyopathies. She is accredited as a cardiologist and internist in Germany, Switzerland, Austria, and the United States, holding board certifications in cardiology, internal medicine, and echocardiography across Europe and the U.S. Additionally, she completed training in genetic analysis and counseling at the University of Würzburg, Germany.

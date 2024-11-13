@@ -2,11 +2,11 @@
 heading: Amyloidosis
 ---
 
-Amyloid is a misfolded protein that can be deposited in various organs including the heart.
-In our clinic, we most commonly see Thransthyretin Amyloidosis/ATTR or Light Chain Amyloidosis/AL.
-Deposition of the protein causes heart stiffness, potentially leading to heart failure and arrhythmias.
-Appropriate medical therapy that may require frequent dose adjustment is very important for the clinical course of a patient.
-Endomyocardial biopsy has a very high sensitivity and specificity for amyloidosis (almost 100%).
-Therefore, it is the preferred diagnostic tool, when there is reasonable suspicion for cardiac amyloidosis.
-Only if the suspicion is very low, we may perform imaging first.
-Frequently, also the nervous system is affected by amyloidosis.  Therefore, we work closely with our neurology team who will evaluate you as well, if you agree. Should you be diagnosed with AL amyloidosis, we will get you a timely appointment with our hemato-oncologist to make sure effective treatment will be initiated promptly. 
+Amyloid is a misfolded protein that can accumulate in various organs, including the heart.
+In our clinic, the most common types we encounter are transthyretin amyloidosis (ATTR) and light chain amyloidosis (AL).
+Protein deposition in the heart causes stiffness, which can lead to heart failure and arrhythmias.
+
+Proper medical therapy, often requiring frequent dose adjustments, is crucial for managing a patient’s clinical course.
+When there is reasonable suspicion of cardiac amyloidosis, endomyocardial biopsy is the preferred diagnostic tool due to its very high sensitivity and specificity (nearly 100%). If the suspicion is low, imaging may be performed first.
+
+Amyloidosis often affects the nervous system as well. For this reason, we work closely with our neurology team, who can evaluate you with your consent. If you are diagnosed with AL amyloidosis, we will promptly arrange an appointment with our hemato-oncologist to ensure effective treatment is initiated without delay.

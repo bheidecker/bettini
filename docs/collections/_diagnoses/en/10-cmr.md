@@ -2,6 +2,6 @@
 heading: Cardiac Magnetic Resonance Imaging (CMR)
 ---
 
-Magnetic resonance imaging of the heart will allow us to detect structural abnormalities, inflammation, 
-storage diseases or poor blood supply to the heart.  These findings will affect your therapy.
-Also, CMR may reveal prognostic information. 
+Cardiac magnetic resonance imaging (CMR) helps us identify structural abnormalities, inflammation, storage diseases, or insufficient blood supply to the heart.
+It also provides valuable insights into your potential risk for cardiovascular events.
+These findings are essential for tailoring your therapy to your specific needs.

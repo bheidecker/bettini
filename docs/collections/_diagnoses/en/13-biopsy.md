@@ -2,9 +2,10 @@
 heading: Endomyocardial Biopsy/Heart Biopsy
 ---
 
-In patients, in whom the cause for their illness of the heart could not be identified with standard diagnostic methods, we may recommend to perform an endomyocardial or heart biopsy.
-Typically, we obtain 4 to 6 samples that are about 1mm big.
-The procedure usually does not hurt, since pain medication will be used.
-You may feel a few extrabeats while the samples are taken.
-This procedure is also done under local anesthesia and similar to cardiac catheterization is a minimally invasive 
-procedure through a small catheter. 
+In patients whose heart condition cannot be diagnosed using standard methods, we may recommend an endomyocardial or heart biopsy.
+
+This procedure is performed under local anesthesia and, similar to cardiac catheterization, is minimally invasive.
+A small catheter is used to obtain the biopsy samples.
+Typically, we obtain 4 to 6 small samples, each about 1mm in size.
+The procedure is generally painless because pain medication is used.
+You may feel a few extra beats while the samples are taken.

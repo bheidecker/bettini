@@ -2,11 +2,10 @@
 heading: Sarcoidosis
 ---
 
-Sarcoidosis is a disease that leads to accumulation of inflammatory cells (the body’s defense cells) in the shape of
-round-shaped granulomas that may occur in any part of the body.
-As cardiologist, we treat patients with cardiac involvement, but it affects most commonly the lungs and lymph nodes.
-The reason why someone develops sarcoidosis is still unknown, but a reaction to environmental factors (dust, chemicals,
-infectious agents) are suspected to which the immune system responds.
-Very often patients also report that they had a lot of stress preceding the manifestation of the disease.
-Stress is a common trigger of autoimmune diseases.
-Sarcoidosis is treatable, but early diagnosis is crucial to prevent irreversible damage.
+Sarcoidosis is a disease characterized by the accumulation of inflammatory cells (the body’s defense cells) forming round-shaped granulomas, which can occur in any part of the body.
+As cardiologists, we treat patients with cardiac involvement, although the disease most commonly affects the lungs and lymph nodes.
+
+The exact cause of sarcoidosis remains unknown, but it is suspected to result from an immune response to environmental factors such as dust, chemicals, or infectious agents.
+Many patients also report experiencing significant stress prior to the onset of the disease, which is a known trigger for autoimmune conditions.
+
+Sarcoidosis is treatable, but early diagnosis is essential for preventing irreversible damage.

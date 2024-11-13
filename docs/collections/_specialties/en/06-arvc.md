@@ -2,11 +2,10 @@
 heading: Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)
 ---
 
-Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC) is a structural disease of the heart muscle, in which normal heart 
-muscle is replaced by fatty fibrous tissue.
-Due to the fatty replacement, electrical signal conduction in the heart is hampered leading to an irregular rhythm that 
-can become life-threatening. Also, the heart can lose its pump function and get weaker over time leading to symptoms of 
-heart failure.
-Usually, the right chamber of the heart is primarily affected, which gave the disease its name.
-However, also the left chamber can be affected in combination and in very rare cases in isolation. 
-ARVC is a genetic disease with first symptom onset from age 10 to 50 years. 
+Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC) is a structural heart muscle disease in which normal heart muscle is replaced by fatty fibrous tissue.
+This fatty replacement disrupts electrical signal conduction in the heart, leading to irregular rhythms that can become life-threatening.
+Over time, the heart may also lose its pump function, resulting in symptoms of heart failure.
+
+The disease primarily affects the right chamber of the heart, which is how it got its name.
+However, the left chamber can also be involved, either in combination with the right or, in very rare cases, in isolation.
+ARVC is a genetic condition, with symptoms typically appearing between the ages of 10 and 50 years.
