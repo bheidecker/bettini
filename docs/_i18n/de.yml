@@ -1,6 +1,6 @@
 # NOTE: It's probably better to keep the social_media part in English
 social_media:
-  title: Dr. Bettina Heidecker
+  title: Prof. Bettina Heidecker
   description: >
     Specialist in heart failure and rare diseases including Myocarditis, Sarcoidosis, and Amyloidosis.
     Information for patients. Schedule a clinic visit in Berlin.
@@ -20,48 +20,48 @@ carousel:
     video_id: WZ8Il-17IZM
     start: 33
     text: |
-      Video: UCSF Cardiology Grand Rounds - Dr. Heidecker spricht über Myokarditis und die COVID-19 Pandemie
+      Video: UCSF Cardiology Grand Rounds - Prof. Heidecker spricht über Myokarditis und die COVID-19 Pandemie
   - type: video
     thumbnail: warriors_movie_poster.jpg
     video_id: M2R23Quu82c
     image_class_override: bg-contain bg-center bg-black
     text: |
       Warriors ist eine Dokumentation über das Leben mit Sarkoidose. 
-      Dr. Heidecker und einige ihrer Patienten wirken in dem Film mit. 
+      Prof. Heidecker und einige ihrer Patienten wirken in dem Film mit. 
       Im Jahr 2023 erhielt der Film den Preis „Most Impactful Documentary“ beim Hollywood Florida Film Festival.
   - type: applepodcast
     src: https://embed.podcasts.apple.com/gb/podcast/diagnosis-risk-stratification-and-management/id445358212?i=1000597380107
     text: |
-      Dr. Heidecker spricht im BMJ Heart Podcast über Myokarditis (Januar 2023)
+      Prof. Heidecker spricht im BMJ Heart Podcast über Myokarditis (Januar 2023)
   - type: image
     image: lemberg_award.jpg
     text: |
-      Dr. Heidecker erhält eine Ehrenprofessur der University of Miami im Anschluss an die 30. Annual Lemberg Lectureship, die sie in diesem Rahmen an der Universität in Miami gehalten hat.
+      Prof. Heidecker erhält eine Ehrenprofessur der University of Miami im Anschluss an die 30. Annual Lemberg Lectureship, die sie in diesem Rahmen an der Universität in Miami gehalten hat.
   - type: image
     image: speaking_at_myocarditis_foundation.jpg
     text: |
-      Dr. Heidecker präsentiert über ihr Forschungsprojekt beim jährlichen Meeting der Myocarditis Foundation in New York, 2019.
-      Dr. Heidecker erhielt einen der ersten Grants der Myocarditis Foundation und wurde 2021 Mitglied des "Board of Directors" der Foundation.
+      Prof. Heidecker präsentiert über ihr Forschungsprojekt beim jährlichen Meeting der Myocarditis Foundation in New York, 2019.
+      Prof. Heidecker erhielt einen der ersten Grants der Myocarditis Foundation und wurde 2021 Mitglied des "Board of Directors" der Foundation.
   - type: image
     image: seoul_podium.jpg
     text: |
-      Dr. Heidecker presenting about Artificial Intelligence and Myocarditis at the cardiovascular meeting CHORUS in Seoul, 2019.
-      The following year Dr. Heidecker was the keynote speaker at the conference.
+      Prof. Heidecker presenting about Artificial Intelligence and Myocarditis at the cardiovascular meeting CHORUS in Seoul, 2019.
+      The following year Prof. Heidecker was the keynote speaker at the conference.
   - type: image
     image: paul_dudley_white_award.jpg
     text: |
-      Dr. Heidecker erhält gemeinsam mit ihrem Assistenzarzt Dr. Jan Kottwitz den Paul Dudley White Award, 2018.
+      Prof. Heidecker erhält gemeinsam mit ihrem Assistenzarzt Prof. Jan Kottwitz den Paul Dudley White Award, 2018.
 
 images_alt_text:
-  hero: "Dr. Bettina Heidecker"
-  patient_testimonials: "Dr. Bettina Heidecker in patient visit setting"
-  seoul_panel: "Dr. Heidecker on a cardiovascular panel in Seoul"
-  research_echo: "Visiting students at Dr. Heidecker's lab"
-  acc_poster: "Dr. Heidecker's team presenting posters at ACC"
-  hallway: "Dr. Bettina Heidecker"
+  hero: "Prof. Bettina Heidecker"
+  patient_testimonials: "Prof. Bettina Heidecker in patient visit setting"
+  seoul_panel: "Prof. Heidecker on a cardiovascular panel in Seoul"
+  research_echo: "Visiting students at Prof. Heidecker's lab"
+  acc_poster: "Prof. Heidecker's team presenting posters at ACC"
+  hallway: "Prof. Bettina Heidecker"
 
 hero:
-  title: "Priv.-Doz. Dr. med. Bettina Heidecker"
+  title: "Prof. Dr. med. Bettina Heidecker"
   subtitle1: "Spezialistin für"
   subtitle2: "Herzinsuffizienz"
   subtitle3: "und"

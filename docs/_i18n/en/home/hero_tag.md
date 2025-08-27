@@ -2,4 +2,4 @@ Board certified in cardiology, internal medicine, and echocardiography in Europe
 
 Languages: German, English, French, and Spanish.
 
-Dr. Heidecker is the head of Heart Failure and Cardiomyopathy at the Deutsches Herzzentrum der Charité (DHZC), Universitätsmedizin Berlin, Campus Benjamin Franklin.
+Prof. Heidecker is the head of Heart Failure and Cardiomyopathy at the Deutsches Herzzentrum der Charité (DHZC), Universitätsmedizin Berlin, Campus Benjamin Franklin.

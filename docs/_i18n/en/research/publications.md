@@ -1,4 +1,4 @@
 ## Publications
 
-You can find Dr. Heidecker's publications on
-[Pubmed]({{ site.data.links.research.pubmed }}){:target="_blank"}.
+You can find Prof. Heidecker's publications on
+[Pubmed]({{ site.data.links.research.pubmed }}){:target="\_blank"}.
