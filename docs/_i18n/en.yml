@@ -14,7 +14,14 @@ navigation:
   contact: "Contact"
 
 carousel:
-  - type: video
+  - type: instagram_video
+    thumbnail: late_breaking_science.jpg
+    image_class_override: bg-contain bg-center bg-black
+    video_id: DJ3idLYPzoN
+    attribution_text: A post shared by European Society of Cardiology (@europeansocietyofcardiology)
+    text: |
+      Watch Prof. Heidecker's "Late Breaking Science" interview at the ESC Heart Failure Congress 2025 about her research on magnetocardiography
+  - type: youtube
     thumbnail: grand_rounds.jpg
     video_id: WZ8Il-17IZM
     start: 33

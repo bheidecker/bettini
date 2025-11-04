@@ -15,7 +15,7 @@ navigation:
   contact: "Kontakt"
 
 carousel:
-  - type: video
+  - type: youtube
     thumbnail: grand_rounds.jpg
     video_id: WZ8Il-17IZM
     start: 33

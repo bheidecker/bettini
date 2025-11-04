@@ -3,8 +3,8 @@
 
   {% for item in items %}
   <div class="relative h-full w-full" data-carousel-item="">
-    {% if item.type == "video" %}
-    <div class="{{ item.image_class_override | default: 'bg-cover bg-top' }} video-thumbnail-container w-full h-96 md:h-full bg-no-repeat" style="background-image: url('{{ site.baseurl_root }}/assets/images/carousel/{{ item.thumbnail }}');" data-video-id="{{ item.video_id }}" data-start="{{ item.start | default: 0 }}">
+    {% if item.type == "youtube" %}
+    <div class="{{ item.image_class_override | default: 'bg-cover bg-top' }} youtube-thumbnail-container w-full h-96 md:h-full bg-no-repeat" style="background-image: url('{{ site.baseurl_root }}/assets/images/carousel/{{ item.thumbnail }}');" data-video-id="{{ item.video_id }}" data-start="{{ item.start | default: 0 }}">
       <a class="play-video-btn absolute inset-0 w-full h-full flex justify-center items-center cursor-default" href="https://www.youtube.com/watch?v={{ item.video_id }}&t={{ item.start | default: 0 }}" target="_blank">
         <span class="cursor-pointer ring-5 ring-white inline-flex justify-center items-center w-24 h-24 rounded-full bg-gray-800/30 hover:bg-gray-800/60 ring-4 ring-white/50 hover:ring-white/90">
           <svg class="w-12 h-12 text-white fill-current transform translate-x-1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -13,6 +13,21 @@
         </span>
       </a>
     </div>
+    {% elsif item.type == "instagram_video" %}
+      <div class="{{ item.image_class_override | default: 'bg-cover bg-top' }} instagram-thumbnail-container w-full h-96 md:h-full bg-no-repeat" style="background-image: url('{{ site.baseurl_root }}/assets/images/carousel/{{ item.thumbnail }}');" data-video-id="{{ item.video_id }}" data-start="{{ item.start | default: 0 }}">
+        <div class="hidden w-full h-full">
+          <div class="w-full h-full flex justify-center items-center bg-gray-800">
+            {% include instagram_video.html video_id=item.video_id attribution_text=item.attribution_text %}
+          </div>   
+        </div>
+        <a class="play-video-btn absolute inset-0 w-full h-full flex justify-center items-center cursor-default">
+          <span class="cursor-pointer ring-5 ring-white inline-flex justify-center items-center w-24 h-24 rounded-full bg-gray-800/30 hover:bg-gray-800/60 ring-4 ring-white/50 hover:ring-white/90">
+            <svg class="w-12 h-12 text-white fill-current transform translate-x-1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 22V2L21 12L3 22Z" />
+            </svg>
+          </span>
+        </a>
+      </div>
     {% elsif item.type == "applepodcast" %}
     <div 
       class="object-cover object-top w-full h-96 md:h-full bg-center bg-no-repeat bg-cover" 

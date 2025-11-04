@@ -15,7 +15,7 @@ export default class Carousel {
     this.showSlide(0);
     this.setupSlideNavButtons();
     this.setupSideButtons();
-    this.setupVideoPlayback();
+    this.setupYoutubePlayback();
     this.setMinHeight();
     window.addEventListener('resize', () => this.setMinHeight());
   }
@@ -93,8 +93,8 @@ export default class Carousel {
     videoContainer.querySelector('.play-video-btn').classList.remove('hidden');
   }
 
-  setupVideoPlayback() {
-    this.carousel.querySelectorAll('.video-thumbnail-container').forEach(container => {
+  setupYoutubePlayback() {
+    this.carousel.querySelectorAll('.youtube-thumbnail-container').forEach(container => {
       let pauseTime = null;
       const videoId = container.dataset.videoId;
       const startTime = container.dataset.start;
