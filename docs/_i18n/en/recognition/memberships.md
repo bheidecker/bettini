@@ -1,6 +1,6 @@
 ## Professional Service and Leadership
 
-- Executive Member, ESC Clinical Practice Guideline Committee
+- Executive Member, ESC Clinical Practice Guidelines Committee
 - Executive Member, ESC sDOC Committee
 - Member, ESC Congress Programme Committee
 - DZHK representative for the Women's Cardiovascular Health Initiative of the Global Cardiovascular Research Funders Forum (GCRFF)
