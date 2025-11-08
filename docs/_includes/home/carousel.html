@@ -14,13 +14,10 @@
       </a>
     </div>
     {% elsif item.type == "video" %}
-      <div class="{{ item.image_class_override | default: 'bg-cover bg-top' }} instagram-thumbnail-container w-full h-96 md:h-full bg-no-repeat" style="background-image: url('{{ site.baseurl_root }}/assets/images/carousel/{{ item.thumbnail }}');" data-video-id="{{ item.video_id }}" data-start="{{ item.start | default: 0 }}">
-        <div class="hidden relative w-full h-full instagram-embed-container">
-          <a class="close-video-btn absolute top-3 right-3 z-40 rounded-full bg-gray-800/60 hover:bg-gray-800/80 ring-4 ring-white/50 text-white w-10 h-10 flex items-center justify-center" href="javascript:void(0)">
-            <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 6l12 12M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
-          </a>
+      <div class="{{ item.image_class_override | default: 'bg-cover bg-top' }} video-thumbnail-container w-full h-96 md:h-full bg-no-repeat" style="background-image: url('{{ site.baseurl_root }}/assets/images/carousel/{{ item.thumbnail }}');" data-video-id="{{ item.video_id }}" data-start="{{ item.start | default: 0 }}">
+        <div class="hidden relative w-full h-full video-player-container">
           <div class="w-full h-full flex justify-center items-center bg-gray-800">
-            {% include video.html video_url=item.video_url %}
+            <video class="w-full h-full" src="{{ item.video_url }}" controls playsinline></video>
           </div>   
         </div>
         <a class="play-video-btn absolute inset-0 w-full h-full flex justify-center items-center cursor-default">

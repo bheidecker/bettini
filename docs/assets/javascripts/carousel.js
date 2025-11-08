@@ -16,6 +16,7 @@ export default class Carousel {
     this.setupSlideNavButtons();
     this.setupSideButtons();
     this.setupYoutubePlayback();
+    this.setupVideoPlayback();
     this.setMinHeight();
     window.addEventListener('resize', () => this.setMinHeight());
   }
@@ -136,6 +137,62 @@ export default class Carousel {
           });
           container.appendChild(iframe);
         }
+      });
+    });
+  }
+
+  setupVideoPlayback() {
+    this.carousel.querySelectorAll('.video-thumbnail-container').forEach(container => {
+      const playerContainer = container.querySelector(".video-player-container");
+      const player = container.querySelector("video");
+      const playBtn = container.querySelector('.play-video-btn');
+  
+      let lastSeek = null;
+      let buffering = false;
+  
+      const showVideoUI = () => {
+        this.hideUIWhilePlayingVideo(container);
+        playerContainer.classList.remove("hidden");
+      };
+  
+      const showOverlayUI = () => {
+        this.showUIWhilePlayingVideo(container);
+        playerContainer.classList.add("hidden");
+      };
+  
+      playBtn.addEventListener('click', (event) => {
+        event.preventDefault();
+        showVideoUI();
+        player.play();
+      });
+  
+      player.addEventListener('playing', () => {
+        buffering = false;
+      });
+  
+      player.addEventListener('seeking', () => {
+        lastSeek = Date.now();
+      });
+  
+      player.addEventListener('seeked', () => {
+        setTimeout(() => {
+          if (Date.now() - lastSeek >= 500) {
+            lastSeek = null;
+            if (player.paused) {
+              showOverlayUI();
+            }
+          }
+        }, 500);
+      });
+  
+      player.addEventListener('waiting', () => {
+        buffering = true;
+      });
+  
+      player.addEventListener('pause', () => {
+        console.log("paused");
+        if (lastSeek || buffering || player.seeking) return;
+        showOverlayUI();
       });
     });
   }

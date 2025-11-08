@@ -18,7 +18,7 @@ carousel:
   - type: video
     thumbnail: late_breaking_science.jpg
     image_class_override: bg-contain bg-center bg-black
-    video_url: https://www.youtube.com/watch?v=DJ3idLYPzoN
+    video_url: https://storage.googleapis.com/bheidecker-assets/videos/esc_hfa_2025_late_breaking_video.mp4
     text: |
       „Late Breaking Science“-Interview mit Prof. Heidecker beim ESC Heart Failure Kongress 2025 zur Magnetokardiographie-Forschung
   - type: image
