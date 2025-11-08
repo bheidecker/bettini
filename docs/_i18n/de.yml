@@ -15,13 +15,23 @@ navigation:
   contact: "Kontakt"
 
 carousel:
+  - type: video
+    thumbnail: late_breaking_science.jpg
+    image_class_override: bg-contain bg-center bg-black
+    video_url: https://www.youtube.com/watch?v=DJ3idLYPzoN
+    text: |
+      „Late Breaking Science“-Interview mit Prof. Heidecker beim ESC Heart Failure Kongress 2025 zur Magnetokardiographie-Forschung
+  - type: image
+    image: esc_guidelines.jpg
+    text: |
+      Prof. Heidecker stellt die ersten ESC-Leitlinien zu Myokarditis und Perikarditis auf dem ESC-Kongress in Madrid im August 2025 vor, nachdem sie als Mitglied der Task Force mitgewirkt hatte
   - type: youtube
     thumbnail: grand_rounds.jpg
     video_id: WZ8Il-17IZM
     start: 33
     text: |
       Video: UCSF Cardiology Grand Rounds - Prof. Heidecker spricht über Myokarditis und die COVID-19 Pandemie
-  - type: video
+  - type: youtube
     thumbnail: warriors_movie_poster.jpg
     video_id: M2R23Quu82c
     image_class_override: bg-contain bg-center bg-black
@@ -42,22 +52,13 @@ carousel:
     text: |
       Prof. Heidecker präsentiert über ihr Forschungsprojekt beim jährlichen Meeting der Myocarditis Foundation in New York, 2019.
       Prof. Heidecker erhielt einen der ersten Grants der Myocarditis Foundation und wurde 2021 Mitglied des "Board of Directors" der Foundation.
-  - type: image
-    image: seoul_podium.jpg
-    text: |
-      Prof. Heidecker presenting about Artificial Intelligence and Myocarditis at the cardiovascular meeting CHORUS in Seoul, 2019.
-      The following year Prof. Heidecker was the keynote speaker at the conference.
-  - type: image
-    image: paul_dudley_white_award.jpg
-    text: |
-      Prof. Heidecker erhält gemeinsam mit ihrem Assistenzarzt Prof. Jan Kottwitz den Paul Dudley White Award, 2018.
 
 images_alt_text:
   hero: "Prof. Bettina Heidecker"
   patient_testimonials: "Prof. Bettina Heidecker in patient visit setting"
   seoul_panel: "Prof. Heidecker on a cardiovascular panel in Seoul"
   research_echo: "Visiting students at Prof. Heidecker's lab"
-  acc_poster: "Prof. Heidecker's team presenting posters at ACC"
+  esc_hfa_serbia: "Prof. Heidecker's team presenting at ESC Heart Failure Congress in Serbia"
   hallway: "Prof. Bettina Heidecker"
 
 hero:

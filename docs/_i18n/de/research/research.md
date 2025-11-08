@@ -11,7 +11,7 @@ Eine kombinierte Anwendung von Grundlagen- und translationaler Forschung wird in
 Aktuelle Forschungsdaten der Arbeitsgruppe Heidecker und ihrer Kollaborationspartner wurden in Journals wie Lancet EClincal Medicine, New England Journal of Medicine, Nature, Nature Biotechnology, Nature Reviews Cardiology, the European Heart Journal, und Journal of the American Medical Association publiziert.
 
 Prof. Heidecker war bisher Mentor von Studenten aus Europa und den USA. Ihre "Mentees" präsentierten an internationalen Meetings
-und erhielten Forschungspreise wie den Paul Dudley White International Scholar Award der American Heart Association, Stipendien für die beste Master- und Doktorarbeit und Stipendien von privaten Stiftungen.
+und erhielten Forschungspreise wie den Paul Dudley White International Scholar Award der American Heart Association, Stipendien für die beste Master- und Doktorarbeit sowie Fördermittel von privaten Stiftungen und nationalen Forschungskonsortien.
 
 Wenn Sie in der Forschungsgruppe von Prof. Heidecker arbeiten möchten, kontaktieren Sie bitte:
 [{{ site.data.links.research.email }}](mailto:{{ site.data.links.research.email }})

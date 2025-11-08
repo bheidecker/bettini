@@ -14,20 +14,23 @@ navigation:
   contact: "Contact"
 
 carousel:
-  - type: instagram_video
+  - type: video
     thumbnail: late_breaking_science.jpg
     image_class_override: bg-contain bg-center bg-black
-    video_id: DJ3idLYPzoN
-    attribution_text: A post shared by European Society of Cardiology (@europeansocietyofcardiology)
+    video_url: https://www.youtube.com/watch?v=DJ3idLYPzoN
     text: |
       Watch Prof. Heidecker's "Late Breaking Science" interview at the ESC Heart Failure Congress 2025 about her research on magnetocardiography
+  - type: image
+    image: esc_guidelines.jpg
+    text: |
+      Prof. Heidecker introducing the first ESC guidelines on myocarditis and pericarditis at the ESC Congress in Madrid in August 2025, after serving as a task force member
   - type: youtube
     thumbnail: grand_rounds.jpg
     video_id: WZ8Il-17IZM
     start: 33
     text: |
       Watch Prof. Heidecker's 2023 UCSF Cardiology Grand Rounds on Myocarditis and the COVID-19 Pandemic
-  - type: video
+  - type: youtube
     thumbnail: warriors_movie_poster.jpg
     video_id: M2R23Quu82c
     image_class_override: bg-contain bg-center bg-black
@@ -48,22 +51,13 @@ carousel:
     text: |
       Prof. Heidecker speaking at the annual meeting of the Myocarditis Foundation in New York City in 2019.
       Prof. Heidecker was one of the first research grant recipients of the Myocarditis Foundation and has become a member of its Board of Directors in 2021.
-  - type: image
-    image: seoul_podium.jpg
-    text: |
-      Prof. Heidecker presenting about Artificial Intelligence and Myocarditis at the cardiovascular meeting CHORUS in Seoul in 2019.
-      The following year Prof. Heidecker was the keynote speaker at the conference.
-  - type: image
-    image: paul_dudley_white_award.jpg
-    text: |
-      Prof. Heidecker together with her fellow Prof. Jan Kottwitz receiving the Paul Dudley White International Scholar Award from the American Heart Association in 2018.
 
 images_alt_text:
   hero: "Prof. Bettina Heidecker"
   patient_testimonials: "Prof. Bettina Heidecker in patient visit setting"
   seoul_panel: "Prof. Heidecker on a cardiovascular panel in Seoul"
   research_echo: "Visiting students at Prof. Heidecker's lab"
-  acc_poster: "Prof. Heidecker's team presenting posters at ACC"
+  esc_hfa_serbia: "Prof. Heidecker's team presenting at ESC Heart Failure Congress in Serbia"
   hallway: "Prof. Bettina Heidecker"
 
 hero:

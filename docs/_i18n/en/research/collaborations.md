@@ -9,6 +9,7 @@ In alphabetical order:
 - Deutsches Zentrum für Herz-Kreislauf-Forschung, Germany
 - Kantonsspital Baden, Switzerland
 - Klinikum Wels-Grieskirchen, Austria
+- Kumamoto University, Japan
 - Mayo Clinic Jacksonville, United States
 - Max-Delbrück-Centrum für Molekulare Medizin, Germany
 - Royal Brompton & Harefield Hospitals, United Kingdom
@@ -23,3 +24,4 @@ In alphabetical order:
 - University of California, San Francisco, United States
 - University of Miami, Miller School of Medicine, United States
 - University of Southern California, United States
+- Washington University in St. Louis, United States
