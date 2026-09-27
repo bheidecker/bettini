@@ -1,7 +1,7 @@
 ## Wissenschaftliche Gremien- und Führungstätigkeiten
 
-- Executive Member, ESC Clinical Practice Guidelines Committee
-- Executive Member, ESC sDOC Committee
+- Mitglied, ESC Clinical Practice Guidelines Committee
+- Mitglied, ESC sDOC Committee
 - Mitglied, ESC Congress Programme Committee
 - DZHK-Repräsentantin in der Women’s Cardiovascular Health Initiative des Global Cardiovascular Research Funders Forum (GCRFF)
 - Mitglied der Task Force zur Erstellung der ESC-Leitlinien zu Myokarditis und Perikarditis (2023–2025)

@@ -1,4 +1,4 @@
-Zertifiziert für Kardiologie, Innere Medizin und Echokardiografie in Europa und in den USA.
+Zertifiziert für Kardiologie, Innere Medizin und Echokardiografie.
 
 Sprachen: Deutsch, Englisch, Französisch, Spanisch
 

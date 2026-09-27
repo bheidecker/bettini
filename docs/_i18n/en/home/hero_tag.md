@@ -1,4 +1,4 @@
-Board certified in cardiology, internal medicine, and echocardiography in Europe and the United States.
+Board certified in cardiology, internal medicine, and echocardiography.
 
 Languages: German, English, French, and Spanish.
 
