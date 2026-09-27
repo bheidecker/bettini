@@ -1,10 +1,18 @@
 import axios from "axios";
 
+// RapidAPI's twitter-api45 no longer populates author name/handle/avatar (only rest_id)
+const OWN_ACCOUNT = {
+  rest_id: "927643252332773376",
+  name: "Bettina Heidecker",
+  screen_name: "BettinaHeideck1",
+};
+
 export default class TwitterUpdate {
   constructor() {
     // sessionStorage.removeItem("latestUpdates");
     this.twitterRootElm = document.querySelector("[data-twitter-count]");
     this.tweetCount = Number(this.twitterRootElm.dataset.twitterCount);
+    this.ownAvatar = this.twitterRootElm.dataset.twitterAvatar;
     this.twitterWrapperTemplate = document.querySelector("#tmpl-twitter-wrapper");
     this.twitterCardTemplate = document.querySelector("#tmpl-twitter-card");
     if (
@@ -51,15 +59,15 @@ export default class TwitterUpdate {
         subtweetCardNode.parentNode.removeChild(subtweetCardNode);
       }
 
-      card.querySelectorAll('.selector-twitter-avatar-img').forEach(x => x.setAttribute('src', tweet.retweeted_tweet?.author?.avatar || tweet.author.avatar));
-      card.querySelector('.placeholder-twitter-user-name').outerHTML = tweet.retweeted_tweet?.author?.name || tweet.author.name;
-      card.querySelector('.placeholder-twitter-user-handle').outerHTML = '@' + (tweet.retweeted_tweet?.author?.screen_name || tweet.author.screen_name);
+      const author = this._resolveAuthor(tweet.retweeted_tweet || tweet);
+      card.querySelectorAll('.selector-twitter-avatar-img').forEach(x => this._setAvatar(x, author.avatar));
+      card.querySelector('.placeholder-twitter-user-name').outerHTML = author.name;
+      card.querySelector('.placeholder-twitter-user-handle').outerHTML = this._handlePrefix(author.screenName);
       card.querySelector('.placeholder-twitter-post-date').outerHTML = this._shortDate(tweet.retweeted_tweet?.created_at || tweet.created_at);
       card.querySelector('.placeholder-twitter-post-text').outerHTML = this._rewriteText(tweet.text);
 
       const verifiedNode = card.querySelector('.selector-twitter-verified');
-      const isVerified = tweet.retweeted_tweet ? tweet.retweeted_tweet.author.blue_verified : tweet.author.blue_verified;
-      if (!isVerified) {
+      if (!author.verified) {
         verifiedNode.parentNode.removeChild(verifiedNode);
       }
 
@@ -95,10 +103,12 @@ export default class TwitterUpdate {
   }
 
   _processSubtweet(subtweetCardNode, subtweetData) {
-    subtweetCardNode.addEventListener('click', this._linkToTweet(subtweetData.author?.screen_name, subtweetData.tweet_id))
-    subtweetCardNode.querySelector('.selector-twitter-subtweet-image').setAttribute('src', subtweetData.author?.avatar);
-    subtweetCardNode.querySelector('.placeholder-twitter-subtweet-user-name').outerHTML = subtweetData.author?.name;
-    subtweetCardNode.querySelector('.placeholder-twitter-subtweet-user-handle').outerHTML = '@' + subtweetData.author?.screen_name;
+    const author = this._resolveAuthor(subtweetData);
+    // twitter.com/i/status/<id> resolves without knowing the author's handle
+    subtweetCardNode.addEventListener('click', this._linkToTweet(author.screenName || 'i', subtweetData.tweet_id))
+    this._setAvatar(subtweetCardNode.querySelector('.selector-twitter-subtweet-image'), author.avatar);
+    subtweetCardNode.querySelector('.placeholder-twitter-subtweet-user-name').outerHTML = author.name;
+    subtweetCardNode.querySelector('.placeholder-twitter-subtweet-user-handle').outerHTML = this._handlePrefix(author.screenName);
     subtweetCardNode.querySelector('.placeholder-twitter-subtweet-post-date').outerHTML = this._shortDate(subtweetData.created_at);
     subtweetCardNode.querySelector('.placeholder-twitter-subtweet-post-text').outerHTML = subtweetData.text;
 
@@ -109,6 +119,37 @@ export default class TwitterUpdate {
     } else {
       mediaNode.parentNode.parentNode.removeChild(mediaNode.parentNode);
     }
+  }
+
+  _resolveAuthor(data) {
+    const author = data?.author || {};
+    const own = author.rest_id === OWN_ACCOUNT.rest_id ? { ...OWN_ACCOUNT, avatar: this.ownAvatar } : {};
+    const screenName = author.screen_name || own.screen_name || this._screenNameFromMedia(data);
+    return {
+      name: author.name || own.name || screenName || '',
+      screenName,
+      avatar: author.avatar || own.avatar,
+      verified: author.blue_verified,
+    };
+  }
+
+  // Media URLs look like https://x.com/<screen_name>/status/<id>/photo/1
+  _screenNameFromMedia(data) {
+    const url = data?.entities?.media?.[0]?.expanded_url;
+    return url?.match(/^https?:\/\/(?:x|twitter)\.com\/(\w+)\/status\//)?.[1];
+  }
+
+  _setAvatar(imgNode, url) {
+    if (url) {
+      imgNode.setAttribute('src', url);
+    } else {
+      // Keep the avatar's space so the card layout stays aligned
+      imgNode.style.visibility = 'hidden';
+    }
+  }
+
+  _handlePrefix(screenName) {
+    return screenName ? `@${screenName} ·` : '';
   }
 
   _linkFunction(arr) {
